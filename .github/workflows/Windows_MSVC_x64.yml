@@ -1,0 +1,54 @@
+name: Windows MSVC x64
+
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - '*.md'
+      - 'docs/**'
+  pull_request:
+    types: [opened, synchronize]
+    paths-ignore:
+      - '*.md'
+      - 'docs/**'
+
+permissions:
+  contents: write
+
+env:
+  VCPKG_FEATURE_FLAGS: dependencygraph
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - name: Use Node.js 16
+      uses: actions/setup-node@v4
+      with:
+        node-version: '16'
+
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1.0.2
+
+    - name: Restore NuGet Packages
+      run: nuget restore ProjectZ.sln
+
+    - name: Build Project
+      run: msbuild /p:Configuration=Release /t:Build
+
+    - name: Set MSBUILD_ARTIFACT environment variable
+      run: echo "MSBUILD_ARTIFACT=${GITHUB_WORKSPACE}\bin" >> $GITHUB_ENV
+
+    - name: List output directory contents
+      run: ls -R ${{ env.MSBUILD_ARTIFACT }}
+
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: Links-Awakening-DX-HD
+        path: bin

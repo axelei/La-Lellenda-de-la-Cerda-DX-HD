@@ -4,6 +4,7 @@ main_menu_new_game New Game
 main_menu_settings Settings
 main_menu_copy Copy
 main_menu_erase Erase
+main_menu_quit Quit
 
 main_menu_delete_confirmation_header Erase Save?
 main_menu_delete_confirmation_header_yes Yes
@@ -69,6 +70,8 @@ settings_controls_X X
 settings_controls_Y Y
 settings_controls_Select Select
 settings_controls_Start Start
+settings_controls_L L
+settings_controls_R R
 settings_controls_reset Reset
 
 settings_graphics_header Video Settings
