@@ -44,6 +44,9 @@ jobs:
     - name: Set MSBUILD_ARTIFACT environment variable
       run: echo "MSBUILD_ARTIFACT=${GITHUB_WORKSPACE}\bin" >> $GITHUB_ENV
 
+    - name: Remove runtimes folder
+      run: rm -r Release/net8.0-windows/runtimes
+
     - name: List output directory contents
       run: ls -R ${{ env.MSBUILD_ARTIFACT }}
 
@@ -51,4 +54,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: Links-Awakening-DX-HD
-        path: bin
+        path: Release
