@@ -18,8 +18,8 @@ namespace ProjectZ.InGame.Things
             // go through the .lng files and fill the _languageStrings dictionary array
             var files = Directory.GetFiles(Values.PathLanguageFolder);
             var languageStrings = new Dictionary<string, Dictionary<string, string>>();
-            // the default (first) entry is english
-            languageStrings.Add("eng", new Dictionary<string, string>());
+            // the default (first) entry is portuguese
+            languageStrings.Add("por", new Dictionary<string, string>());
 
             for (var i = 0; i < files.Length; i++)
             {
@@ -30,10 +30,10 @@ namespace ProjectZ.InGame.Things
                     var split = fileName.Split('_');
                     var lngName = "";
 
-                    // eng.lng
+                    // por.lng
                     if (split.Length == 1)
                         lngName = split[0];
-                    // dialog_eng.lng
+                    // dialog_por.lng
                     if (split.Length == 2)
                         lngName = split[1];
 
@@ -92,8 +92,8 @@ namespace ProjectZ.InGame.Things
                 defaultString = Strings[strKey];
 
             // use the english text if there is no translation
-            else if (_languageStrings[0].ContainsKey(strKey))
-                defaultString = _languageStrings[0][strKey];
+            else if (_languageStrings[1].ContainsKey(strKey))
+                defaultString = _languageStrings[1][strKey];
 
             return defaultString;
         }
