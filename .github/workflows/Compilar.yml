@@ -1,0 +1,49 @@
+name: Build ROMs
+
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - '*.md'
+      - 'docs/**'
+  pull_request:
+    types: [opened, synchronize]
+    paths-ignore:
+      - '*.md'
+      - 'docs/**'
+
+permissions:
+  contents: write
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install rgbds
+      run: |
+        git clone --branch v0.5.1 --single-branch https://github.com/rednex/rgbds.git
+        cd rgbds
+        make
+        sudo cp rgbasm rgblink rgbfix rgbgfx /usr/local/bin/
+
+    - name: Build ROMs
+      run: make all
+
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: Links_Awakening_DX-ROM
+        path: .
