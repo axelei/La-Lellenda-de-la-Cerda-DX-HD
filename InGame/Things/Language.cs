@@ -7,6 +7,23 @@ namespace ProjectZ.InGame.Things
 {
     public class Language
     {
+        private static readonly Dictionary<string, string> SpecialChars = new Dictionary<string, string>
+        {
+            { "á", "\u0081" },
+            { "é", "\u0084" },
+            { "í", "\u0086" },
+            { "ó", "\u0087" },
+            { "ú", "\u008a" },
+            { "Á", "\u008c" },
+            { "É", "\u008f" },
+            { "Í", "\u0091" },
+            { "Ó", "\u0092" },
+            { "Ú", "\u0095" },
+            { "ç", "\u0096" },
+            { "Ç", "\u0097" },
+            { "¡", "\u0098" }
+        };
+
         public Dictionary<string, string> Strings => _languageStrings[CurrentLanguageIndex];
 
         private Dictionary<string, string>[] _languageStrings;
@@ -18,8 +35,8 @@ namespace ProjectZ.InGame.Things
             // go through the .lng files and fill the _languageStrings dictionary array
             var files = Directory.GetFiles(Values.PathLanguageFolder);
             var languageStrings = new Dictionary<string, Dictionary<string, string>>();
-            // the default (first) entry is portuguese
-            languageStrings.Add("por", new Dictionary<string, string>());
+            // the default (first) entry is charnego
+            languageStrings.Add("cha", new Dictionary<string, string>());
 
             for (var i = 0; i < files.Length; i++)
             {
@@ -76,6 +93,12 @@ namespace ProjectZ.InGame.Things
                 }
 
                 var strValue = strLine.Substring(spacePosition + 1);
+
+                // replace special characters with proper characters
+                foreach ( string key in SpecialChars.Keys )
+                {
+                    strValue = strValue.Replace(key, SpecialChars[key]);
+                }
 
                 dictionary.Add(strKey, strValue);
             }
