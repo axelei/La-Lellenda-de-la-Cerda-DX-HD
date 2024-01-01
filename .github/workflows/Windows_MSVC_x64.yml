@@ -30,7 +30,7 @@ jobs:
         node-version: '16'
 
     - name: Checkout Repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v1.0.2
@@ -53,5 +53,5 @@ jobs:
     - name: Archive artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: Links-Awakening-DX-HD
+        name: Links-Awakening-DX-HD-BR
         path: bin
