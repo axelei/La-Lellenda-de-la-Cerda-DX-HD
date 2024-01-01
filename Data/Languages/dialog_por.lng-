@@ -186,7 +186,7 @@ dungeon_keyhole_block Hunh? Essa rocha tem um buraco de fechadura! Você deve vo
 rock_cracks_message Esta rocha tem muitas rachaduras... Deve haver alguma maneira de quebrá-la...
 crystal_hard Oh? Que objeto estranho! Deve haver alguma maneira de enfrentar esse obstáculo.
 
-stone Wow! Isso parece bem pesado! Você não será capaz de levantá-lo apenas com as mãos nuas...
+stone Uau! Isso parece bem pesado! Você não será capaz de levantá-lo apenas com as mãos nuas...
 
 // nightmares
 nightmare1 {BUZZZZZ! BUZZZZ!}{FORASTEEEEEIRO!}
@@ -607,7 +607,7 @@ owl_1_0 Uuu! Uuu!\nEntão você é o rapaz que possui a espada...\fAgora entendo
 owl_1_1 Uuu! Oh, jovem corajoso, em sua jornada para despertar o sonhador! Bem-vindo a Floresta Misteriosa! Muitos mistérios você encontrará nesta ilha inexplorada de Koholint! Tenho medo de que possa achar um tanto difícil sair da ilha enquanto o Peixe do Vento dorme. ...A propósito, você já visitou a Caverna da Cauda, que fica ao sul da aldeia? Vá lá com a chave que você encontrará nesta floresta... O Peixe do Vento está observando... Uuu!
 owl_1_2 Uuu! Pegue a chave e vá para a Caverna da Cauda. Recupere o Instrumento que está escondido lá! Vá agora! O Peixe do Vento está esperando! Uuu!
 
-owl_2_0 Uuuuu! Isso é um 'Instrumento das Sereias'! Tenho que admitir que, no começo, não acreditei que você fosse real... Esse instrumento, junto com os outros sete do conjunto, tem o poder de acordar o Peixe do Vento! Você precisa coletar todos eles! Fui instruído a lhe dar instruções... Seu próximo objetivo é o norte, no Pântano Goponga!! Uuu!
+owl_2_0 Uuuuu! Isso é um 'Instrumento das Sereias'! Tenho que admitir que, no começo, não acreditei que fosse real... Esse instrumento, junto com os outros sete do conjunto, tem o poder de acordar o Peixe do Vento! Você precisa coletar todos eles! Fui instruído a lhe dar instruções... Seu próximo objetivo é o norte, no Pântano Goponga!! Uuu!
 owl_2_1 Uuu! Esse é um animal de aparência assustadora que você tem aí! Não se esqueça, o próximo Instrumento está no Pântano Goponga!
 
 // post dungeon 3
@@ -938,7 +938,7 @@ photo_left_0 Oh não! Você está sem filme! Não se esqueça de olhar seu álbu
 // photo sequence photo house
 photo_01_0 Eu simplesmente ADORO tirar fotos. Você me deixa tirar sua foto?
 photo_01_1 Vá para o fundo da sala e fique na frente da tela.
-photo_01_2 Vou chamar essa de 'Aqui Está um Homem Corajoso'. Diga xis!
+photo_01_2 Vou chamar essa de 'Aí Está um Homem Corajoso'. Diga xis!
 photo_01_3 Qual é o seu nome, jovem? [NAME]? Bem, aqui está seu álbum, [NAME]. Dê uma olhada antes de sair!
 photo_01_4 Vamos ver se conseguimos preencher esse álbum!
 photo_01_5 Vamos tirar uma foto!
