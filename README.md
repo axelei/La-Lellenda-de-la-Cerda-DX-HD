@@ -1,21 +1,23 @@
-# Links Awakening DX HD
+# La Lellenda de la Cerda DX HD
 
-This is an **unaffiliated fork** off [Link's Awakening DX HD](https://linksawakeningdxhd.itch.io/links-awakening-dx-hd). Currently it's just slightly easier to build/publish than the itch.io version.
+Proyecto de re-charnegación de La Lellenda de la Cerda, juego que amamos y odiamos todos. By [Charnego Translations](https://charnego.krusher.net/), to los izquierdos reservaos.
 
-Check the [wiki](https://github.com/ihm-tswow/Links-Awakening-DX-HD/wiki) for a brief documentation of the in-game tools.
+Esto es un código fuente mangao de [Link's Awakening DX HD](https://linksawakeningdxhd.itch.io/links-awakening-dx-hd). Nintendo se cargó el proyecto original a base de hombres de chaqueta.
 
-## Prerequisites
+Mirate [wiki](https://github.com/ihm-tswow/Links-Awakening-DX-HD/wiki) si quieres leer sobre las herramientas de desarollo.
 
-- (Very) Basic knowledge of C# and Visual Studio
+## Pre-requesitos
+
+- (Un pelín de) Conosimiento de C# y de Visual Studio
 - [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
-    - Make sure to select `.NET desktop development` components in the visual studio installer.
+    - Asegúrate de elegir el componente `desarrollo de escritorio .NET` (o algo asín) en el instalador de visual studio.
 
-## Build Instructions
+## Instrucsiones para visio
 
-- Clone this repository
-- Open ProjectZ.sln
-- Build/run like any normal C# program
+- Clona este repositorio
+- Abre ProjectZ.sln
+- Compila/ejecuta como cualquier pograma de C#
 
-## Publishing
+## Obtener juego juegable
 
-To publish, you can run the `publish.bat`, which will produce the folder `Publish` that you can send to your friends.
+Para obtener el juego en sí, usa `publish.bat`, que produse la carpeta `Publish` con el juego, para viciarte o para enviar a tus enemigos.
