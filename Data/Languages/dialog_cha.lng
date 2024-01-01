@@ -11,47 +11,47 @@ flippers ¡Trincas las aletas! ¡Si le das al botón B cuando nadas, puedes mete
 bracelet0 ¡Tienes el mosquetón de Hulk Hogan! ¡Vamos a levantar cosas!
 bracelet1 ¡Trincas el mosquetón de Chuck Norris! ¡Ahora eres una puta grúa humana!
 ocarina ¡Pillas una ocarina! ¡A ver si te aprendes una de ACDC!
-powder You got some Magic Powder! Try to sprinkle it on many things!
-mirrorShield You've got the Mirror Shield! You can now turn back the beams you couldn't block before!
-hookshot You've got the Hook Shot! Its chain stretches long when you use it!
-magicRod You've got the Magic Rod! Now you can burn things! Burn it! Burn, baby burn!
-shovel You've got a Shovel! Now you can feel the joy of digging!
-magicPowder You've got some Magic Powder! Try sprinkling it on a variety of things!
-bomb You've got a bomb!\nWay to go!
-sword2 You've got a new Sword! You should put your name on it right away!
-boomerang You got the Boomerang in exchange for the item you had.
+powder ¡Pillas polvillos mágicos ilegales! ¡A ir echando polvos por ahín!
+mirrorShield ¡Pillas el escudo espejo! ¡Ahora puedes reflejar los rayos de lus que te tire Carlos Jesús!
+hookshot ¡Has amañao el gancho! ¡Se alargará como tu rabo de largo!
+magicRod ¡Pillas el lansallamas de RAMBO! ¡Ahora a quemar congs! ¡QUEMA ESOS AMARILLOS!
+shovel ¡Has trincao una pala! ¡Ahora puedes emular a Antonio Molina! ¡Soy mineroooo!
+magicPowder ¡Pillas polvillos mágicos! ¡A echar polvos por ahín!
+bomb ¡Pillas una bomba!\n¡Toca a haser de etarra!
+sword2 ¡Pillas una nueva navaja de Albasete! Le pones tu nombre pa que no te la manguen.
+boomerang Pillas el bumerang y entregas el cacharro que tenías.
 
-shield It's a Shield!\nThere is space for your name!
-shield_intro You got your shield back! Press the button and repel enemies with it!
-shield_back You got your shield back! You can use it to flip enemies!
+shield ¡Hostias, un ejcudo!\n¡Ponle tu nombre pa que no te lo guinden!
+shield_intro ¡Has recuperao tu mierda ejcudo! ¡Dale al botonsito y fripa bloqueando mierdas!
+shield_back ¡Guais, tu escudo! Está hecho mielda como siempre.
 
-yoshiPickup You got a Yoshi Doll! Recently, he seems to be showing up in many games!
+yoshiPickup ¡Pillas un moñeco de Yoshi! El hijoputa aparece en todos los juegos que saca Noentiendo.
 
 // playing the ocarina without having learned a song
-ocarina_bad Well, it's an Ocarina, but you don't know how to play it...
-ocarina_bad_marin Not very good... Eh? What? Did I say something? No, you're hearing things...
+ocarina_bad Como eres medio mongolo, no sabes en qué bujeros poner los deos...
+ocarina_bad_marin Tío eres más torpe que un guardaagujas. ¡Pa eso metes los deos en mi bujero!
 
 // trading alt + 0161
-trade0 You traded your ¡ for ¢! Maybe you can trade the ribbon for something else!
-trade1 You exchanged ¢ for £! It's full of juicy beef!
-trade2 You gave him £ and got bananas ¤ in return! Good deal!
-trade4 You found a stick a monkey left behind...\nYou take it!
-trade5 ¥ became the honeycomb ¦! You're not sure how it happened, but take it!
-trade6 You exchanged ¦ for §! It's not as sweet, but it is delicious!
-trade7 You traded the § for the ¨!
-trade8 You traded ¨ for a goat's letter ©! ...Great!?
-trade9 You got a Broom as your reward from Mr. Write! But that photo was not of...
-trade10 You exchanged ª for the fishing hook «! What will the fishing hook become?
-trade11 The « became a necklace ¬! L-l-lucky!
-trade12 You returned the necklace ¬ and got a scale ­ of the mermaid's tail. How will you use this?
-trade13 You've got the Magnifying Lens! This will reveal many things you couldn't see before!
+trade0 ¡Cambias tu ¡ por ¢! Lo mismo la sinta la puedes cambiar por otro tiesto.
+trade1 ¡Cambiaste el ¢ por £! ¡Ta to grasiento y ajqueroso!
+trade2 ¡Le das tu £ y te dan platanitos ¤ a cambio! ¡De Canarias!
+trade4 Los micos han dejao un palito...\n¡Asín que te lo llevas!
+trade5 ¡¥ es ahora la miel ¦! ¿Será de la granja Sanfransisco?
+trade6 ¡Cambias la ¦ por §! ¡Aunque preferirías unos donus!
+trade7 ¡Cambiaste el § por el ¨!
+trade8 Cambilas ¨ por la carta de la cabra ©! ¿¡Y esta mierda!?
+trade9 ¡Pillas una escoba como recompensa del sr. Write! Pero esa afoto no era de...
+trade10 ¡Cambias ª por el ansuelo «! ¿Vas a pescar fardos en las Rías Baixas?
+trade11 El « ahora es un collar ¬! ¿Se podrá empeñar?
+trade12 ¡Le das el collar ¬ y dándole placer oral a la sierane se te mete una escama ­ en la boca.
+trade13 ¡Pillas la lupa de Optica Cerquera! ¡De guais para ver cosas ocultas por tus dioptrías!
 
 // keyholes
-keyhole_0 Hunh? A keyhole here?\nIt says, 'Tale Keyhole'
-keyhole_1 Hunh? A keyhole here?\nIt says, 'Slime Keyhole'
-keyhole_2 Hunh? A keyhole here?\nIt says, 'Angler Keyhole'
-keyhole_3 Hunh? A keyhole here?\nIt says, 'Face Keyhole'
-keyhole_4 Hunh? A keyhole here?\nIt says, 'Bird Keyhole'
+keyhole_0 ¿Uis? ¿Una serradura?\nPone, 'Serradura cola'
+keyhole_1 ¿Uis? ¿Una serradura?\nPone, 'Serradura pringue'
+keyhole_2 ¿Uis? ¿Una serradura?\nPone, 'Serradura ansuelo'
+keyhole_3 ¿Uis? ¿Una serradura?\nPone, 'Serradura jeto'
+keyhole_4 ¿Uis? ¿Una serradura?\nPone, 'Serradura avecrem'
 
 // collectables
 toadstool You pick the toadstool... As you hold it over your head, a mellow aroma flows into your nostrils.

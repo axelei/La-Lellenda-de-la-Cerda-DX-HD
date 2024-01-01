@@ -53,5 +53,5 @@ jobs:
     - name: Archive artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: Links-Awakening-DX-HD-BR
+        name: La-Lellenda-de-la-Cerda-DX-HD
         path: bin
