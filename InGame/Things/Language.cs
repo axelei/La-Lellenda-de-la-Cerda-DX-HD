@@ -21,7 +21,10 @@ namespace ProjectZ.InGame.Things
             { "Ú", "\u0095" },
             { "ç", "\u0096" },
             { "Ç", "\u0097" },
-            { "¡", "\u0098" }
+            { "¡", "\u0098" },
+            { "¿", "\u0099" },
+            { "ñ", "\u009a" },
+            { "Ñ", "\u009b" }
         };
 
         public Dictionary<string, string> Strings => _languageStrings[CurrentLanguageIndex];

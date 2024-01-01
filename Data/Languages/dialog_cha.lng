@@ -1,16 +1,16 @@
 // items
-smallkey You got a Small Key!\nYou can open a locked door.
-compass You've got the Compass!\nNow, you can see where the chests and Nightmares are hidden!\fThis Compass has a new feature-- a tone will tell you if a key is hidden in a room when you enter!
-dmap At last, you got a Map!\nPress the SELECT Button to look at it!
-stonebeak You found a stone beak!\nLet's find the owl statue that belongs to it.
+smallkey ¡Pillas una mierda de llave!\n¿Esto sirve pa abrir?
+compass ¡Pillas la brújula de supervivensia de RAMBO!\n¡Ahora puedes ver ande coño están los cofres y las cosas!\fAdemás tiene una cosa molona, un pitito que da porsaco cuando entras a un sitio ande hay un tesoro (o costo).
+dmap ¡Pillas el mapa de Dora la Exploradora!\n¡Dale al SELECT pa saber ande coño andas!
+stonebeak ¡Coño, un pico!\n¡Amos a la estatua del búho y se la pegamos con loctite!
 
-sword1 You found your Sword! It must be yours because it has your name engraved on it!
-feather You've got the Roc's Feather! It feels like your body is a lot lighter!
-pegasusBoots You've got the Pegasus Boots! If you hold down the Button, you can dash!
-flippers You've got the Flippers! If you press the B Button while you swim, you can dive underwater!
-bracelet0 You found the Power Bracelet! At last, you can pick up pots and stones!
-bracelet1 You've got a more Powerful Bracelet! Now you can almost lift a whale!
-ocarina You've got the Ocarina! You should learn to play many songs!
+sword1 ¡Pillas tu navaja de Albasete! ¡Tie que ser la tuya porque pone tu nombre pintao!
+feather ¡Pillas la pluma ibérica! ¡Ahora puedes pegar unos saltos que ni el Sotomayor!
+pegasusBoots ¡Pillas las Nike Jordan! ¡Si le das al botón correrás más que una gallina en Somalia!
+flippers ¡Trincas las aletas! ¡Si le das al botón B cuando nadas, puedes meter el hocico debajo del agua!
+bracelet0 ¡Tienes el mosquetón de Hulk Hogan! ¡Vamos a levantar cosas!
+bracelet1 ¡Trincas el mosquetón de Chuck Norris! ¡Ahora eres una puta grúa humana!
+ocarina ¡Pillas una ocarina! ¡A ver si te aprendes una de ACDC!
 powder You got some Magic Powder! Try to sprinkle it on many things!
 mirrorShield You've got the Mirror Shield! You can now turn back the beams you couldn't block before!
 hookshot You've got the Hook Shot! Its chain stretches long when you use it!
@@ -194,7 +194,7 @@ nightmareFinal0 This island is going to disappear... Our world is going to disap
 nightmareFinal1 ...[NAME], you have beaten all the Nightmares! Climb the stairs before you!
 
 // maria
-maria_0_0 ¡áéíóú!ÁÉÍÓÚ!çÇ!\n¡Qué bien! Creía que la ibas a espichar! Estabas con los ojos vueltos como las pijotas de Sanlúcar...\fWhat? Zelda? No, my name's Marin! You must still be feeling a little woozy.\nYou are on Koholint Island!
+maria_0_0 ¡Otia! ¡Creía que la ibas a espichar! Estabas con los ojos vueltos como las pijotas de Sanlúcar...\f¿Querl? ¿Zerda? ¡Tú te pinchas! ¡Yo soy la Marin! ¡La tía más ninfomaníaca y borracha de esta isla!\n¡Isla Barbate!
 maria_0_1 Follow the lane south to reach the beach where I found you. Since you washed ashore, lots of nasty monsters have been in the area, so be careful, okay?
 
 // marin standing outside

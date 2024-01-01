@@ -40,7 +40,7 @@
 	</ItemGroup>
 	<PropertyGroup>
 		<StartupObject>ProjectZ.Program</StartupObject>
-		<AssemblyName>Link's Awakening DX HD</AssemblyName>
+		<AssemblyName>La Lellenda de la Cerda DX HD</AssemblyName>
 		<PublishSingleFile>true</PublishSingleFile>
 		<ApplicationIcon>Resources\Icon.ico</ApplicationIcon>
 		<ApplicationManifest>app.manifest</ApplicationManifest>
