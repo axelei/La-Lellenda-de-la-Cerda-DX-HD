@@ -32,7 +32,7 @@ ocarina_bad Bem, é uma Ocarina, mas você não sabe como tocá-la...
 ocarina_bad_marin Não muito bom... Hein? O quê? Eu disse alguma coisa? Não, você está ouvindo coisas...
 
 // trocando alt + 0161
-trade0 Você trocou seu ¡ por ¢! Talvez você possa trocar a fita por algo mais!
+trade0 Você trocou seu ¡ por ¢! Talvez você possa trocar o laço por algo mais!
 trade1 Você trocou ¢ por £! Está cheio de carne suculenta!
 trade2 Você deu £ e recebeu bananas ¤ em troca! Bom negócio!
 trade4 Você encontrou um pedaço de pau que um macaco deixou para trás...\nPegue-o!
@@ -479,7 +479,7 @@ npc09_3 Ho ho ho! Eu realmente aprecio o que você fez pelo meu pobre e precioso
 bowWow2 YIP YIP!\nYIP YIP!
 
 bowWow3_0 Maquiagem! Joias! Vestidos! Eu quero tudo! suspiro... E alguns acessórios novos seriam legais...
-bowWow3_1 Oh! Essa Fita! Eu preciso dela! Você trocaria por minha ração de cachorro?
+bowWow3_1 Oh! Esse Laço! Eu preciso dele! Você trocaria por minha ração de cachorro?
 
 bowWow3_2 Hein?! Eu não posso acreditar! Você é o pior!!
 bowWow3_3 Sortudo! Obrigado!\nBem, aqui está sua £!
