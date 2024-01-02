@@ -186,7 +186,7 @@ dungeon_keyhole_block Hunh? Essa rocha tem um buraco de fechadura! Voc deve vo
 rock_cracks_message Esta rocha tem muitas rachaduras... Deve haver alguma maneira de quebr-la...
 crystal_hard Oh? Que objeto estranho! Deve haver alguma maneira de enfrentar esse obstculo.
 
-stone Wow! Isso parece bem pesado! Voc no ser capaz de levant-lo apenas com as mos nuas...
+stone Uau! Isso parece bem pesado! Voc no ser capaz de levant-lo apenas com as mos nuas...
 
 // nightmares
 nightmare1 {BUZZZZZ! BUZZZZ!}{FORASTEEEEEIRO!}
@@ -607,7 +607,7 @@ owl_1_0 Uuu! Uuu!\nEnto voc  o rapaz que possui a espada...\fAgora entendo
 owl_1_1 Uuu! Oh, jovem corajoso, em sua jornada para despertar o sonhador! Bem-vindo a Floresta Misteriosa! Muitos mistrios voc encontrar nesta ilha inexplorada de Koholint! Tenho medo de que possa achar um tanto difcil sair da ilha enquanto o Peixe do Vento dorme. ...A propsito, voc j visitou a Caverna da Cauda, que fica ao sul da aldeia? V l com a chave que voc encontrar nesta floresta... O Peixe do Vento est observando... Uuu!
 owl_1_2 Uuu! Pegue a chave e v para a Caverna da Cauda. Recupere o Instrumento que est escondido l! V agora! O Peixe do Vento est esperando! Uuu!
 
-owl_2_0 Uuuuu! Isso  um 'Instrumento das Sereias'! Tenho que admitir que, no comeo, no acreditei que voc fosse real... Esse instrumento, junto com os outros sete do conjunto, tem o poder de acordar o Peixe do Vento! Voc precisa coletar todos eles! Fui instrudo a lhe dar instrues... Seu prximo objetivo  o norte, no Pntano Goponga!! Uuu!
+owl_2_0 Uuuuu! Isso  um 'Instrumento das Sereias'! Tenho que admitir que, no comeo, no acreditei que fosse real... Esse instrumento, junto com os outros sete do conjunto, tem o poder de acordar o Peixe do Vento! Voc precisa coletar todos eles! Fui instrudo a lhe dar instrues... Seu prximo objetivo  o norte, no Pntano Goponga!! Uuu!
 owl_2_1 Uuu! Esse  um animal de aparncia assustadora que voc tem a! No se esquea, o prximo Instrumento est no Pntano Goponga!
 
 // post dungeon 3
@@ -938,7 +938,7 @@ photo_left_0 Oh no! Voc est sem filme! No se esquea de olhar seu lbu
 // photo sequence photo house
 photo_01_0 Eu simplesmente ADORO tirar fotos. Voc me deixa tirar sua foto?
 photo_01_1 V para o fundo da sala e fique na frente da tela.
-photo_01_2 Vou chamar essa de 'Aqui Est um Homem Corajoso'. Diga xis!
+photo_01_2 Vou chamar essa de 'A Est um Homem Corajoso'. Diga xis!
 photo_01_3 Qual  o seu nome, jovem? [NAME]? Bem, aqui est seu lbum, [NAME]. D uma olhada antes de sair!
 photo_01_4 Vamos ver se conseguimos preencher esse lbum!
 photo_01_5 Vamos tirar uma foto!
