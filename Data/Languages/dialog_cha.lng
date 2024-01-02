@@ -44,152 +44,152 @@ trade9 ¡Pillas una escoba como recompensa del sr. Write! Pero esa afoto no era 
 trade10 ¡Cambias ª por el ansuelo «! ¿Vas a pescar fardos en las Rías Baixas?
 trade11 El « ahora es un collar ¬! ¿Se podrá empeñar?
 trade12 ¡Le das el collar ¬ y dándole placer oral a la sierane se te mete una escama ­ en la boca.
-trade13 ¡Pillas la lupa de Optica Cerquera! ¡De guais para ver cosas ocultas por tus dioptrías!
+trade13 ¡Pillas la lupa de Óptica Cerquera! ¡De guais para ver cosas ocultas por tus dioptrías!
 
 // keyholes
-keyhole_0 ¿Uis? ¿Una serradura?\nPone, 'Serradura cola'
-keyhole_1 ¿Uis? ¿Una serradura?\nPone, 'Serradura pringue'
-keyhole_2 ¿Uis? ¿Una serradura?\nPone, 'Serradura ansuelo'
-keyhole_3 ¿Uis? ¿Una serradura?\nPone, 'Serradura jeto'
-keyhole_4 ¿Uis? ¿Una serradura?\nPone, 'Serradura avecrem'
+keyhole_0 ¿Uis? ¿Una serradura?\nPone, 'Serradura Cola'
+keyhole_1 ¿Uis? ¿Una serradura?\nPone, 'Serradura Pringue'
+keyhole_2 ¿Uis? ¿Una serradura?\nPone, 'Serradura Ansuelo'
+keyhole_3 ¿Uis? ¿Una serradura?\nPone, 'Serradura Jeto'
+keyhole_4 ¿Uis? ¿Una serradura?\nPone, 'Serradura Avecrem'
 
 // collectables
-toadstool You pick the toadstool... As you hold it over your head, a mellow aroma flows into your nostrils.
-toadstool_hole It's the toadstool you picked in the woods. What is it for? You hold it over your head and a mellow aroma wafts into your nostrils.
+toadstool Levantas la seta alusinógena... Al sostenerla sobre tu mollera un aroma a farlopa flota hacia tu trocha.
+toadstool_hole Es el hongo alusinógeno que pillaste en el bosque. Echa un tufo a faropa que tira patrás y te dan ganas de esnifártelo entero.
 
-seashell You found a Secret Seashell! If you collect a lot of these, something good is bound to happen!
+seashell ¡Encuentras una concha Codan! ¡Si reunes muchas de estas, algo cantidad de guapo pasará! ¡De guays!
 
-heart You've got a Heart! Thump! One of your Heart Containers is filled!
+heart ¡Pillas un corasón! ¡Mola! ¡Has llenao un hueco que había en el tuyo!
 
-ruby20 You got 20 Rupees! JOY!
-ruby50 You got 50 Rupees!\nVery Nice!
-ruby100 You got 100 Rupees!\nYou're Happy!
-ruby200 You got 200 Rupees!\nYou're Ecstatic!
+ruby20 ¡Pillaste 20 chapas! ¡Mola!
+ruby50 ¡Pillaste 50 chapas!\n¡Cojonúo!
+ruby100 ¡Pillas 100 piastras!\n¡Esto pa putas!
+ruby200 ¡Afanaste 200 papeles!\n¡Gástatelo en ful!
 
 // trendy game
-ruby30 It's 30 Rupees! You can play the game three more times with this!
+ruby30 ¡Son 30 pelas! ¡Puedes viciarte tres veces con eso! ¡Dale tralla!
 
-heartMeter You've got a Piece of Heart! Press SELECT on the Subscreen to see.
-heartMeterFilled You collected four Pieces of Heart. Now, you have a complete Heart Container!
+heartMeter ¡Pillas un cacho de corasón! Dale al SELECT pa ver cuántos llevas.
+heartMeterFilled Has conseguío cuatro cachos de corasón. Coges y haces el McGyver y los unes con chicle.
 
-guardianAcorn You've got a Guardian Acorn!\nIt will reduce the damage you take by half!
-pieceOfPower You got a Piece of Power!\nYou can feel the energy flowing through you!
+guardianAcorn ¡Consigues un chute de heroína!\n¡Como vas chutao, el daño que resibes es la mitad!
+pieceOfPower ¡Pillas una rula de poder!\n¡Sientes el éxtasis en tu físico! ¡Ueeh, ueeh!
 
-potion You found the secret medicine! You should apply this and see what happens!
+potion ¡Encuentras la medisina! ¡Echa unos cuantos Trakimazines y to arreglao!
 
-dkey1 You've got the Tail Key! Now you can open the Tail Cave gate!
-dkey2 You've got the Slime Key! Now you can open the gate in Ukuku Prairie!
-dkey3 You've got the Angler Key!
-dkey4 You've got the Face Key!
-dkey5 You've got the Bird Key!
+dkey1 ¡Guindas la Llave Cola! ¡Ahora puedes petarte la verja de la Cueva Cola!
+dkey2 ¡Guindas la Llave Pringue! ¡Ya puedes arramplar la cancela de la praera Ukuku!
+dkey3 ¡Guindas la Llave Ansuelo!
+dkey4 ¡Giundas la Llave Jeto!
+dkey5 ¡Guindas la Llave Avecrem!
 
-nightmarekey You've got the Nightmare's Key! Now you can open the door to the Nightmare's Lair!
+nightmarekey ¡Ties la Llave de Pesadillas! ¡Ahora puedes abrir la puerta y partirles el ojal!
 
-instrument0 You've got the Full Moon Cello!
-instrument1 You've got the Conch Horn!
-instrument2 You've got the Sea Lily's Bell!
-instrument3 You've got the Surf Harp!
-instrument4 You've got the Wind Marimba!
-instrument5 You've got the Coral Triangle!
-instrument6 You've got the Organ of Evening Calm!
-instrument7 You've got the Thunder Drum!
+instrument0 ¡Has conseguío el Cello Cara Culo!
+instrument1 ¡Has pillao el Cuenno Concha!
+instrument2 ¡Trincas la Campana Marina!
+instrument3 ¡Has afanao el Arpa Surfera!
+instrument4 ¡Consigues la Marimba de los Pedos!
+instrument5 ¡Has trincao el Triángulo pa llamar al Servisio!
+instrument6 ¡Pillas el Órgano de la Paja Matutina!
+instrument7 ¡Consigues el Tambor del Rosío!
 
-instrument0Collected {...SWAMP...}{A path opens...}{in the blooms...}
-instrument1Collected {...PRAIRIE...}{...PRAIRIE...} The Prairie is waiting...
-instrument2Collected {...WATERFALL...}{It is hidden in the}{waterfall...}
-instrument3Collected {...BAY...}{Your road goes into the}{bay...}
-instrument4Collected {...SHRINE...}{An island secret in the}{shrine...}
-instrument5Collected {...MOUNTAIN...}{Something calls...}{from the mountains...}
-instrument6Collected {...OCARINA...}{The music of the Ocarina}{leads...}
-instrument7Collected {...EGG....}{The Egg on the mountain}{calls!}
+instrument0Collected {...PANTANO...}{Papeate todas...}{las flores...}
+instrument1Collected {...PRAERA...}{...PRAERA...} La casa de la pradera...
+instrument2Collected {...CATARATAS...}{Está escondío en}{las cataratas...}
+instrument3Collected {...BAHÍA...}{Ve tirando ya pa}{la bahía...}
+instrument4Collected {...TEMPLO...}{Un secretito molón}{nel templo...}
+instrument5Collected {...MONTAÑA...}{Las montañas de hedi...}{testán llamando...}
+instrument6Collected {...OCARINA...}{La música de la ocarina}{mola...}
+instrument7Collected {...GUEVO....}{¡El guevo de las montañas}{te llama!}
 
-goldLeaf You've found a Gold Leaf! Press SELECT to see how many you've collected!
-goldLeafLast At last! You've got the final Golden Leaf! Now go and see Richard about that key...
+goldLeaf ¡Pillas una hoja de maría! ¡Pica el SELECT para ver cuántas has afanao!
+goldLeafLast ¡Por fin consigues la última hoja de maría! Ahora ve a charrar con el Richard aserca de la llave...
 
 // ° ± ² ³
 // <- alt + 0176 
 // -> 0177
 // v 0178
 signpost0 error
-signpost1 ± Tail Cave\n² Toronbo Shores
-signpost2 Mysterious Forest\n(It's a little bit\n mysterious)
-signpost3 East ± Ukuku\n       Prairie\fFarther East\n  Animal Village
-signpost4 Beware of Sea Urchins!\nDon't touch them with your bare hands!
-signpost5 Beware of floors with cracks! A heavy person should not stand on them!
+signpost1 ± Cueva Cola\n² Costa Tarumba
+signpost2 Bosque Misterioso\n(It's a little bit\n mysterious)
+signpost3 Este ± Ukuku\n       Praera\fMas pal este\n  Villa Bichejos
+signpost4 ¡Cuidao con los espinetes!\n¡No los toques con tus susias manos!
+signpost5 ¡Cuidao con los suelos rajaos! ¡Como estás hinchao a kebabs puedes acabar mal!
 
-signpost6 Kanalet Castle 10 Min. ± ³
-signpost7 Kanalet Castle 5 Min. ±
-signpost8 Kanalet Castle 50 Paces ³
+signpost6 Castillo Kanalet 10 Min. ± ³
+signpost7 Castillo Kanalet 5 Min. ±
+signpost8 Castillo Kanalet 50 Pasos ³
 
-signpost9 ± Animal Village\n² Martha's Bay
-signpost10 Seashell Mansion
+signpost9 ± Pueblo Bichejo\n² Bahía de Marta
+signpost10 Mansión Conchas Codan
 
-signpost11 You're close to Tal Tal Heights. The Camera Shop is nearby.
-signpost12 ± Tamaranch Mt.\n° Goponga Swamp
-signpost13 ± Crazy Tracy\n² Manbo's Pond
-signpost14 ± Cemetery\n² Ukuku Prairie
-signpost15 ± Gopongo Swamp\n² Mysterious Forest
+signpost11 Tas serca de los Altos Tal y Tal. La tienda de afotos está serca.
+signpost12 ± Monte Tamaranch\n° Pantano Goponga
+signpost13 ± Guarry Tracy\n² Estanque Manbo
+signpost14 ± Sementerio\n² Praera Ukuku
+signpost15 ± Pantano Gopongo\n² Bosque Misterioso
 
-signpost16 DANGER!\nKeep out!\n(Except BowWow)
-signpost17 Richard's Villa
-signpost19 Telephone Booth\n² Signpost Maze
+signpost16 ¡PILIGRO!\n¡A tomar por culo!\n(Excepto GuaGuas)
+signpost17 Keli del Richard
+signpost19 Cabina de teléfonos\n² Laberinto de Letreros
 
-signpost20 Mt. Tamaranch 
-signpost21 Do you want to challenge the river rapids on a raft? Proceed to the office at once, please!
+signpost20 Monte Tamaranch 
+signpost21 ¿Quieres pillar una patera to guapa? ¡Tira la la oficina y vemos, mojaíto!
 
-signpost22 Entrance to\nYarna Desert ±
-signpost23 ± Welcome to the\nAnimal Village!
+signpost22 Entrada al\nDesierto Jerna ±
+signpost23 ± ¡Vienvenío a\nVilla Bichejos!
 
-signpost_Down ² GO THIS WAY
-signpost_Up ³ GO THIS WAY
-signpost_Right ± GO THIS WAY
-signpost_Left ° GO THIS WAY
-signpost_TryAgain TRY AGAIN FROM THE START
-signpost_Great GREAT! YOU DID IT! YOUR REWARD IS ± THIS WAY!
-signpost_Gone GONE ON TOUR\nMAMU
+signpost_Down ² TIRA PALLÁ
+signpost_Up ³ TIRA PALLÁ
+signpost_Right ± TIRA PALLÁ
+signpost_Left ° TIRA PALLÁ
+signpost_TryAgain LA CAGASTE PRINGAO, AL PRINSIPIO
+signpost_Great ¡DEL COPÓN! ¡PA PILALR TAJADA ± POR AHÍ!
+signpost_Gone ME IDO DE PUTAS\n-MANU
 
-talking_tree Well that was a surprise! Hey! I'll tell you a secret! Use your sword to poke at dungeon walls... If you hear a hollow clank, you can break the wall with a Bomb!
+talking_tree ¡Aiba la hostia! ¡Te vi a decil un secretillo! Jinca la espada en las paredes de la masmorra... Si suena raro, ponle una bomba lapa.
 
-mamu0 Ribbit! Ribbit! Hey, man, I'm Mamu, on vocals! Brother, you look like you don't know squat about music! Ribbit!
-mamu1 Ribbit! Ribbit! I'm Mamu, on vocals! But I don't need to tell you that, do I? Everybody knows me! Want to hang out and listen to us jam? For 300 Rupees, we'll let you listen to a previously unreleased cut! What do you do?
-mamu2 Well, that's a shame, but we don't play for free!
-mamu3 Thank you... Thank you very much... Croak!
-ocarina_frog_song You've learned The Frog's Song of Soul! It's a very moving tune... It can even liven up unliving things!
-ocarina_frog_song_end If you play this song, you'll make everything around you feel more alive!
+mamu0 ¡Gñap! ¡Gñap! ¡Oye payo, soy Manu el cantaor! Parese que no tienes ni folla de haser música. ¡Cañita Brava lo hace mejor! ¡Gñap!
+mamu1 ¡Gñap! ¡Gñap! ¡Soy el cantaor Manu! ¡Soy más famoso que la rana Gustavo! ¡To cristo me conoce! ¿Quieres escucharnos cantar? Por solo 300 leandras te dejamos escuchar una cansión de cagarse la burra. ¿Qué te parese?
+mamu2 Mira pavo, si no nos rulas guita, ¡que te cante tu padre!
+mamu3 Grasias payo, muchísimas grasias... ¡Gñaoars!
+ocarina_frog_song ¡Aprendiste la cansión de los sombis! ¡Si la tocas puedes revivir fiambres a lo Resident Evil! ¡Chachi!
+ocarina_frog_song_end Si tocas esta cansión, todo a tu alrededor será más rumbero.
 
-manbo0 I am Manbo, child of the Sun Fish! Have you got an Ocarina?
-manbo1 Very well...\nGlub Blub Bloop!
-manbo2 Ahaha! Then I can teach you my song! Bloop!
-manbo3 Aha... You don't have an Ocarina, so... Glub glub!
-manbo4 I am Manbo, child of the Sun Fish! When you play my Mambo, you can warp to Manbo Pond! Try this tune in the dungeons, too! Cha-cha-cha!
+manbo0 ¡Soy el Fary, hijo del cante jondo! ¿Ties una ocarina pa tocar?
+manbo1 Cojonúo...\n¡Asín me gusta, tronco!
+manbo2 ¡Fale tío, te voy a enseñar la cansión secreta del Fary!
+manbo3 ¡Qué maricón, no tienes una ocarina! ¡Ve a pillarte una!
+manbo4 ¡Soy el Fary, hijo del cante jondo! Cuando toques mi rumba, te teleportarás a lo Star Trek a mi estanque. ¡También sirve en calabosos de la Guardia Civil!
 
-ocarina_manbo_song You've learned Manbo's Mambo! When you get out of the water, play it!
+ocarina_manbo_song ¡Aprendiste la Rumba Secreta del Fary! ¡Tócala cuando salgas de las aguas residuales!
 
-choice_Pay Pay
-choice_Leave Leave
+choice_Pay Pagar
+choice_Leave Pirarte
 
-signHead1 THE WIND FISH IN NAME ONLY, FOR IT IS NEITHER.
-signHead2 MUSIC, THE FISH STIRS IN THE EGG YOU ARE THERE...
-signHead3 SEA BEARS FOAM, SLEEP BEARS DREAMS. BOTH END IN THE SAME WAY CRASSSH!
-signHead4 SECRETS ARE LIKE WATER WHEN IT COMES TO BRIDGES
-signHead5 THE WIND FISH SLUMBERS LONG... THE HERO'S LIFE GONE...
-signHead6 AROUND HERE, SECRETS ARE NIGH
-signHead7 You are near the Eagle's Tower. Beware of the bird!
-signHead8 NOW YOU NEED LOOK FAR FOR A SECRET...
-signHead9 IN SOIL SLEEPS SECRETS, BENEATH YOUR SOLES...
+signHead1 EL PEZ JINCHO PILLÓ UN SIEGASO, POR ESO SOBA.
+signHead2 MÚSICA EL PEZ JINCHO ESTÁ RESACOSO ¿DE VODKA...?
+signHead3 ESPUMA DE MORSA, SUEÑOS DE OSOS SOBAOS... TOS ACABAN EN EL HOYO. ¡FLAKA!
+signHead4 LOS SECRETOS IBÉRICOS SON COMO AGUA PA LOS PUENTE
+signHead5 EL PES JINCHO SE CLAPA MÁS... EL MACHO IBÉRICO SE PIRA...
+signHead6 LOS SECRETOS IBÉRICOS ESTAN MU SERCA
+signHead7 Estás serca de la Torre del Águila. ¡Cuidao con el pajarillo!
+signHead8 ARA DEBES IR AL QUINTO COÑO A POR UN SECRETO...
+signHead9 LA TIERRA GUARDA SECRETOS BAJO TUS PIESES...
 
-castle_button Hunh? It sounds like the castle gate opened! You can easily leave the castle now!
+castle_button ¿Comorl? Ha sonao a puerta abriéndose. ¡Ya puedes pirarte del castillo este!
 
-door_nightmarekey Eh? It's locked! You can open the door with the Nightmare Key.
+door_nightmarekey Su puta madre, está chapao. Ties que trincar la Llave de Pesadillas pa entrar.
 
-dungeon_keyhole_block Hunh? This rock has a key hole! You should come back with a key!
-rock_cracks_message This rock has many cracks... There must be some way to shatter it...
-crystal_hard Oh? What a weird object! There must be some way to tackle this obstacle.
+dungeon_keyhole_block ¿Comorl? ¡Este piedro tiene un bujero! ¡Ve a buscar el fistro de llave!
+rock_cracks_message Esta roca está hecha mierda, seguro que la revientas con el rabo.
+crystal_hard ¿Eing? ¿Qué mierda es esto? ¿¡Cómo se peta esto tan raro, joder jodeeEEr!?
 
-stone Wow! This looks pretty heavy! You won't be able to lift it with just your bare hands...
+stone ¡Joer, cómo pesa la mu puta! ¡Como no llames a una grúa, esto no lo levanta ni Dios ni la Vigen!
 
 // nightmares
-nightmare1 {BUZZZZZ! BUZZZZ!}{OUTZZZIDER!}
+nightmare1 {BUZZZZZ! BUZZZZ!}{¡MIL PELAZ A QUE TE CAEZZ!}
 nightmareFinal0 This island is going to disappear... Our world is going to disappear... Our world... Our... world...
 nightmareFinal1 ...[NAME], you have beaten all the Nightmares! Climb the stairs before you!
 
@@ -309,7 +309,7 @@ tarin_5 Unnnngh! Owwwww! ... ... ... ... I've sure lost my taste for honey!
 
 
 // lady with the broom
-npc_broom_0 YAHOO! I'm fine, and you?!
+npc_broom_0 ¡YEPPA! Estoy tripada, ¡¿y tú?!
 npc_broom_1 YAHOO! I worked too hard and now my broom is worn to the handle!
 npc_broom_2 YAHOO! YAHOO! A new broom?! For me? It is, isn't it?!
 npc_broom_3 Okay! In return you can have this fishing hook I found when I swept by the river bank!
