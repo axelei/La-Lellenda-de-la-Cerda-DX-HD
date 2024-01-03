@@ -42,7 +42,7 @@ trade7 ¡Cambiaste el § por el ¨!
 trade8 Cambilas ¨ por la carta de la cabra ©! ¿¡Y esta mierda!?
 trade9 ¡Pillas una escoba como recompensa del sr. Write! Pero esa afoto no era de...
 trade10 ¡Cambias ª por el ansuelo «! ¿Vas a pescar fardos en las Rías Baixas?
-trade11 El « ahora es un collar ¬! ¿Se podrá empeñar?
+trade11 El « ahora es un collar de los veinte duros ¬! ¿Se podrá empeñar?
 trade12 ¡Le das el collar ¬ y dándole placer oral a la sierane se te mete una escama ­ en la boca.
 trade13 ¡Pillas la lupa de Óptica Cerquera! ¡De guais para ver cosas ocultas por tus dioptrías!
 
@@ -145,10 +145,10 @@ signpost_Up ³ TIRA PALLÁ
 signpost_Right ± TIRA PALLÁ
 signpost_Left ° TIRA PALLÁ
 signpost_TryAgain LA CAGASTE PRINGAO, AL PRINSIPIO
-signpost_Great ¡DEL COPÓN! ¡PA PILALR TAJADA ± POR AHÍ!
+signpost_Great ¡DEL COPÓN! ¡PA PILLAR TAJADA ± POR AHÍ!
 signpost_Gone ME IDO DE PUTAS\n-MANU
 
-talking_tree ¡Aiba la hostia! ¡Te vi a decil un secretillo! Jinca la espada en las paredes de la masmorra... Si suena raro, ponle una bomba lapa.
+talking_tree ¡Aiba la hostia! ¡Te vi a decil un secretillo! Dale con tu currilla a las paredes de la masmorra... Si suena raro, ponle una bomba lapa.
 
 mamu0 ¡Gñap! ¡Gñap! ¡Oye payo, soy Manu el cantaor! Parese que no tienes ni folla de haser música. ¡Cañita Brava lo hace mejor! ¡Gñap!
 mamu1 ¡Gñap! ¡Gñap! ¡Soy el cantaor Manu! ¡Soy más famoso que la rana Gustavo! ¡To cristo me conoce! ¿Quieres escucharnos cantar? Por solo 300 leandras te dejamos escuchar una cansión de cagarse la burra. ¿Qué te parese?
@@ -189,79 +189,79 @@ crystal_hard ¿Eing? ¿Qué mierda es esto? ¿¡Cómo se peta esto tan raro, jod
 stone ¡Joer, cómo pesa la mu puta! ¡Como no llames a una grúa, esto no lo levanta ni Dios ni la Vigen!
 
 // nightmares
-nightmare1 {BUZZZZZ! BUZZZZ!}{¡MIL PELAZ A QUE TE CAEZZ!}
-nightmareFinal0 This island is going to disappear... Our world is going to disappear... Our world... Our... world...
-nightmareFinal1 ...[NAME], you have beaten all the Nightmares! Climb the stairs before you!
+nightmare1 {¡BUZZZZZ! ¡BUZZZZ!}{¡MIL PELAZ A QUE TE CAEZZ!}
+nightmareFinal0 Esta isla va a petar... Me cago en tu estampa... Este es... Nuestro... Keli...
+nightmareFinal1 ¡...[NAME], tas cepillao a todas los bichos! ¡Va, coño, por las escaleras, tronco!
 
 // maria
 maria_0_0 ¡Otia! ¡Creía que la ibas a espichar! Estabas con los ojos vueltos como las pijotas de Sanlúcar...\f¿Querl? ¿Zerda? ¡Tú te pinchas! ¡Yo soy la Marin! ¡La tía más ninfomaníaca y borracha de esta isla!\n¡Isla Barbate!
-maria_0_1 Follow the lane south to reach the beach where I found you. Since you washed ashore, lots of nasty monsters have been in the area, so be careful, okay?
+maria_0_1 Pírate pol el camino del sur pa ir a la playa ande te encontré tirao. Joder macho, desde que llegaste está hasta el culo de mostros que violan, matan... ¡¡APOKALÍSTIKO!!
 
 // marin standing outside
-maria_1_0 Hi! Tarin went to the forest to look for toadstools, but I'd rather sing. Listen to this, it's called the 'Ballad of the Wind Fish.'
-maria_1_1 I just love to sing-- what can I say? What do you like to do, [NAME]?
+maria_1_0 ¡Eoo! El Tarin se ha pirao al bosque a bujcar setas alusinógenas. ¿Sabes qué? ¡La grifa que me metí hace poco me insita a cantar 'La Balada del Pez Jincho'!
+maria_1_1 I ¡Me mola más cantar que una hipodérmica a un yonkarra! ¿Y a tí, [NAME]?
 
 // after talking to the owl
-maria_1_2 [NAME], Tarin's taking a nap at home. I don't know how he can sleep on such a nice day! It makes me want to sing a song... Yes, the song is 'Ballad of the Wind Fish!'
+maria_1_2 [NAME], el Tarin está clapando en el keli. ¡Ha pillao una mierda del quince! Urgh, me está entrando el avenate... no puedo evitarlo... ¡La vena cantaora me obliga a cantar 'La Balada del Pez Jincho'!
 
 // singing in the right village
-maria_1_3 Hey! That's a nice Ocarina you have there! Will you accompany me as I sing?
-maria_1_4 So, how do you like it? It's really touching, isn't it? Does it stick in your mind?
-maria_1_5 Please! I want you to learn it! This song is my favorite!
+maria_1_3 ¡Hey! ¡Esa ocarina que tienes es de puta madre! ¿Te apuntas a cantar con la menda?
+maria_1_4 Mola, ¿ein? ¡Me la compuso DJ Nando Dixkontrol! ¿Has pillao cómo se canta?
+maria_1_5 ¡Macho, pon atensión que estás apollardao!
 
-maria_1_6 Please remember this song! You should play it every once in a while to keep it fresh in your mind!
-maria_1_7 Please, don't ever forget this song...or me...
+maria_1_6 ¡Eh, no te creas que las clases son gratis! ¡Me debes 10 papeles, coleguilla! ¡Ya me los rularás aluego!
+maria_1_7 No te olvides de mi cansión o de mí, guapetón.
 
-maria_1_8 They say the 'Ballad of the Wind Fish' is a song of awakening. I wonder, if the Wind Fish wakes up, will he make my wish come true?
-maria_1_9 Oh, [NAME]. I often come to this village to sing, too! It seems that just about everyone loves my 'Ballad of the Wind Fish!' [NAME], what is your favorite song?
+maria_1_8 Disen que la Balada del Pez Jincho es una cansión de despertar. Si el Pez Jincho despierta, ¿hará realidad mi deseo del alijo de coca?
+maria_1_9 Ey, [NAME]. A veces vengo a Villa Bichejo a cantar (y a fornicar, a veses). Pobresillos, van mu nesesitaos. ¿Y tú, [NAME]? ¡Por un módico precio te hago un completo!
 
-marin_letter At the beach... Marin ¶
+marin_letter En la playa... Marin ¶
 
 // maria at the beach
-marin_2_0 Oh, [NAME], I'm glad you found this place. Will you stay and talk to me for a while?    
+marin_2_0 Hola, [NAME], veo que has encontrao el sitio donde vengo a haserme los petas. ¿Te quedas y tenseño?    
 // Yes! No...
-marin_2_1 Okay, I'll just watch the waves for a while...
-marin_2_2 I wonder where these coconut trees come from? ...Tarin says there is nothing beyond the sea, but I believe there must be something over there... When I discovered you, [NAME], my heart skipped a beat! I thought, this person has come to give us a message...
-marin_2_3 ... ... ... ... ... ... ... ... If I was a sea gull, I would fly as far as I could! I would fly to far away places and sing for many people! ...If I wish to the Wind Fish, I wonder if my dream will come true... ... ...
-marin_2_4 Hey! Are you listening? [NAME], are you listening to me?
-marin_2_5 Humph! Your head is always in the clouds! Will you please listen to me next time?!
-marin_2_6 I want to know everything about you...Err...Uhh, Ha ha ha ha!
-marin_2_7 Hunh? The walrus wants me to go to him? It doesn't matter, I will go with you to him...
+marin_2_1 Mphf, veo que no te interesa el arte de liar petas...
+marin_2_2 Pa empezar, pillas la china, te la pones en la palma la mano y la quemas un rato con el mechero, asín... después coges y descapullas un sigarro, pillas el chocolate y lo mesclas con algo de tabaco... ¿ves? Endispués coges y lo lías de la forma en que lo lío yo...
+marin_2_3 ... todo junto, pon más cantidad de chocolate si quieres colocarte más. Después, una vez liao, haces como el Lucky Luke... ¡y listo el peta! Al prinsipio es chungo, ya le irás pillando el vicio. Aún macuerdo cuando el Tarin menseñó...
+marin_2_4 ¡Hey! ¿Tas enterao de lo que te explicao? [NAME], si no te lo repito.
+marin_2_5 Macho mira que eres más retrasao que el Don Pimpón y el Yupi juntos.
+marin_2_6 Y ahora si quieres nos hasemos unas pajillas, ¿te hace?
+marin_2_7 ¿Qúerl? ¿Que hay que despertar a la puta foca? ¡Qué inoportuna! ¡Ahora que íbamos a haser guarreridas!
 
-maria_collected You got Marin! Is this your big chance?
+maria_collected ¡Tas ligao a la Marin! ¿Te la vas a enrollar?
 
 // going into a dungeon
-marin_dungeon Eh? You want me to go in there? No, I think I'll wait out here... Take care of yourself, [NAME]!
-marin_dungeon_leave [NAME]! You're back! Are you hurt?
-marin_dungeon_leave_time ...You're late! I thought you'd never come back!
-marin_dungeon_hearts ...EEEK! You're hurt! Arrrgh! Don't be so reckless!
-marin_dungeon_hearts_alt ...You idiot! I told you this would happen... Eh?! What? I didn't say anything, really!
+marin_dungeon ¿Ein? Yo ahí no me meto ni loca. ¿Te has creío que soy la Xena o algo? ¡Eso es en otro juego! ¡Ve tú, [NAME]!
+marin_dungeon_leave ¡[NAME], has vuelto! ¿Cómo te han dejao el ojete?
+marin_dungeon_leave_time Tío, ¿dónde carajo estabas? Me he fumao medio paquete de Bisonte esperando...
+marin_dungeon_hearts ¡HOSTIAS! ¿Qué ta pasao? Vienes hecho un ecce-homo. Estás pirao macho.
+marin_dungeon_hearts_alt Siesque estás agelipollao... ¡Vienes oliendo a gitano!
 
-marin_cucco_0 Ha ha ha! Do it! Do it! Do it moooore! ... ... Hunh? No, it's nothing... I didn't mean it.
-marin_cucco_1 No!  No!  Poor  hen!\nStop that!
+marin_cucco_0 ¡Dale duro! ¡Dale asín! ¡Hue he hue! Uhn, es que a veses me da por la vena zoofílica, sabes.
+marin_cucco_1 ¡Mieh, lo hases de puta pena!\n¡Qué martirio!
 
-marin_pot_0 Yes!! Yes!! Break them! Break them all! ... ... ... ... What? What's wrong?
-marin_pot_1 Ahhh! Ahhh, you are a bad boy, [NAME]!
+marin_pot_0 ¡UALAA! ¡DALE AHÍN! ¡SIGUE, SIGUE! ¡ARFS! Uis, na, es que mentran las paranoyas, sabes.
+marin_pot_1 ¡[NAME], si encuentras guita vamos a medias, ein!
 
-marin_digging Great! Dig it! Dig it! Dig to the center of the earth!!
+marin_digging ¡Ahín ahín, como el Antonio Molina! ¡Cava, cava! ¡Soy mineeerooooo!
 
-maria_game_0 Wow! [NAME], can I try this?! What do you say?
+maria_game_0 ¡Mola! [NAME], déjame probar a mí, que estoy visiá. ¿Qué dises?
 // Okay No Way
-maria_game_1 C'mon! I want to do it! Can I? It looks so fun!
+maria_game_1 ¡Porfaaaa! ¡Déjame un poquitooo! ¡Que está to guapo!
 // Yes  Okay
-maria_game_2 You're good! You're a pro, aren't you? ... ... ... ... Well, beat it! Pros aren't allowed in here!
+maria_game_2 ¡Eres to buena! ¿Una zorrita viciada ein? ... ... ... ... ¡Pos a tomar por culo de aquí! ¡Que esto es un negosio!
 
 
 // walrus sequence
-maria_3_0 Yes, it's that lazy walrus! Shall we give him a little surprise?
+maria_3_0 Aquí está la morsa los guevos. Según el guión tengo que cantarle un poquito, ¿no?
 // Yes  No...
-marin_3_1 You're right, it would be mean to wake him up now! Let's let him sleep some more!
+marin_3_1 ¡Allá tú! ¡Si no le canto no te vas a petar el juego, que eres más corto que Torrebruno!
 maria_3_2 Aha ha ha! Wow! He certainly woke with a start!
-maria_3_3 Hunh? Oh, he's calling me... It's the same as always... Ha ha!
-maria_3_4 [NAME], I'm going to the Animal Village! Please drop by, okay?
+maria_3_3 Como veo que eres medio gay, me piro ande los animalicos, ale.
+maria_3_4 [NAME], mira que eres cortico, mira que has tenío oportunidad de echarme un casquete.
 
 // marin falling into the fountain not falling on link
-marin_fountain Whew! What a surprise!
+marin_fountain ¡Coño, menúa sorpresa! ¡Ha molao!
 
 // marin in the mountains
 marin_4_0 Somebody, HELP!
