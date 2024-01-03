@@ -256,7 +256,7 @@ maria_game_2 ¡Eres to buena! ¿Una zorrita viciada ein? ... ... ... ... ¡Pos a
 maria_3_0 Aquí está la morsa los guevos. Según el guión tengo que cantarle un poquito, ¿no?
 // Yes  No...
 marin_3_1 ¡Allá tú! ¡Si no le canto no te vas a petar el juego, que eres más corto que Torrebruno!
-maria_3_2 Aha ha ha! Wow! He certainly woke with a start!
+maria_3_2 ¡Guala! ¡Sa laventao como un torete! ¡Está vigoréssico!
 maria_3_3 Como veo que eres medio gay, me piro ande los animalicos, ale.
 maria_3_4 [NAME], mira que eres cortico, mira que has tenío oportunidad de echarme un casquete.
 
@@ -264,79 +264,79 @@ maria_3_4 [NAME], mira que eres cortico, mira que has tenío oportunidad de echa
 marin_fountain ¡Coño, menúa sorpresa! ¡Ha molao!
 
 // marin in the mountains
-marin_4_0 Somebody, HELP!
-marin_4_1 Hey! [NAME]! Some monsters put me up here! What should I do?! I'm afraid of heights!!
-marin_4_2 Yow! That was a surprise! [NAME], thank you!
-marin_4_3 ... ... ... ... ... ... ... ... Say... [NAME] ...
-marin_4_4 Uhh... I don't know how to say this... but...
-marin_4_5 MAAAAAAARINNNN!!
-marin_4_6 Hunh?! Tarin??! ... ... ... ... Uh... Nevermind, I... I gotta go!
+marin_4_0 ¡COSORRO¡ ¡SUQUILIO!
+marin_4_1 ¡Hey, [NAME]! ¡¡Unos mostros me pasaron pol la piedra y me dejaron aqui tirada!! ¡¡Estoy giñá!!
+marin_4_2 ¡Oooh! ¡Pero qué macho ibérico eres, [NAME]! ¡Te como la cara!
+marin_4_3 ... ... Cucha, tu a mí... esto... me molas, [NAME] ...
+marin_4_4 Si quieres me abro de patas aquí mismo y...
+marin_4_5 ¡¡MAAAAAAARINNNN!!
+marin_4_6 ¿¡Hunh?! ¡¿¿Tarin??! ... ¡¡PERO QUÉ INOPORTUNO, HOSTIA PUTA!! ¡¡ASÍ NO HAY FORMA!!
 
-marin_5_0 Thank you for everything! [NAME], you are the kindest boy I know. One day I made a wish to the Wind Fish... What was the wish? It was... No, it's secret!
-marin_5_1 [NAME], some day you will leave this island... I just know it in my heart... ...Don't ever forget me... If you do, I'll never forgive you!
+marin_5_0 ¡Grasias por todo, [NAME]! Eres el más macho ibérico que conozco. Un día le voy a pedir un deseo al Pez Jincho. ¿Cuál? ¡Es mu fásil, un alijo de coca de 50 kilos! 
+marin_5_1 [NAME], un día te pirarás de Barbate... Una cosa te iba a desil... ¡Tómate las pastillacas para el Alzheimer y no me olvides! Asín tendrás pa cascártela.
 
 walrus_0 {ZZZ ZZZ ZZZ ZZZ}{... ¶ ... ¶ ...}
-walrus_1 {Arfh! Arfh! Arf!}{¶  ¶!  ¶   ¶!}{..... ·??}
+walrus_1 {¡Arfh! ¡Arfh! ¡Arf!}{¶  ¶!  ¶   ¶!}{..... ·??}
 
-animals_absorbed {... ... ... ...}It seems to be totally absorbed in Marin's song!
+animals_absorbed {... ... ... ...} Están tos embelesaos con la canción de la Marin. (¿O es con su escote?)
 
-ocarina_maria_song You've learned the 'Ballad of the Wind Fish!' This song will always remain in your heart!
+ocarina_maria_song ¡Has aprendío 'La Balada del Pez Jincho'! Anda que no te ha costao con lo lerdo que eres.
 
 // tarin house
-tarin_chest Hey! What are ya doin' in my chest?! Where'd you learn ta do such a thing?!
+tarin_chest ¡Hey, qué miras ahí! ¡Como te coja arrebuscando en mi alijo te corto los cojones!
 
 // tarin
-npc02_leave Whoa, boy! Where ya off to in such a hurry? Sit a spell, I got somethin' to tell ya!
-tarin_0 Well, [NAME], ya finally snapped out of it... Name's Tarin... Hope yer feelin' better... What? How did I know your name? You think it's weird, eh? Well, I saw it on back of this shield!
-tarin_1 Oh, yeah... Some other stuff like this washed up on the beach... If'n you go look watch out for monsters! Ever since you showed up, [NAME], I've seen 'em all over the place!
+npc02_leave ¡Tío, tronco! ¿Ande vas to follao? ¿Te han metío un cobete en el culo o qué? Ven dacapacá.
+tarin_0 Joer, [NAME], has dormío bien la mona... Me llamo Tarin. Marin te encontró en la playa tirao echando las rabas, creíamos que ibas a diñar. También encontramos tu escudo tirao lleno de crudo.
+tarin_1 Ah, sí, hay otras mierdas en la playa ande te encontramos. Si te das un rulo por ahí, ten cuidao con los mostros, [NAME]. Desde que estás aquí esto se ha convertío en un Vietnam, macho.
 
 // after the raccoon transformation
-tarin_raccoon_2 The last thing I kin remember was bitin' into a big juicy toad-stool... Then, I had the darndest dream... I was a raccoon! Yeah, sounds strange, but it sure was fun!
-tarin_raccoon_3 I'm all tucker'd out... I think I better set a spell before I head home...
+tarin_raccoon_2 Lo último que macuerdo es que me papeé una seta lusinógena de esas yo solo. Entonces pillé un ciego... ¡y era el Mapachito, tío! Pa que veas lo que hase la droga adulterada...
+tarin_raccoon_3 Uung, creo que he pillado un mierdón colega, me parece que me piro a mi keli a sobarla.
 
-tarin_2 I'm tired... I'm goin' ta sleep now... Zzzzzz...
-tarin_3 Hrrrm...Snore... Hunh?... If'n ya don' know...call old man Ulrira! Zonk...Snore...
+tarin_2 Estoy bardao... Me voy al sobre pero ya... Zzzzzz...
+tarin_3 Hrrrm...Grñfs... ¿Ein?... Macho si te atascas píllate un FAQ o llama al Ulrira, déjame tranquilo, copón. Grgñss...
 
 // tarin with the bananas
-tarin_4 I was hungry somethin' fierce so I went and got bananas at the beach... [NAME], if you want some, you should go and get some!
+tarin_4 Tenía más jambre que el tamagochi de un sordo, así que piré a la playa a pillar plátanos... [NAME], ¿qué miras pasmao? Si quieres uno ve a comprártelo.
 
 // tarin trading sequence
-tarin_stick Oh?! [NAME], I see ya have a nice stick... Can I borrow it for a second?
-tarin_stick_no Hmmm, [NAME], you are mean!
+tarin_stick ¡Anda, [NAME]! Veo que tienes un buen falo, digo... un palo. ¿Me lo rulas un plis?
+tarin_stick_no ¡Anda y métetelo pol culo, agarrao!
 
 // after the trading sequence sleeping in the bed
-tarin_5 Unnnngh! Owwwww! ... ... ... ... I've sure lost my taste for honey!
+tarin_5 ¡Unnnngh! ¡Owwwww! ... ... ¡Me cago en la miel y en to sus muertos pisoteaos!
 
 
 // lady with the broom
-npc_broom_0 ¡YEPPA! Estoy tripada, ¡¿y tú?!
-npc_broom_1 YAHOO! I worked too hard and now my broom is worn to the handle!
-npc_broom_2 YAHOO! YAHOO! A new broom?! For me? It is, isn't it?!
-npc_broom_3 Okay! In return you can have this fishing hook I found when I swept by the river bank!
-npc_broom_4 YAHOO! A new broom! Superb!
-npc_broom_5 Then YOU sweep the island!
-npc_broom_bowwow She's had an awful tragedy in the house across the way! It's just awful, and all I can do is sweep!
+npc_broom_0 ¡YEEPPA! Estoy tripada, ¡¿y tú?!
+npc_broom_1 ¡YEEPAA! ¡Se ma jodío la escoba de tanto... euh... barrer!
+npc_broom_2 ¡YEEJA, UOPPA! ¡Una ejcoba nueva! ¡Y con vibrador! ¿Es pa mí? ¿PA MÍ?
+npc_broom_3 ¡De puta madre! ¡Te rulo este ansuelo que encontré barriendo el río! (Esta vieja está loca perdía)
+npc_broom_4 ¡YEEEPA! ¡Escoba nueva, y vibra!
+npc_broom_5 Hijo de la gran chingada, así se te atasque en el mojino.
+npc_broom_bowwow ¡Vinieron los cholos y violaron a todas las mujeres del pueblo menos a mí! ¡Nchts, con las ganas que tenía de...!
 
-npc04 Er...Uh...Hmm...How to say... Please call... Outside... ...
-npc04_game It seems that old man Ulrira is a shy guy, in person...
+npc04 Uuna alemaaana, me la meneeaaaba, en una tienda de campaaañaaa...
+npc04_game (Joder el Ulrira, está más quemao que las pistolas del Coyote, mejor le dejo con sus pajillas)
 
 // kid with hints
 //npc05_0 Hey, man! When you want to save just push all the Buttons at once! Uhh... Don't ask me what that means, I'm just a kid!
-npc05_1 Well, it seems that after you save, you will start at the last door you went through... I'm not really sure why that is 'cause I'm just a kid!
-npc05_2 I heard that you can press SELECT to look at the island map... But, I don't understand what they mean by that...
-npc05_3 When you're running out of Hearts, you'd better enter a house or cave... Why? I have no idea, I'm just a kid!
+npc05_1 Eh bro, dicen que cuando puto guardas la partida, en plan, que empiezas en la última casa donde has estao. Ni idea de lo que quiere decir.
+npc05_2 Bro, dicen que si le puto das al SELECT puedes ver el mapa de Barbate. En plan... ni idea, bro.
+npc05_3 Bro, si te quedas, en plan, sin corasones, mejor te puto metes en una cueva o una casa. Yo ni idea tronco, ¡soy un millennial desos!
 
-npc_ball_left Where are you from, brother? ...Outside the island? What is 'outside?' I've never thought about it...
-npc_ball_right The giant egg on top of Tamaranch Mountain? They say the Wind Fish is sleeping inside of it... Why? I don't know either...
+npc_ball_left ¿De ande eres, bro? ¿De 'fuera'? ¿Eso ande está, macho? ¿En plan, fuera de Huelva?
+npc_ball_right ¿El guevo gordo ese de la montaña? Dicen que ahí soba el Pez Jincho, bro, en plan, pa siempre. Oye, me mola ese peluco que llevas...
 
 // kid near the weather bird or next to the shop
-npc_boy_island Dude! You're asking me when we started to live on this island? What do you mean by 'when?' Whoa! The concept just makes my head hurt!
-npc_boy_marin Hey, dude! What do you think of Marin? Uhh... I don't know, I'm just a kid!
-npc_boy_shrine Hey hey, bro! About the Dream Shrine there... They say there's something good inside... ... I better not say anything else as I'm just a kid!
-npc_boy_marin_beach Marin? She likes to go stare at the ocean all by herself... Why? Hey, I'm just a kid, don't ask me!
+npc_boy_island ¿Que cuándo empesamos a okupar la isla? Yo que sé bro, yo no tengo ni la ESO. En plan, qué me estás contando.
+npc_boy_marin ¡Oye bro, qué te parese la Marin! Soy un crío, pero ya me gustan las perrillas.
+npc_boy_shrine Hey bro, dicen que en el templo del clape hay como, en plan, un tesoro guapo. Fijo que es hachís recién cagao por el moro.
+npc_boy_marin_beach ¿Marin? Le gusta irse a la playa a liarse pitillos. Se puto fuma como tres chinas al día, bro.
 // kids while marin is with link
-npc_boy_marin_following Hey... Where're you two going together? Hunh? Uh, I didn't mean anything... I'm just a kid!
-npc_boy_marin_gone Hunh?! Marin's not with you? What happened to her?
+npc_boy_marin_following ¡Hey, bro! ¿Adónde van los tortolitos? ¿A haser guarreridas españolas? Que soy un crío pero no tonto.
+npc_boy_marin_gone Anda, ¿no te puto acompaña la Marin, bro? ¡Te estará poniendo los cuernos!
 
 // when the player has the broom and the grandma is in the other village
 npc_boy_grandmother Grandma's not here. She's in the Animal Village. That's what Grandpa Ulrira said on the phone!
