@@ -339,150 +339,150 @@ npc_boy_marin_following ¡Hey, bro! ¿Adónde van los tortolitos? ¿A haser guar
 npc_boy_marin_gone Anda, ¿no te puto acompaña la Marin, bro? ¡Te estará poniendo los cuernos!
 
 // when the player has the broom and the grandma is in the other village
-npc_boy_grandmother Grandma's not here. She's in the Animal Village. That's what Grandpa Ulrira said on the phone!
+npc_boy_grandmother Bro, la aguela no está, se ha pirao, en plan, a Villa Bichejo a zoofilear... Al menos eso me ha puto dicho el carcamal del Ulrira por SMS.
 
 // kids playing ball game after the village gets attacked
-npc_kid_attacked Hey buddy! It's serious! Yeah, really serious!! Yeah, it is! The Moblins came to the village! Yeah, that's right! A whole gang of Moblins! Then... It's for real! They all went to the house... Yeah, that house, and then they did something at Bow Wow's house!! It was a really bad scene, with the M-m-moblins! So, I mean, ahh! ... ... ... ... ... ... ... ... It might be faster to find out for yourself what happened!
+npc_kid_attacked ¡Buah, bro! ¡Te lo juro! ¡Los cholos han entrao a la aldea! ¡Sí, sí, con todos sus primos, literal bro! ¡Boah, saquearon todo y se violaron a todas las mujeres! (A Marin parece que no la forzaron mucho...) Luego fueron a la casa de la Caballé y le birlaron los GuaGuas. ¡En plan, para peleas ilegales de pitbulls! Nos dijeron que no chiváramos, pero, en plan, no nos dieron bastante costo, saes. ¡Corre, vete a la casa de la Caballé!
 
 // chef in the right village
-npc_chef_0 My ultimate plan is to open a branch in Mabe Village!
-npc_chef_1 Rik'm rak'm! I ran out of ingredients! If I had honey, I could make this fit for a king!
-npc_chef_2 Hi ho! Hey you! Is that possibly a ¦ you have? I just ran out! Will you swap it for a pineapple?
-npc_chef_3 That's a crying shame, but I realize those are a rare delicacy!
-npc_chef_4 Hi ho! Yeah, I know, that tub of goo is asleep right in the way to Yarna Desert! Once he's asleep he won't budge for a loooooonng time. But hey! Take Little Marin and wake him up with her song! That slob would wake up with a jump if he heard her sing, for sure! Heh heh heh!
-npc_chef_marin HI HO! Little Marin! Welcome! ... ... ... ... Oh, shucks! You are here too... Sorry...
+npc_chef_0 ¡Mi flan royal es abrir una sucursal en Villa Mabe!
+npc_chef_1 Nchts, mieda, sin miel de la Granja Sanfransisco no podré hacer pastelitos Phoskitos! ¡Mieeerda!
+npc_chef_2 ¡Anda puta! ¿Eso que llevas ahí es ¦? ¡Me quedao sin ninguna! ¿Me lo rulas por una piña?
+npc_chef_3 ¡Qué malaje! ¡Has dejado a los chavales sin su rasión de Phoskitos!
+npc_chef_4 ¡Ah, la puta foca esa que clapa en el desierto de Jerna! Esa no la menea ni Musculator dopao... Pero parese que la Marin y su puta cansión de 8 bits estéreo podría funsionar. Ya ves, estos de Noentiendo hacen una gilipollez de puzzles... ¡Se lo gastan to en abogados!
+npc_chef_marin ¡MMhh, putilla Marin! ¿Te pasarás después... ya sabes, uno rapidito? ¡Te pagaré bien!
 
 // yoshi doll
-npc07_0 Because they all look alike, even I am sometimes confused...
-npc07_1 By the way, my baby wants a Yoshi Doll. I saw one at the Trendy Game, but I couldn't get it.
-npc07_2 Oh! Will you give that doll to my baby?!
-npc07_3 Tsk tsk... What a shame...
-npc07_4 Oh thank you! You are indeed a generous person! Ah! I will give you this in return!
-npc07_5 My husband is lost in the woods! Please go find him!
+npc07_0 Puto Papapikillo, no usa condón y me hace niños a saco...
+npc07_1 Por sierto, mi bebé se ha emperrao con un puto Yoshi desos de la máquina del gancho, ya ves el crío.
+npc07_2 ¡Otia! ¡¿Le vas a rular el Yoshi a mi engendro?!
+npc07_3 ¡Pues te lo puedes comer, tío!
+npc07_4 ¡Oh grasias! ¡Endeverdad que eres tope de enrollao! Pilla, te pasaré esto de buenri. 
+npc07_5 ¡El subnormal de mi marido se ha perdido en el bosque! ¡A ver si no vuelve el mongolo!
 
-npc_house_chest [NAME] checked the chest.\nWow! This is a nice chest!
-npc_house_chest_marin [NAME], do you always look in other people's drawers?
+npc_house_chest [NAME] registra el cajón.\n¡Coño, menudo alijo de costo!
+npc_house_chest_marin ¡[NAME], qué coño miras! ¡Que ahí tengo la ropa interior y el consolador, pervertido!
 
-npc_letter_boy_0 Well... I pretty much stick to myself, me and my letters... My name's Write! The only thing I don't like about my hobby is that I never receive a response...
-npc_letter_boy_1 What's this?! A letter for me?! I'm so happy! ...And look! The letter came with a photograph!
-npc_letter_boy_2 Mmm... She's so beautiful... I must give you something for your trouble... Hmm... Well, it looks like all I have is this broom... how'll that be?
-npc_letter_boy_3 Please! I really must insist you have this ª!
-npc_letter_boy_4 Oh boy! Letter writing is such a great hobby!
-npc_letter_boy_5 Hello! I'm writing back to Christine now!
+npc_letter_boy_0 Bueh, soy tope autista y me chana escribir cartas y yastá... ¡Me llamo Write! Pasa que estoy depresivo cantidás porque nadie me responde, puto Correos...
+npc_letter_boy_1 ¡CAGON EL COPÓN! ¡UNA CARTA! ¡Ni enfarlopao llegué a imaginarlo! Y trae una afoto dentro, a vel...
+npc_letter_boy_2 ¡Coño, es la perica del Mario! (Ahora endispués me hago unas pajillas cuando te pires...) Bueno, ábrete a cascarla ya. Te paso esta escoba para que te la hinques.
+npc_letter_boy_3 ¿Cómo que no? ¡Si es lo mejor que hay para el sexo anal ª! ¡Vibra y to!
+npc_letter_boy_4 ¡Escribir cartas es mejol que el Madrid-Barça!
+npc_letter_boy_5 ¡Eo! ¡Le estoy escribiendo guarradas a la pava esa!
 
 
-npc_letter_girl_0 You don't know the proper etiquette when dealing with a lady, do you? You should have brought flowers or something, then I might be more inclined to talk with you... Oh yes, in my case, hibiscus are best...
-npc_letter_girl_1 Oh, you brought me a hibiscus! How sweet! Well, since you are such a gentleman I have a request to make of you. Will you listen? 
-npc_letter_girl_2 I would like you to take this letter to a Mr. Write who lives on the border of the Mysterious Forest, please!
-npc_letter_girl_3 ...Is that so? And I thought you were a gentleman...
-npc_letter_girl_4 You know, sometimes I can't help eating a delicious piece of paper, even if it's a letter to my darling Mr. Write... How embarrassing!
+npc_letter_girl_0 No sabes cómo tratar a las putas cabras como a una servidora, ¿no? A mí me molan la grifa y las flores. Es chungo encontrar ambas cosas, con una flor hibisco de esas de los veinte duros me pondría más feliz que la Heidi esa.
+npc_letter_girl_1 ¡Oh, me has traído un hibiscus! ¡Qué dulse! Ya que eres tan capullín, tengo que pedirte un recaíllo. ¿Me lo harás?
+npc_letter_girl_2 Llévale esta carta al Mr Escribe ese, que vive en la montaña. Contiene algo que lo pondrá más cachondo que el copón. ¡Haw, haw!
+npc_letter_girl_3 ¿Quééérl? Y yo que pensaba que eras coleguita... caracoño...
+npc_letter_girl_4 Sabes, a veses tengo que papear papel como una degenerada, aunque sea una carta de mi cariñín el Sr. Write... ¡¡Es que soy una gorda asquerosa!!
 
 // fisher under the bridge
-npc_bridge_0 It's no use, little buddy! A fish took my hook... I keep casting my line into the water, but I haven't got a bite... I thought this would happen...
-npc_bridge_1 Oh! What is that you have in your hand? It's not a fishing hook, is it? You had better let me have it. I'll give you my next catch if you let me have it...
-npc_bridge_2 You should be more kind to me! I thought we were buddies!
-npc_bridge_3 Keep your eyes open and watch a pro at work.
-npc_bridge_4 My, that's a BIIIIG one!
-npc_bridge_5 I can't wait to see what I'll catch next!
+npc_bridge_0 Macho no pesco ni un condón... ¡Claro, no tengo anzuelo! ¡Soy un ludópata y me lo gasto to en las tragaperras y en putas y no tengo pa comprar uno!
+npc_bridge_1 ¡Copón, tienes un anzuelo! Si me lo rulas te invito a una birra y además te rulo lo primero que pesque con él. Y si no me lo das lo mismo te reviento la cara...
+npc_bridge_2 Mira, porque no tengo mosquetón aquí, que si no te ahostiaba.
+npc_bridge_3 ¡Ahora verás mis técnicas de Jara y Sedal!
+npc_bridge_4 Vaya, una mierda de baratija.
+npc_bridge_5 ¡Ahora nájate a la mierda y déjame pescar, tío!
 
 
-tracy_give Give
-tracy_dont Don't
+tracy_give Dar
+tracy_dont Pasando
 
-npc_tracy_0 Hi there, big guy! I'm Crazy Tracy! I've got a little secret for sale that'll pump you up!
-npc_tracy_1 Will you give me 28 Rupees for my secret?
-npc_tracy_2 How about it? 42 Rupees for my little secret...
-npc_tracy_3 ...You're so cute!\nI'll give you a 7 Rupee discount!
-npc_tracy_4 All right, come here and I'll rub it on you! ...There... I've applied my own secret medicine! It will take effect when you lose all heart! Drop by again, big guy!
-npc_tracy_5 Beat it, then! Come back when you have some cash!
-npc_tracy_6 ... ... ... ... But I won't sell it to you!
-npc_tracy_7 Well! I'm only offering you a secret that will make you strong! You're such a chicken!!
-npc_tracy_8 Here's some bonus treatment! Behold! Your Hearts are full!
+npc_tracy_0 ¡Hola, macizote! ¡Soy la Guarry Tracy! ¡Vendo mi cuerpo y mis servisios al público por un precio asequible!
+npc_tracy_1 Francés y regalito por 28 chapas, ¿te hace?
+npc_tracy_2 ¿Te hacen 42 libras por la chupaíta y el regalo?
+npc_tracy_3 ¡Uff... estás to bueno!\n¡Te hago un descuento de 7 chapas!
+npc_tracy_4 ¡Ven pacá, guapetón, vas a ver tú lo que es una buena chuparda!\nTracy: ChhhRruuUUrpPPps!\n[NAME]: ¡Ahhhrss!\n¡Ale, ya está! Y de regalo una medisina que te llena los corasones al parmarla.
+npc_tracy_5 Majo, si no tienes guita, te la pelas como los monos. ¡Aire!
+npc_tracy_6 ... ... ... ... ¡Hoy no, que me duele la cabeza!
+npc_tracy_7 ¡Tú debes ser gay! ¡Con lo buena que estoy y lo barato que lo pongo! ¡MARICA! ¡MARICAAA!
+npc_tracy_8 ¡Toma, un regalito de la casa! ¡Te relleno todos los corasones!
 
 
 // npc lost boy
-npc_lost_boy_0 Yep, Papahl got lost, just like he said! Now, I am so famished I can't move! Can you give me some vittles?
-npc_lost_boy_1 You're one cold hombre...
-npc_lost_boy_2 This § is so delicious! I'm going to eat the § right now! Bon Appetit!
-npc_lost_boy_3 AH! This isn't meant to be a reward... Here, take this ¨! It's a hibiscus!
-npc_lost_boy_4 Delicious! Yum! I'm filled with energy, now!
+npc_lost_boy_0 Sí tío, soy el Papapikillo y me he perdío otra ves. Tengo cantidad de jambre y no me puedo ni menear. ¿Traes chicha?
+npc_lost_boy_1 Maldito hijo de puta...
+npc_lost_boy_2 ¡Este § está guenísimo! ¡Me voy a papear § a cara de perro! ¡Arfs!
+npc_lost_boy_3 ¡BUURPS! ¡Ah, estaba to bueno! ¡Te has enrollao, colega! ¡Pilla ¨! ¡Es un hibisco!
+npc_lost_boy_4 ¡De cojones! ¡Ahora estoy lleno de fuersa!
 
 
 // mermaid
-npc_mermaid_0 When I was swimming in the bay, the waves took a very important necklace from around my neck! If you find it, I will let you take a scale from my tail!
-npc_mermaid_1 I have already looked around here!
-npc_mermaid_2 Ahh! That's it! That's my necklace! Give it! Give it back! I will give you a scale as I said!
-npc_mermaid_3 Promise! You'll only take one!
-npc_mermaid_4 You are heartless and cruel!
-npc_mermaid_5 An artist once asked me to pose for him, and he wanted a scale, too... Can the legend of the Magnifying Lens be true...?
+npc_mermaid_0 Cuando estaba nadando en las aguas residuales perdí mi collar de plástico de los veinte duros. ¡Si me lo traes te dejo que me comas la almeja un poquillo, machote!
+npc_mermaid_1 ¿Ande coño andará mi collar?
+npc_mermaid_2 ¡Ahh, ese es! ¡Dámelo, dámelo! Recuerda lo que te prometí, si me lo das te dejo que me comas el chirri. ¿Va?
+npc_mermaid_3 ¡Vale, puedes comerme el higo!
+npc_mermaid_4 ¡Tú lo que eres maricón! ¡MARICAA!
+npc_mermaid_5 Un artista degenerado me pidió que posara para él. El cabrón mientras pintaba se hacía pajillas, el puto degenerado.
 
 // mermaid statue
-mermaid_statue_0 THE MOURNING MERMAID By SCHULE? ...A scale is missing...
-mermaid_statue_1 You put the missing scale in the mermaid statue!
+mermaid_statue_0 LA SIRENA MACARENA por... ¿SCHULE? ...paese que le han chirlao una escama...
+mermaid_statue_1 Pegas la escama en la estatua con un poquillo de superglú.
 
 
 // rabbit
-rabbit_0_0 Hey! Did ya know Animal Village and Mabe Village are sister cities? Yes, even though they aren't large enough to be called cities... Anyway, I heard from a very good source that they have a Dream Shrine in Mabe, and that it has something good inside... Is that true?
-rabbit_0_1 I dreamed that I turned into a carrot last night... What an odd dream...
+rabbit_0_0 ¡Hey! ¿Sabías que las rubias se meten el deíllo un 12 por ciento más que las morenas? Son datos verídicos, te lo dice un conejo. ¡HAW, HAW! Por sierto, disen que hay un templo del clape en Mabe que tiene dentro una cosa con bujeros y no es un búcaro. Me pregunto qué será.
+rabbit_0_1 Anoche soñé que me convertía en zanahoria, claro que me inflé a cannabis.
 
-rabbit_1_0 I can't go to Mabe Village because of all the monsters. I hope Marin is all right.
-rabbit_1_1 Eh? How can an animal talk? How? Hey, I'm just a rabbit, so I don't know!
+rabbit_1_0 No puedo ir a Villa Mabe porque los cholos marrajarían en canal. Espero que Marin siga to buena.
+rabbit_1_1 ¿Eh, qué hase un conejo dándole al palique? Ni puta idea macho, a lo mejor es tu imaginasión y las drogas.
 
-rabbit_2_0 Yarna Desert? There's a way to get there to the south, but you might not be able to get through if that lazy walrus is in the way!
-rabbit_2_1 Have you heard of the Flying Rooster? They say it lived in Mabe Village a long time ago... I wonder if it's true...
+rabbit_2_0 ¿El desierto Jerna? Chaval, la única forma de llegar es apartando a la burrifoca esa del camino. ¡Tan cierto como que Chanquete era un pederastra!
+rabbit_2_1 ¿Te has coscao de la leyenda del pollo volante? Desían que vivía en la aldea Mabe... será una trola, ¿no?
 
-rabbit_3_0 Ahhh... Sigh... On such a nice day, we need a song from Marin!
-rabbit_3_1 Aaaah, Little Marin... I want her to come back again...Her song is the best...
+rabbit_3_0 Oye, [NAME], ¿me compras unos Kleenex? Va, tronco, que es pa comel...
+rabbit_3_1 Ah, cagontó, quiero que venga la putilla de la Marin para... ejem... verla cantar.
 
-rabbit_marin Ahhh! It's her!\nLittle Marin!!
+rabbit_marin ¡¡Comorr!! ¡¡Es la putilla de la Marin!!
 
 
 // dialog choices
-choice_Yes Yes
-choice_YES YES
-choice_Yes! Yes!
-choice_Okay Okay
-choice_Yeah Yeah
-choice_Fine Fine
+choice_Yes Sí
+choice_YES FALEN
+choice_Yes! ¡Aro!
+choice_Okay Fale
+choice_Yeah Enga
+choice_Fine Gueno
 
-choice_No No
-choice_NO NO
-choice_No... No...
-choice_No! No!
-choice_N-No N-No
-choice_No_Way No Way
-choice_No_way No way
-choice_Not_Now Not Now
-choice_Nope Nope
-choice_Give Give
-choice_Keep Keep
-choice_Dont Don't
-choice_Can Can
-choice_Cant Can't
+choice_No Nor
+choice_NO NOR
+choice_No... Nor...
+choice_No! ¡Nor!
+choice_N-No N-Nor
+choice_No_Way Ni de blas
+choice_No_way Ni de coña
+choice_Not_Now Ahora paso
+choice_Nope Nay
+choice_Give Rular
+choice_Keep Paso
+choice_Dont Paso
+choice_Can Fale
+choice_Cant Paso
 
-choice_Fish Fish
-choice_Cast Cast
-choice_Look Look
+choice_Fish Pejcar
+choice_Cast Lansar
+choice_Look Mirar
   
 
-npc08_0 Yep! Those're my boys! I'm Papahl, please to meetcha! I'll be lost in the hills later, so keep a look out for me, hear?
-npc08_1 I've got to say, thanks again!
+npc08_0 ¡Sí, esos son mis chavale! Soy Papapikillo, soy subnormal profundo y me pierdo por las montañas. Más amamonao y no nazco.
+npc08_1 ¡Grasias de nuevo, salao! ¡Giak!
 
 // bowWow girl
-npc09_0 Ho ho ho! My BowWow is so proud of his fine fur coat!
-npc09_1 AIEEEEEEEE! It's terrrrible! My BowWow was dognapped by... Mo-mo-MOBLINS!! OHHH! AHHHH! Please! Somebody help my poor BowWow!!
-npc09_2 Oh thank you! I'm so happy you brought my baby back! Now, would you be a dear and take him for a walk? It would really help me out a lot! You will?! Thanks!
-npc09_3 Ho ho ho! I really appreciate what you did for my poor, precious BowWow! You are such a nice boy! How can I ever repay you? I know...\fSMOOOOOOOCH!\nYou got a reward from Madam Meow-Meow... ... ...\nL-l-lucky!
+npc09_0 ¡Jo jo jo! ¡Yo soy la Caballé! ¡Tu madre es calva y se peina de lao!
+npc09_1 ¡AAAARRGGGS! ¡Qué miedín! ¡El GuaGua se lo han chirlao los... cho... CHOLOS! ¡Fijo que es pa peleas con pitbulls! ¡A-ayuda! ¡O sea, sálvalos!
+npc09_2 Oh, ¡Grasias! ¡Me has traído al GuaGua! Como te veo cara de retrasao te voy a mandar a que le des un voltio por ahí. ¡Y como no lo hagas te canto la Traviatta! ¡Jarl!
+npc09_3 Jo jo jo, grasias por sacar el bicho a mear. Como eres tan enrollao te paso dos entradas para el Liceo... ¡Uy, qué fallo, si se ha quemao! Bueno pues a joelse. Que te la pique un escarabajo pelotero...
 
 
 // bowWow
-bowWow2 YIP YIP!\nYIP YIP!
+bowWow2 ¡Soy asexuarl!\n¡Jarl!
 
-bowWow3_0 Make-up! Jewels! Dresses! I want it all! sigh... And some new accessories would be nice...
-bowWow3_1 Oh! That Ribbon! I need it! Will you trade for my dog food?       
+bowWow3_0 ¡Maquillaje! ¡Vestíos! ¡Baratijas! ¡LOS KIERO! ¡Me está entrando la triquinosiss! ¡QUE ME DAAA!
+bowWow3_1 ¡Maquillaje! ¡Vestíos! ¡Pásamelosss! ¡Como no me rules algo tarranco las pelotas! Euh, ¿esa cinta? ¡PÁSAMELA, y te rulo esta comida!      
 
-bowWow3_2 Eh?! I can't believe it! You are the worst!!
-bowWow3_3 Lucky! Thanks!\nWell, here's your £!
+bowWow3_2 ¡¿Eh?! ¡¡Eres más cruel quel que mató a Bambi!!
+bowWow3_3 Esto sí que me ha llegao, ¡snif! ¡Ten, tu £!
 
 bowWow_dig WOOF! Dig! RUFF!
 
