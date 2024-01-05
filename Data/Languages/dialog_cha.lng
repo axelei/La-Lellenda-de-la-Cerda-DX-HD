@@ -539,73 +539,73 @@ npc_frog_body_bowwow ¡Joder, joder joder! ¿Pa qué traes al bicho este aquí? 
 
 npc_zora Si no le das al pico, te voy a largar algo de puta madre. Ábrete a la costa Tarumba, usa la lupa allí y vas a encontrar a alguien que se me parese.
 
-alligator_0 Welcome to Sale's House O' Bananas! I'm Sale, this is my house! Actually, my hobby is collecting rare and unusual canned food. My brother is an artist, so I guess strange hobbies run in the family!
-alligator_1 What's that you have?! It's canned food! For heaven's sake, man, give that £ to ME!! PLEASE!
-alligator_2 He's hysterical! What do you do?
-alligator_3 I don't suppose it would do any good to beg? Well, if you change your mind, tell me.
-alligator_4 Oh thank you! I'll take that!
-alligator_5 MUNCH MUNCH!! ... ... ... ... That was great! I know it's not a fair trade, but here's some bananas! YUM...
-alligator_6 Thank you again! That was yummy!
-alligator_7 Hey friend! Have you ever ridden the rapids on a raft? You can, near Tal Tal Heights! You ought to try it!
+alligator_0 ¡Bienvenío al keli Plátanos de Arguiñano! Me ha entrao una paranoia de colecsionar latas de carne putrefacta. Ya ves, el psiquiatra dice que eso es de las pirulas y de chutarme tres veces al día.
+alligator_1 ¡TÍO, TÍO, TÍO! ¿Tienes latas con carne descomponiéndose? ¡PÁSAME LA £ YA! ¡ARGHS, QUE ME DA!
+alligator_2 (Parece que está to enmonao, ¿qué haces?)
+alligator_3 Maldito chapero de mierda, así se te caiga el rabo a trozos. Con la ilusión que me hasía...
+alligator_4 ¡Og, grasias, grasias! Ejque soy putrófilo, ¿sabes?
+alligator_5 ¡ÑAMS, ÑAMS! ¡Rica, rica y con fundamento! Te cambio la lata por plátanos de canarias con sus motitas y todo.
+alligator_6 ¡Qué buena estaba la lata tío!
+alligator_7 ¡Eh, pellas! ¿Te has montao en patera en los rápidos de Tal y Tal? ¡Puedes hacer de moreno!
 
-witch_0 Double double, toil and trouble a toadstool mix makes powder for tricks!
-witch_1 Ahhh... It has the Sleepy Toadstool, it does! We'll mix it up something in a jiffy, we will!
-witch_2 It's all ready, it is! Take care, as there's not much there! Why not try a bit in my hut?
-witch_3 Good job! Use it on your enemies and see what happens. If you run out, go to the forest, pick some mushrooms, and I will make you more.
+witch_0 ¡Abra cadabra, la puta de la cabra! ¡Esta seta la cosino yo en un plis!
+witch_1 Ahhh... ties el hongo alusinógeno. ¿Te das cuen? ¡Haremos coca de la buena en un plis!
+witch_2 ¡Ya está la farlopa hecha! Ten cuidao con el polvo que hay poco. ¡Prueba un poco en mi chabola!
+witch_3 ¡Ahín, ahín! ¡Échale coca a los enemigos y verás cómo se colocas! Si te la esnifas toda, píllate otro hongo alusinógeno y te rularé más jaco.
 
-cukeman_0 Hey Mon!
-cukeman_1 You know me, I like short names the best...
-cukeman_2 It can display millions of polygons!
-cukeman_3 I definitely need it, as soon as possible!
+cukeman_0 ¡Pasa, tron!
+cukeman_1 Ya sabes, soy más cortito quel abrazo de un suegro.
+cukeman_2 ¡Tiene montones de colore!
+cukeman_3 ¡Tengo mucha nesesidá! ¡Me hase falta, sabes!
 
-fairy_0 Let's heal your wounds and get rid of all that stress... Close your eyes and relax...
+fairy_0 ¡Guarry Tracy es una carera! ¡Yo te hago una mamaílla mental y te relleno la vida de gratix! -CHUUUPPSSS-
 
 
 // general dialog not used in the actual game
-itemShop_dialog [itemShopItem]\n[itemShopPrice] Rupees!
-itemShop_bow Bow & Arrow Set Only 980 Rupees!
-itemShop_arrow 10 Arrows 10 Rupees
-itemShop_shovel Deluxe Shovel 200 Rupees! Seems expensive!
-itemShop_hearts Three Hearts 10 Rupees!  
-itemShop_shield Shield 20 Rupees!
-itemShop_bomb Ten Bombs 10 Rupees  
+itemShop_dialog [itemShopItem]\n¡[itemShopPrice] pelas!
+itemShop_bow ¡Arco y Flechas sólo 980 tarilos!
+itemShop_arrow 10 Flechas 10 de guita
+itemShop_shovel Pala trapera 200 chapas ¡Su puta madre, qué cara!
+itemShop_hearts Tres corasones 10 castañas  
+itemShop_shield Escudo 20 papeles
+itemShop_bomb 10 bombas H 10 pavos  
 
-itemShop_buy Buy
-itemShop_dont Don't
-itemShop_no_way No Way
-itemShop_no_way! No Way!
+itemShop_buy Fale
+itemShop_dont Norl
+itemShop_no_way Un nabo
+itemShop_no_way! Que te den
 
 // shopkeeper
-shopkeeper_0 Hey! Welcome! See anything you like?! Just bring it here!
-shopkeeper_1 Thanks a lot! And come again!
-shopkeeper_2 Sorry kid! You don't have the Rupees! Come back when you have the cash!
-shopkeeper_3 Aye Caramba! Kid, you have a lot to learn, trying to buy something you have no use for!
-shopkeeper_4 Hey! You! Stop! You gotta pay! Put it back!
-shopkeeper_5 Guess what? You got it for free. Are you proud of yourself?
+shopkeeper_0 ¡Pasa, coleguilla! ¿Ves algo que te mole? ¡Tu tráelo pacá!
+shopkeeper_1 ¡Vaya timo que te metío! ¡Amamonao!
+shopkeeper_2 ¡HAAW HAW HAW! ¿No tienes ni pa un chicle Boomer y quieres comprar eso?
+shopkeeper_3 ¡Ooh, cojones! ¡Pero gilipollas, si eso ya lo tienes, chaval! ¡[NAME] coño, eres la polla!
+shopkeeper_4 ¡Hey, tú, chorizo! ¡Hijoputa! ¡Paga eso, mamón!
+shopkeeper_5 ¡El Vaquilla era un ángel a tu lao! ¡Menúo estilo chirlando!
 
-itemShop_revenge I wasn't kidding when I said pay! Now, you'll pay the ultimate price!!
+itemShop_revenge ¿A que no sabías que soy Son Goku camuflao? ¡Toma KAME HAME HA, chorizo ajqueroso!
 
-weatherBird Here Sleeps The Flying Rooster
+weatherBird Aquí palma el pollo volante
 
-rooster_0 Wow! The Rooster has recovered! He seems very friendly!
+rooster_0 ¡Coño! ¡Un gallo sombi! ¡Espero que no me papee el tarro!
 
 // ghost that follows link
-ghost_0 {...the house...}{...take me...}{...the house...}{...at the bay...}
+ghost_0 {...el keli...}{...llévame...}{...al keli...}{...en la bahía...}
 // trying to enter a dungon
-ghost_1 {...N-N-No!...}{...N-not there!}
-ghost_2 {...Here!...}{...enter...}{...my house...}
-ghost_3 {...Nostalgia...}{...unchanged...}{...boo hoo...}
-ghost_4 {...Enough...}{...cemetery...}{...take me...}{...my grave...}
-ghost_5 {...my grave...}{...take me...}{...my grave...}
-ghost_6 {...Thank you...}{...a jar...}{...in my home...}{...look inside..}{...bye...bye...}
+ghost_1 {...¡N-N-Nor!...}{...¡Por ahí nor!}
+ghost_2 {...¡Aquirl!...}{...entra...}{...en mi chabola...}
+ghost_3 {...Me dejé...}{...el gas...}{...ensendío...}
+ghost_4 {...Vale, yasta...}{...sementerio...}{...llévame...}{...mi tumba...}
+ghost_5 {...mi tumba...}{...llévame...}{...a mi tumba...}
+ghost_6 {...Grasias tronco...}{...un jarrón...}{...en mi kelo...}{...pilla lo de endentro..}{...adiox...}
 
-ghost_grave_powder Cough Cough... Don't sprinkle that on me... ...I'll have to curse you! Cough Cough...
+ghost_grave_powder ¡Arghchús! ¡Arghfs! ¡Cagon en el copón santo! ¡No va y me echa eso ensima! ¡Cago en tus muertos pudríos! ¡Caufgs!
 
 
 // == owl ==
-owl_1_0 Hoot! Hoot!\nSo you are the lad who owns the sword...\fNow I understand why the monsters are starting to act so violently...\fA courageous lad has come to wake the Wind Fish...\fIt is said that you cannot leave the island unless you wake the Wind Fish...\fYou should now go north, to the Mysterious Forest.\nI will wait for you there! Hoot!
-owl_1_1 Hoot! Ho, brave lad, on your quest to wake the dreamer! Welcome to the Mysterious Wood! Much of mystery you will find on this uncharted Koholint island! I'm afraid you may find it a trifle difficult to leave the island while the Wind Fish naps. ...By the by, have you ever visited the Tail Cave, which is south of the village? Go there with the key you find in this forest... The Wind Fish is watching... Hoot!
-owl_1_2 Hoot! Take the key and go to the Tail Cave. Retrieve the Instrument that is hidden there! Go now! The Wind Fish is waiting! Hooot!
+owl_1_0 ¡Jurl, jurl!\nAsín que eres el dueño de la navaja...\f¿No te da verguensa contaminar el mar?\fBueno, parese que un orejudo con un par de pelotas ha venío a despertar al Pez Jincho...\fSe dise que no puedes dejar la Isla Barbate hasta que no lo despiertes...\fAle, pírate al norte hacia el Bosque Misterioso.\n¡Allí te espero fumándome unos petas! ¡Jurl!
+owl_1_1 ¡Jurl, jurl! ¡Sí que tardabas macho! ¡Me he fumado media docena de petas esperando! ¡Bienvenido al bosque misterioso! Se llama asín porque hay muchos misterios, jurl jurl. Lo chungo es que será chungo para ti pirarte de la isla si el marginal del Pez Jincho sigue con la caraja... Por sierto, ¿te has dado un rulo por la Cueva Cola, al sur del pueblacho? ¡Tírate para allí con la llave que chirlarás en el bosque! Bueno, yo me abro a pillarle un garbanzo al Pijota.
+owl_1_2 ¡Jurl! Pilla de una puta vez la llave y anda a la Cueva Cola, ¡y siséate el instrumento que hay allí! ¿A qué esperas, coño? ¿Es que eres hijo del Cuqui o qué?
 
 owl_2_0 Hoooot! That is an 'Instrument of the Sirens!' I have to admit, at first I did not believe you were real... That Instrument, along with the seven others in the set, has the power to wake the Wind Fish! You must collect them all! I was instructed to give you directions... Your next goal is north, in Goponga Swamp!! Hoot, indeed!
 owl_2_1 Hoot! That is a fearsome looking animal you have there! Do not forget, the next Instrument is in Goponga Swamp!
@@ -643,7 +643,7 @@ owl_final Hoot! Young lad, I mean... [NAME], the hero! You have defeated the Nig
 raccoon_0 As a raccoon, my nose is verrry sensitive, ta stuff like dust and powder...
 raccoon_1 Heh heh heh ho! You're goin' ta be lost, thanks to me!  Heh heh!
 
-dog GRRRR...
+dog GROARS...
 
 desert_bone_0 Ahhh... Yess... That dust was so refreshing... For that, I'll tell you a hint! Use a Bomb in a place where the sand swallows you... There is a treat on the other side of the wall... Bye!
 
