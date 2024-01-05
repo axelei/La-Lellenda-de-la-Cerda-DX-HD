@@ -484,60 +484,60 @@ bowWow3_1 ¡Maquillaje! ¡Vestíos! ¡Pásamelosss! ¡Como no me rules algo tarr
 bowWow3_2 ¡¿Eh?! ¡¡Eres más cruel quel que mató a Bambi!!
 bowWow3_3 Esto sí que me ha llegao, ¡snif! ¡Ten, tu £!
 
-bowWow_dig WOOF! Dig! RUFF!
+bowWow_dig ¡WOOFRS! ¡Cava, coño!
 
-npc_trendy_open TRENDY GAME!\nOne Play 10 Rs.
-npc_trendy_no_cash Sorry kid! You don't have the Rupees! Come back when you have the cash!
-npc_trendy_start The A and B Buttons move the crane... The rest is just timing! Go over to the buttons to play! Good Luck!
-npc_trendy_again Challenge Again?
-npc_trendy_closed We're closing up for today! Come again, anytime!
-npc_trendy_good_luck Good Luck!
+npc_trendy_open ¡No hay pelotas a jugar!\nUna partidica 10 napos.
+npc_trendy_no_cash Joer macho vás mas pelao que petete. Chanquete tenía más molla que tú. ¡Tírate a cagar!
+npc_trendy_start Ea, dale a A y B pa mover el cacharro... después se abaja solo. ¡Ya pues picarles a los botones a ves si pescas algo!
+npc_trendy_again ¿Te hase otra?
+npc_trendy_closed ¡Hoy está chapao, así que date el piro, joder!
+npc_trendy_good_luck ¡Dale caña, chaval!
 
-npc_trendy_play Play
-npc_trendy_no_play No
+npc_trendy_play Enga
+npc_trendy_no_play Paso
 
 // 0176: <
-npc_fisherman_0 How about some fishing, little buddy?
-npc_fisherman_choice I'll only charge you 10 Rupees...
-npc_fisherman_1 You have to have more passion! Live a little!
-npc_fisherman_2 You're short of Rupees? Don't worry about it. You just come back when you have more money, little buddy.
-npc_fisherman_3 Okay, here's how you do it. Use ° and ± on the ´ to aim a cast. Once you hook a fish, press the Button rapidly to reel him in!
-npc_fisherman_4 Why not try one more time, little buddy?
-npc_fisherman_5 Wow! That one got away!\nWant to try again?
-npc_fisherman_6 Wow! Nice Fish! It's a lunker!! I'll give you a 20 Rupee prize!
-npc_fisherman_6_1 Try again?
-npc_fisherman_7 It's a runt! I'll only give you a 5 Rupees prize for that.
-npc_fisherman_7_1 You should try again!
+npc_fisherman_0 ¿Quieres pescar, mariquita? Seguro que no pescas ni un condón.
+npc_fisherman_choice 10 pavetes, ¿qué me dises?
+npc_fisherman_1 ¡Si es que eres una maricona! ¡MARICONAAA!
+npc_fisherman_2 ¡Serás tieso, no te alumbran ni 10 chapas guarras! ¡Vuelve cuando tengas más molla!
+npc_fisherman_3 Mira chavás, esto va asín. Dale a ° y ± on y el ´ pa lanzar. ¡Cuando trinques algo dale tralla al botonsico pa traerlo pacá!
+npc_fisherman_4 ¿A que no hay pelotas de echarte otra?
+npc_fisherman_5 ¡Qué mariconazo, se ha najao!\n¿Otra más, carapolla?
+npc_fisherman_6 ¡Oootia pavo, vaya bicho! Mira, te paso 20 de guita por él.
+npc_fisherman_6_1 ¿Echas otra?
+npc_fisherman_7 ¡Vaya mieeerda de pejcao! ¡Esto no lo quiere ni un etíope desos! Te doy 5 pelas y vas que te matas.
+npc_fisherman_7_1 ¿Te echas otra?
 
-npc_fisherman_8 Oh! It's a big one! And it has a Piece of Heart, too! You get a 20 Rupee prize on top of that!
-npc_fisherman_8_full Oh! It's a big one! And it has a Piece of Heart, too! You have completed another Heart Container! On top of that, you get a 20 Rupee prize! Want to try again?
+npc_fisherman_8 ¡Ahísta, vaya bicharraco! ¡Y trae un cacho de corasón! Pos te rulo 20 por él, coleguita.
+npc_fisherman_8_full ¡Madre, vaya sardina! ¡Está mutada o algo! Trae un cacho de corasón y puedes montarte uno nuevo. Además te rulo 20 por él.
 
-npc_fisherman_8_1 Try again?
-npc_fisherman_9 This pond's all fished out.
-npc_fisherman_9_1 Why not try your luck in the sea?
-npc_fisherman_10 Did I say that? Forget it, okay? Run along now...
+npc_fisherman_8_1 ¿Otra, capitán findus?
+npc_fisherman_9 ¡Tío, te has extinguío el charco!
+npc_fisherman_9_1 Vete a la playa que habrá mas.
+npc_fisherman_10 ¡Que es broma, chaval! Anda y nájate o te meto un meco...
 
 
 // npc raft
-npc_raft_0 Want to go on a raft ride for a hundred Rupees?
-npc_raft_1 Okay, the raft is ready for you outside! Enjoy!
+npc_raft_0 ¿Quieres viajar en patera por 100 napos?
+npc_raft_1 Bueh, la patera está allí fuera, ¡gósala!
 // same string as for the fisherman
-npc_raft_2 You're short of Rupees? Don't worry about it. You just come back when you have more money, little buddy.
+npc_raft_2 ¡Tú estás mas tieso que un obispo en una guardería! ¡Anda a la vía!
 
 // frog boy
-npc_frog_boy_0 Salutations! You wouldn't know by the look of me, but I used to live in the castle! My servants went berserk and I was forced to flee to my villa... So, you want the key to Ukuku Prairie, do you? I may be able to help you...  Let's make... a deal, shall we? I want you to retrieve the Golden Leaf I left behind in the castle when I fled...
+npc_frog_boy_0 ¡Qué pasa chaval! Mira, lo mismo te cachondeas de mí, pero antes mi keli era el castillo, hasta que un dia me hinché de coca y cuando me desperté me encontraba aquí en pelotas. Asín que quieres la llave del prado Kukurl, ¿ein? Mira, te la rularía, pero tenemos que negosiar, ¿ein? Tráeme unas hojas de maría que me se cayeron en el castillo con la mierda que pillé. ¿Falen?
 
-npc_frog_body_impressed I am impressed. There are five leaves in all. Remember to buy a shovel on your way back.
-npc_frog_body_coward Well, I never! I thought you looked cowardly, but...  Please, leave me... just get out here!
+npc_frog_body_impressed ¡Eres un enrollao! Hay sinco hojas. Pero píllate una pala guapa, fijo que te irá de fruta madrem.
+npc_frog_body_coward Veo que pasas del menda... he visto picoletos más enrollaos que tú, bastardo orejudo.
 
-npc_frog_body_please Ah! Bonjour! [NAME], for the love of justice, and my own sake, you must find all the leaves!
+npc_frog_body_please ¡Eh, tú, [NAME] amamonao! Mueve el puto culo y tráeme la maría ya, que tengo ganas de unos petardos.
 
-npc_frog_body_bien Ahh! Tres Bien! I see you have recovered all of the leaves! Now, move this box and you will find your reward!
-npc_frog_body_debt I am forever in your debt for getting my leaves back!
+npc_frog_body_bien ¡Ahh, de guays, me has traío la maría! (¡Vaya petas que me voy a liar!) Ahora menea esa caja y ve a buscar la llave.
+npc_frog_body_debt Mu agradesío por la maría, pero no te pienso rular ni un peta. ¡Ja!
 
-npc_frog_body_bowwow Ahem! Really, I must insist that you not bring that awful beast in here! Leave that creature outside and then we can talk! Good Bye!
+npc_frog_body_bowwow ¡Joder, joder joder! ¿Pa qué traes al bicho este aquí? Deja al bicharraco afuera y podremos darle al palique lo que quieras.
 
-npc_zora If you keep me a secret, I'll tell you something useful. Go to Toronbo Shores, use the magnifying glass and you will find someone like me.
+npc_zora Si no le das al pico, te voy a largar algo de puta madre. Ábrete a la costa Tarumba, usa la lupa allí y vas a encontrar a alguien que se me parese.
 
 alligator_0 Welcome to Sale's House O' Bananas! I'm Sale, this is my house! Actually, my hobby is collecting rare and unusual canned food. My brother is an artist, so I guess strange hobbies run in the family!
 alligator_1 What's that you have?! It's canned food! For heaven's sake, man, give that £ to ME!! PLEASE!
