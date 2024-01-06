@@ -682,33 +682,33 @@ book_dont Yunamierda
 
 bookcase Esto no es un cofre, será capullo [NAME]...
 
-book1_0 'Selecting The Item That's Right For You'
-book1_1 'You can select your favorite item for the A and B Buttons on the Sub-Screen. Using different items, you can fight without a sword! Try many different things to find what's right for you!'
+book1_0 'Selecsionando el cacharro conveniente'
+book1_1 'Puedes selecsionar tu cacharro favorito usando los botonsicos A y B en la subpantalla. ¡No sólo de navajas de Albacete vive el hombre!' Desde luego este libro es pa deficientes mentales.
 
-book2_0 'Auto Map And Memo Guide Book'
-book2_1 'You can see an island map by pressing the SELECT Button. The dark parts of the map are the places you have not yet visited. Move the cursor and press the A Button to get more information about an area, or to replay the message you got there...'
+book2_0 'Mapa de Dora la Exploradora'
+book2_1 'Puedes ver el mapa de Barbate dándole al botonsico SELECT. Los sitios ande no hayas pululao aún estarán mas negros que tu ojete. Mueve el cursor y dale al A para mas informasión o para leer la monserga del tarao del búho.' ¿Pero estos se creen que soy geliposchas?
 
-book3_0 'Secrets Of The Whirling Blade'
-book3_1 'The Whirling Blade technique has been handed down from generation by the family of the hero. To use it, hold down the Sword Button and build up your power. When you have enough, you can released the Button! Can you master this?'
+book3_0 'Secretos del Baile de San Vito'
+book3_1 'El baila de San Vito es una tésnica que usaba el Último Guerrero en sus combates. Tú también puedes usarla, invocando a Manitú en tu navaja dejando pulsao el botón de la navaja un rato... ¡Suéltalo y emula a tus héroes de la WWF!' ¡Eso mola!
 
-book4_0 'How To Handle Your Shield Like A Pro!'
-book4_1 'If you hold the Button down, you can defend yourself from enemy attacks, and you can flip some enemies, to... Besides the standard shield there is also a mirrored variety which can defend against beams!'
+book4_0 'Cómo usar esa cosa llamada escudo'
+book4_1 'Sólo para gilipollas: dale al botón pa defenderte de los ataques de los cholos y demás purria. ¡Algunos podrán ser volteados! Disen que además hay un ejcudo que va como dios...' ¿Dónde coño podré afanarlo?
 
-book5_0 'Fun With Bombs'
-book5_1 'After you put a Bomb down, you can pick it up by pressing the Button again. You can then throw it by pushing the Button one more time. Did you know that?'
+book5_0 'Manual del terrorista'
+book5_1 'Cuando pongas una bomba (ya sea de amonal o de GOMA2) puedes pillarla dándole al botón otra vez. Entonces puedes lanzarla a lo terrorista islámico a la voz de ¡¡Allahuakbar!!'
 
-book6_0 'The Properties Of Warp Holes'
-book6_1 'There are some Warp Holes on Koholint Island. You can warp to and fro using these holes. If you jump into the Warp Hole at which you arrived, you will go back to the next one in the sequence. You can only warp to a hole you have seen with your own eyes...'
+book6_0 'Propiedades de los transportadores'
+book6_1 'Al igual que en Star Trek, en Barbate hay transportadores. Si saltas endentro de uno, te mandarán a las siguientes coordenadas espacio-tempo... quiero dicir, al siguiente en la secuencia. Sólo puedes trasnportarte a sitios donde hayas clichao antes.' Vale, mr. Spock.
 
-book7_0 'Atlas Of Koholint Island'
-book7_1 You can move the cursor and look up the name of a place... Do you want to look at this map?
+book7_0 'Atlas de la Isla Barbate'
+book7_1 Puedes mover el cursor y ver el nombre de los sitios... ¿Quieres jipiar el mapa?
 
-book8_0 'Dark Secrets And Mysteries Of Koholint'
-book8_1 Gasp! Wha-what's this! ... ... You can't read the tiny print without the aid of a magnifying glass...
-book8_2 Round and round, the passageways of the Egg...\n{° ° ³ ± ± ³ ° ³}{??}...Hmmmmmm, this book reeks of secrets...
-book8_3 Round and round, the passageways of the Egg...\n{± ³ ³ ± ³ ³ ± ³}{??}...Hmmmmmm, this book reeks of secrets...
-book8_4 Round and round, the passageways of the Egg...\n{° ³ ± ³ ° ³ ± ³}{??}...Hmmmmmm, this book reeks of secrets...
-book8_5 Round and round, the passageways of the Egg...\n{± ± ± ± ³ ³ ³ ³}{??}...Hmmmmmm, this book reeks of secrets...
+book8_0 'Negros secretos y misterios de Barbate'
+book8_1 ¡Coño, esto qué es! ... ... Está en formato chuleta de colegio ¡No puedes ver ni el índice tío! Como no te busques una puta lupa...
+book8_2 Cómo llegar a la yema del guevo en un plis...\n{° ° ³ ± ± ³ ° ³}{??}...¿Euhn? ¿Mande lo cualo? ¿Es cachondeo esto?
+book8_3 Cómo llegar a la yema del guevo en un plis...\n{± ³ ³ ± ³ ³ ± ³}{??}...¿Euhn? ¿Mande lo cualo? ¿Es cachondeo esto?
+book8_4 Cómo llegar a la yema del guevo en un plis...\n{° ³ ± ³ ° ³ ± ³}{??}...¿Euhn? ¿Mande lo cualo? ¿Es cachondeo esto?
+book8_5 Cómo llegar a la yema del guevo en un plis...\n{± ± ± ± ³ ³ ³ ³}{??}...¿Euhn? ¿Mande lo cualo? ¿Es cachondeo esto?
 
 
 // ° ± ² ³
@@ -717,52 +717,52 @@ book8_5 Round and round, the passageways of the Egg...\n{± ± ± ± ³ ³ ³ ³
 // v 0178 
 
 // ° ± ² ³
-book9_1 New world of color under the 5 gravestones.\f{3³  4±  5³}{2°  1²   }\fTry with all your might. Open a new path! Whoever is worthy receives the power of color. I wonder what the world of color is?
+book9_1 Nuevo mundo en technicolor bajo las sinco lápidas.\f{3³  4±  5³}{2°  1²   }\f¡Dale con todas tus ganas, nen! Quien lo meresca le darán el poder del color, y un fin de semana en un chalet en Torremolinos.
 
 // phone in the house of ulrira
-ulrira_telephone 'BRRING! BRRING! BRRING! CLICK! Yeees! It's the Bucket Mouse! Thanks for calling! ...Well... CLICK!' ??? ... You must have dialed a wrong number...
+ulrira_telephone '¡TIRURÍ, TIRURÍ! Timofónica le informa de que el número marcado no existe. Eso sí, le cobraremos la llamada igualmente como manda Pichalonga.' -click-
 
 // ulrira dialog
-ulrira_0 'BRRING! BRRING! Hello! It's me, Ulrira! Ask me anything about the island! If you get lost, give me a call! Bye! CLICK!'
-ulrira_1 'BRRING! BRRING! Ulrira speaking! You know, there is a library in the village that might have some good information for you! Talk to you later! CLICK!'
+ulrira_0 '¡TIRURÍ, TIRURÍ! ¿Ein? Sí tio, soy el Ulrira. Si te pierdes o quieres saber algo de Barbate dame un toque o algo.' -click-
+ulrira_1 '¡TIRURÍ, TIRURÍ! Ulrira speaking! You know, there is a library in the village that might have some good information for you! Talk to you later! CLICK!'
 
-ulrira_2_0 'BRRING! BRRING! Hello, this is Ulrira! ...Well, most Moblins live in the Mysterious Forest, but some live in the caves of Tal Tal Heights... I hope that is what you wanted to know! CLICK!'
-ulrira_2_1 'BRRING! BRRING! Yes, this is Ulrira. The Indigestible Flowers of Goponga Swamp... Those flowers are BowWow's favorite. Why don't you take him for a walk there? CLICK!'
+ulrira_2_0 '¡TIRURÍ, TIRURÍ! Hello, this is Ulrira! ...Well, most Moblins live in the Mysterious Forest, but some live in the caves of Tal Tal Heights... I hope that is what you wanted to know! CLICK!'
+ulrira_2_1 '¡TIRURÍ, TIRURÍ! Yes, this is Ulrira. The Indigestible Flowers of Goponga Swamp... Those flowers are BowWow's favorite. Why don't you take him for a walk there? CLICK!'
 
-ulrira_3_0 'BRRING! BRRING! Ulrira at your service! Oh? You should take BowWow home now, Madam MeowMeow would appreciate it! Bye! CLICK!'
-ulrira_3_1 'BRRING! BRRING! Hi, it's Ulrira! ...Have you met everyone on the island? There's a man named Richard who lives in Pothole Field, southeast of the village. Why not pay him a visit? That's all I can tell you for now! Bye! CLICK!'
-ulrira_3_2 'BRRING! BRRING! Old man Ulrira here! ...Do you like bananas? Try talking to people in the village again! Bye! CLICK!'
+ulrira_3_0 '¡TIRURÍ, TIRURÍ! Ulrira at your service! Oh? You should take BowWow home now, Madam MeowMeow would appreciate it! Bye! CLICK!'
+ulrira_3_1 '¡TIRURÍ, TIRURÍ! Hi, it's Ulrira! ...Have you met everyone on the island? There's a man named Richard who lives in Pothole Field, southeast of the village. Why not pay him a visit? That's all I can tell you for now! Bye! CLICK!'
+ulrira_3_2 '¡TIRURÍ, TIRURÍ! Old man Ulrira here! ...Do you like bananas? Try talking to people in the village again! Bye! CLICK!'
 
-ulrira_leaf_0 'BRRING! BRRING! Ya, it's Ulrira! You haven't found the 5 Golden Leaves? Keep an eye on the ones you have. Someone might try and take 'em! Bye! CLICK!'
-ulrira_leaf_1 'BRRING! BRRING! Ya, it's Ulrira! You haven't found the 5 Golden Leaves? Try bombing suspicious places. Hope that helps. Bye! CLICK!'
-ulrira_leaf_2 'BRRING! BRRING! Ya, it's Ulrira! You haven't found the 5 Golden Leaves? Go scare that crow by the castle and see if that helps! Bye! CLICK!'
-ulrira_shovel 'BRRING! BRRING! Ulrira here! ... Shovel... Did you purchase a shovel? You may find something if you dig here and there! Bye! CLICK!'
+ulrira_leaf_0 '¡TIRURÍ, TIRURÍ! Ya, it's Ulrira! You haven't found the 5 Golden Leaves? Keep an eye on the ones you have. Someone might try and take 'em! Bye! CLICK!'
+ulrira_leaf_1 '¡TIRURÍ, TIRURÍ! Ya, it's Ulrira! You haven't found the 5 Golden Leaves? Try bombing suspicious places. Hope that helps. Bye! CLICK!'
+ulrira_leaf_2 '¡TIRURÍ, TIRURÍ! Ya, it's Ulrira! You haven't found the 5 Golden Leaves? Go scare that crow by the castle and see if that helps! Bye! CLICK!'
+ulrira_shovel '¡TIRURÍ, TIRURÍ! Ulrira here! ... Shovel... Did you purchase a shovel? You may find something if you dig here and there! Bye! CLICK!'
 
-ulrira_3_3 'BRRING! BRRING! Ya, it's Ulrira! The cave in the Ukuku Prairie is the key! Yes, I mean the key cave, no pun intended. Bye! CLICK!'
+ulrira_3_3 '¡TIRURÍ, TIRURÍ! Ya, it's Ulrira! The cave in the Ukuku Prairie is the key! Yes, I mean the key cave, no pun intended. Bye! CLICK!'
 
-ulrira_4_0 'BRRING! BRRING! Hi, this is Ulrira! In the Yarna Desert, which is located in the southeast of the island, you will find something called the Angler Key. Hmmm... How much more obvious do I have to be? Bye! CLICK!'
-ulrira_4_1 'BRRING! BRRING! This is Ulrira! Oh, I heard from grandma that there is something hidden behind the falls in the Tal Tal Mountains. Does that help? Bye! CLICK!'
+ulrira_4_0 '¡TIRURÍ, TIRURÍ! Hi, this is Ulrira! In the Yarna Desert, which is located in the southeast of the island, you will find something called the Angler Key. Hmmm... How much more obvious do I have to be? Bye! CLICK!'
+ulrira_4_1 '¡TIRURÍ, TIRURÍ! This is Ulrira! Oh, I heard from grandma that there is something hidden behind the falls in the Tal Tal Mountains. Does that help? Bye! CLICK!'
 
-ulrira_5_0 'BRRING! BRRING! Hi, it's Ulrira! The Catfish's mouth is wide open? It sounds like a great place to dive! Bye! CLICK!'
+ulrira_5_0 '¡TIRURÍ, TIRURÍ! Hi, it's Ulrira! The Catfish's mouth is wide open? It sounds like a great place to dive! Bye! CLICK!'
 
-ulrira_6_0 'BRRING! BRRING! Ulrira here! ... Have you been to the Face Shrine? It is north of Animal Village. That is a very interesting ruin... CLICK!'
+ulrira_6_0 '¡TIRURÍ, TIRURÍ! Ulrira here! ... Have you been to the Face Shrine? It is north of Animal Village. That is a very interesting ruin... CLICK!'
 
-ulrira_7_0 'BRRING! BRRING! Hi, it's Ulrira! Have you heard of the Flying Rooster of Mabe Village? In the good old days, it used to give us rides if we held it above our heads... Now it is lying under the Weathercock... Is that useful for you? I hope so! Bye! CLICK!'
-ulrira_7_1 'BRRING! BRRING! Hi, it's Ulrira! You are doing great! Your efforts will end soon... By the way, have you visited the Hen House on the mountain? There is a cave nearby with something important in it. Bye! CLICK!'
-ulrira_7_2 'BRRING! BRRING! Ulrira here... Yes, when I was just a lad, I recall seeing a high tower in the mountains! You should go there! Is that helpful for you? Bye! CLICK!'
+ulrira_7_0 '¡TIRURÍ, TIRURÍ! Hi, it's Ulrira! Have you heard of the Flying Rooster of Mabe Village? In the good old days, it used to give us rides if we held it above our heads... Now it is lying under the Weathercock... Is that useful for you? I hope so! Bye! CLICK!'
+ulrira_7_1 '¡TIRURÍ, TIRURÍ! Hi, it's Ulrira! You are doing great! Your efforts will end soon... By the way, have you visited the Hen House on the mountain? There is a cave nearby with something important in it. Bye! CLICK!'
+ulrira_7_2 '¡TIRURÍ, TIRURÍ! Ulrira here... Yes, when I was just a lad, I recall seeing a high tower in the mountains! You should go there! Is that helpful for you? Bye! CLICK!'
 
-ulrira_8_0 'BRRING! BRRING! Hi, it's Ulrira! The head of the turtle is in your way? Put life into it and it will move! It's true! True! Bye! CLICK!'
-ulrira_8_1 'BRRING! BRRING! Ulrira here! ... Go for it! You're almost there! I'm pulling for you! Bye! CLICK!'
+ulrira_8_0 '¡TIRURÍ, TIRURÍ! Hi, it's Ulrira! The head of the turtle is in your way? Put life into it and it will move! It's true! True! Bye! CLICK!'
+ulrira_8_1 '¡TIRURÍ, TIRURÍ! Ulrira here! ... Go for it! You're almost there! I'm pulling for you! Bye! CLICK!'
 
-ulrira_9_0 'BRRING! BRRING! Hello, this is Ulrira speaking! [NAME], it's time for you to face the Egg on Mt. Tamaranch! Be careful, [NAME]! Bye! CLICK!'
-ulrira_9_1 'BRRING! BRRING! This is Ulrira! You're lost in the Egg? Hmmmm. No sir, I can't help you on that one. How about the library? And hey, don't stop calling me because I didn't know one little answer! CLICK!'
+ulrira_9_0 '¡TIRURÍ, TIRURÍ! Hello, this is Ulrira speaking! [NAME], it's time for you to face the Egg on Mt. Tamaranch! Be careful, [NAME]! Bye! CLICK!'
+ulrira_9_1 '¡TIRURÍ, TIRURÍ! This is Ulrira! You're lost in the Egg? Hmmmm. No sir, I can't help you on that one. How about the library? And hey, don't stop calling me because I didn't know one little answer! CLICK!'
 
-ulrira_wife 'BRRING! BRRING! Ya, it's Ulrira! My wife went to the Animal Village and left me all alone. Can you tell her to come home as soon as she is done cleaning? Bye! CLICK!'
-ulrira_ghost 'BRRING! BRRING! This is Ulrira! Now you're being haunted by a ghost?! Well, how about taking him where he wants to go? Bye! CLICK!'
-ulrira_mamu 'BRRING! BRRING! Yeah, this is Ulrira! You are starting to like music, eh? Well, a frog named Mamu, who lives in the Signpost Maze, might know some new songs, but he charges a lot to play them! Bye! CLICK!'
+ulrira_wife '¡TIRURÍ, TIRURÍ! Ya, it's Ulrira! My wife went to the Animal Village and left me all alone. Can you tell her to come home as soon as she is done cleaning? Bye! CLICK!'
+ulrira_ghost '¡TIRURÍ, TIRURÍ! This is Ulrira! Now you're being haunted by a ghost?! Well, how about taking him where he wants to go? Bye! CLICK!'
+ulrira_mamu '¡TIRURÍ, TIRURÍ! Yeah, this is Ulrira! You are starting to like music, eh? Well, a frog named Mamu, who lives in the Signpost Maze, might know some new songs, but he charges a lot to play them! Bye! CLICK!'
 
 // TODO: not sure when this is shown in the game
-ulrira_seashells 'BRRING! BRRING! Ulrira speaking! Are your enemies too strong for you? In that case, you better collect all the Seashells... Just believe in yourself and do your best! CLICK!'
+ulrira_seashells '¡TIRURÍ, TIRURÍ! Ulrira speaking! Are your enemies too strong for you? In that case, you better collect all the Seashells... Just believe in yourself and do your best! CLICK!'
 
 
 // dungeon intro
