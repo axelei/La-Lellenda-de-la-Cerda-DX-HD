@@ -4,10 +4,10 @@ compass ¡Pillas la brújula de supervivensia de RAMBO!\n¡Ahora puedes ver ande
 dmap ¡Pillas el mapa de Dora la Exploradora!\n¡Dale al SELECT pa saber ande coño andas!
 stonebeak ¡Coño, un pico!\n¡Amos a la estatua del búho y se la pegamos con loctite!
 
-sword1 ¡Pillas tu navaja de Albasete! ¡Tie que ser la tuya porque pone tu nombre pintao!
+sword1 ¡Pillas tu navaja de Albasete! ¡Aunque sabes leer poco, tie que ser la tuya porque pone [NAME] pintao!
 feather ¡Pillas la pluma ibérica! ¡Ahora puedes pegar unos saltos que ni el Sotomayor!
 pegasusBoots ¡Pillas las Nike Jordan! ¡Si le das al botón correrás más que una gallina en Somalia!
-flippers ¡Trincas las aletas! ¡Si le das al botón B cuando nadas, puedes meter el hocico debajo del agua!
+flippers ¡Trincas las aletas! ¡Si le das al botón B cuando nadas, puedes meter el hosico endebajo del agua!
 bracelet0 ¡Tienes el mosquetón de Hulk Hogan! ¡Vamos a levantar cosas!
 bracelet1 ¡Trincas el mosquetón de Chuck Norris! ¡Ahora eres una puta grúa humana!
 ocarina ¡Pillas una ocarina! ¡A ver si te aprendes una de ACDC!
@@ -64,7 +64,7 @@ heart ¡Pillas un corasón! ¡Mola! ¡Has llenao un hueco que había en el tuyo!
 ruby20 ¡Pillaste 20 chapas! ¡Mola!
 ruby50 ¡Pillaste 50 chapas!\n¡Cojonúo!
 ruby100 ¡Pillas 100 piastras!\n¡Esto pa putas!
-ruby200 ¡Afanaste 200 papeles!\n¡Gástatelo en ful!
+ruby200 ¡Afanaste 200 papeles!\n¡Gástatelo en ful, [NAME]!
 
 // trendy game
 ruby30 ¡Son 30 pelas! ¡Puedes viciarte tres veces con eso! ¡Dale tralla!
@@ -92,7 +92,7 @@ instrument3 ¡Has afanao el Arpa Surfera!
 instrument4 ¡Consigues la Marimba de los Pedos!
 instrument5 ¡Has trincao el Triángulo pa llamar al Servisio!
 instrument6 ¡Pillas el Órgano de la Paja Matutina!
-instrument7 ¡Consigues el Tambor del Rosío!
+instrument7 ¡Consigues el Tambor Rociero!
 
 instrument0Collected {...PANTANO...}{Papeate todas...}{las flores...}
 instrument1Collected {...PRAERA...}{...PRAERA...} La casa de la pradera...
@@ -125,14 +125,14 @@ signpost9 ± Pueblo Bichejo\n² Bahía de Marta
 signpost10 Mansión Conchas Codan
 
 signpost11 Tas serca de los Altos Tal y Tal. La tienda de afotos está serca.
-signpost12 ± Monte Tamaranch\n° Pantano Goponga
+signpost12 ± Monte Tamaranch\n° Pantano Gopotas
 signpost13 ± Guarry Tracy\n² Estanque Manbo
 signpost14 ± Sementerio\n² Praera Ukuku
-signpost15 ± Pantano Gopongo\n² Bosque Misterioso
+signpost15 ± Pantano Gopotas\n² Bosque Misterioso
 
-signpost16 ¡PILIGRO!\n¡A tomar por culo!\n(Excepto GuaGuas)
+signpost16 ¡PILIGRO, FUERA!\n¡A tomar por culo!\n(Excepto GuaGuas)
 signpost17 Keli del Richard
-signpost19 Cabina de teléfonos\n² Laberinto de Letreros
+signpost19 Cabina de Timofónica\n² Laberinto de Letreros
 
 signpost20 Monte Tamaranch 
 signpost21 ¿Quieres pillar una patera to guapa? ¡Tira la la oficina y vemos, mojaíto!
@@ -174,7 +174,7 @@ signHead3 ESPUMA DE MORSA, SUEÑOS DE OSOS SOBAOS... TOS ACABAN EN EL HOYO. ¡FL
 signHead4 LOS SECRETOS IBÉRICOS SON COMO AGUA PA LOS PUENTE
 signHead5 EL PES JINCHO SE CLAPA MÁS... EL MACHO IBÉRICO SE PIRA...
 signHead6 LOS SECRETOS IBÉRICOS ESTAN MU SERCA
-signHead7 Estás serca de la Torre del Águila. ¡Cuidao con el pajarillo!
+signHead7 Estás serca de la Torre del Avecrem. ¡Cuidao con el pajarillo!
 signHead8 ARA DEBES IR AL QUINTO COÑO A POR UN SECRETO...
 signHead9 LA TIERRA GUARDA SECRETOS BAJO TUS PIESES...
 
@@ -680,7 +680,7 @@ book_no NOR
 book_look Mirar
 book_dont Yunamierda
 
-bookcase Esto no es un cofre, será capullo [NAME]...
+bookcase Esto no es un cofre. Serás capullo, [NAME]...
 
 book1_0 'Selecsionando el cacharro conveniente'
 book1_1 'Puedes selecsionar tu cacharro favorito usando los botonsicos A y B en la subpantalla. ¡No sólo de navajas de Albacete vive el hombre!' Desde luego este libro es pa deficientes mentales.
@@ -689,7 +689,7 @@ book2_0 'Mapa de Dora la Exploradora'
 book2_1 'Puedes ver el mapa de Barbate dándole al botonsico SELECT. Los sitios ande no hayas pululao aún estarán mas negros que tu ojete. Mueve el cursor y dale al A para mas informasión o para leer la monserga del tarao del búho.' ¿Pero estos se creen que soy geliposchas?
 
 book3_0 'Secretos del Baile de San Vito'
-book3_1 'El baila de San Vito es una tésnica que usaba el Último Guerrero en sus combates. Tú también puedes usarla, invocando a Manitú en tu navaja dejando pulsao el botón de la navaja un rato... ¡Suéltalo y emula a tus héroes de la WWF!' ¡Eso mola!
+book3_1 'El baile de San Vito es una tésnica que usaba el Último Guerrero en sus combates. Tú también puedes usarla, invocando a Manitú en tu navaja dejando pulsao el botón de la navaja un rato... ¡Suéltalo y emula a tus héroes de la WWF!' ¡Eso mola!
 
 book4_0 'Cómo usar esa cosa llamada escudo'
 book4_1 'Sólo para gilipollas: dale al botón pa defenderte de los ataques de los cholos y demás purria. ¡Algunos podrán ser volteados! Disen que además hay un ejcudo que va como dios...' ¿Dónde coño podré afanarlo?
@@ -724,105 +724,105 @@ ulrira_telephone '¡TIRURÍ, TIRURÍ! Timofónica le informa de que el número m
 
 // ulrira dialog
 ulrira_0 '¡TIRURÍ, TIRURÍ! ¿Ein? Sí tio, soy el Ulrira. Si te pierdes o quieres saber algo de Barbate dame un toque o algo.' -click-
-ulrira_1 '¡TIRURÍ, TIRURÍ! Ulrira speaking! You know, there is a library in the village that might have some good information for you! Talk to you later! CLICK!'
+ulrira_1 '¡TIRURÍ, TIRURÍ! Ohhh... ¡ooorghs! ¡así, Marin, así! Ah, ¡eres tú, [NAME]! En la biblioteca hay algo de informasión. ¡Ahora déjame follar en paz!' -click-
 
-ulrira_2_0 '¡TIRURÍ, TIRURÍ! Hello, this is Ulrira! ...Well, most Moblins live in the Mysterious Forest, but some live in the caves of Tal Tal Heights... I hope that is what you wanted to know! CLICK!'
-ulrira_2_1 '¡TIRURÍ, TIRURÍ! Yes, this is Ulrira. The Indigestible Flowers of Goponga Swamp... Those flowers are BowWow's favorite. Why don't you take him for a walk there? CLICK!'
+ulrira_2_0 '¡TIRURÍ, TIRURÍ! Hola, aquí el Ulrira otra vez. Munchos cholos viven en el Bosque Misterioso, y otros tienen su keo en los Altos Tal y Tal. ¡Sí, los construyó el Jesús Gil, so babioso!' -click-
+ulrira_2_1 '¡TIRURÍ, TIRURÍ! Joer macho, qué inoportuno, ahora que me la estaba mamando la Marin... Ah, sí, las flores del pantano Gopotas les mola más a los GuaGuas que un McPollo a un yanki. ¡Dale!' -click-
 
-ulrira_3_0 '¡TIRURÍ, TIRURÍ! Ulrira at your service! Oh? You should take BowWow home now, Madam MeowMeow would appreciate it! Bye! CLICK!'
-ulrira_3_1 '¡TIRURÍ, TIRURÍ! Hi, it's Ulrira! ...Have you met everyone on the island? There's a man named Richard who lives in Pothole Field, southeast of the village. Why not pay him a visit? That's all I can tell you for now! Bye! CLICK!'
-ulrira_3_2 '¡TIRURÍ, TIRURÍ! Old man Ulrira here! ...Do you like bananas? Try talking to people in the village again! Bye! CLICK!'
+ulrira_3_0 '¡TIRURÍ, TIRURÍ! Buenas, oye, que me ha dicho la Caballé que le lleves ya su bola con dientes, que ya está bien de paseítos. ¡Enga!' -click-
+ulrira_3_1 '¡TIRURÍ, TIRURÍ! Joer macho cómo la mamaba la Marin... ¿ein? Bueh, ¿has conocío a un pavo que se llama Richard en su keli de CampoPozos al sureste del pueblacho? Es un yonko que te cagas, ve a darle una visita... bueno macho, te dejo.' -click-
+ulrira_3_2 '¡TIRURÍ, TIRURÍ! ¡Aquí Ulrira el viejo! ¿Te molan las bananas? ¡No, no! ¡De esas bananas no! Intenta darle palique a la peña del pueblo.' -click
 
-ulrira_leaf_0 '¡TIRURÍ, TIRURÍ! Ya, it's Ulrira! You haven't found the 5 Golden Leaves? Keep an eye on the ones you have. Someone might try and take 'em! Bye! CLICK!'
-ulrira_leaf_1 '¡TIRURÍ, TIRURÍ! Ya, it's Ulrira! You haven't found the 5 Golden Leaves? Try bombing suspicious places. Hope that helps. Bye! CLICK!'
-ulrira_leaf_2 '¡TIRURÍ, TIRURÍ! Ya, it's Ulrira! You haven't found the 5 Golden Leaves? Go scare that crow by the castle and see if that helps! Bye! CLICK!'
-ulrira_shovel '¡TIRURÍ, TIRURÍ! Ulrira here! ... Shovel... Did you purchase a shovel? You may find something if you dig here and there! Bye! CLICK!'
+ulrira_leaf_0 '¡TIRURÍ, TIRURÍ! ¿No has pillao aún las sinco hojas de maría? Mira que eres cortico macho. Ten cuidao con las que ya tienes, no vaya algún pavo a chirlártelas, hue hue hue.' -click-
+ulrira_leaf_1 '¡TIRURÍ, TIRURÍ! Aquí el Ulrira, el que a todas se tira. ¿No has pillao aún las sinco hojas de maría? Mira en todos los sitios sospechosos (como tu culo, haw haw) y ponles una bomba. ¡Tira!' -click
+ulrira_leaf_2 '¡TIRURÍ, TIRURÍ! Sí, aquí el Ulrira. ¿No has pillao aún las sinco hojas de maría? ¡Pilla al cuervo negro por banda, fijo que te echa un cable! Bueno, ahora déjame leer el Private.' -click-
+ulrira_shovel '¡TIRURÍ, TIRURÍ! ¡Joeeer con el móvil! ¿Pala? ¿Te has agenciao una pala? ¡Haz de Antonio molina y cava! ¡Hay cantidubi de cosas guapas! ¡Ea!' -click-
 
-ulrira_3_3 '¡TIRURÍ, TIRURÍ! Ya, it's Ulrira! The cave in the Ukuku Prairie is the key! Yes, I mean the key cave, no pun intended. Bye! CLICK!'
+ulrira_3_3 '¡TIRURÍ, TIRURÍ! ¡Ulrira al aparato! La cueva en la pradera Kukurl es la llave. ¡Sí, es la cueva llave, y no es coña, [NAME]! ¡Buuuurp!' -click-
 
-ulrira_4_0 '¡TIRURÍ, TIRURÍ! Hi, this is Ulrira! In the Yarna Desert, which is located in the southeast of the island, you will find something called the Angler Key. Hmmm... How much more obvious do I have to be? Bye! CLICK!'
-ulrira_4_1 '¡TIRURÍ, TIRURÍ! This is Ulrira! Oh, I heard from grandma that there is something hidden behind the falls in the Tal Tal Mountains. Does that help? Bye! CLICK!'
+ulrira_4_0 '¡TIRURÍ, TIRURÍ! El número marcado no existe. ¡Que es coñaaaa! Mira, en el desierto Jerna al sureste de Barbate encontrarás la llave anzuelo. ¡Hostia, que empieza la peli porno del plus! ¡Te dejo, que le voy a dar leña al mono!' -click-
+ulrira_4_1 '¡TIRURÍ, TIRURÍ! Soy Ulrira, ¿sabes que me he enterado que hay algo escondío detrás de las cataratas y Tal y Tal? ¡Y detrás de mi ojete también debe haber algo, porque me cago!' -click-
 
-ulrira_5_0 '¡TIRURÍ, TIRURÍ! Hi, it's Ulrira! The Catfish's mouth is wide open? It sounds like a great place to dive! Bye! CLICK!'
+ulrira_5_0 '¡TIRURÍ, TIRURÍ! ¡Soy el viejo! ¿Está la boca del pez gato sin chapar? ¡Yo de tí me piraría a busear por ahí a buscar 'almejas'!' -click-
 
-ulrira_6_0 '¡TIRURÍ, TIRURÍ! Ulrira here! ... Have you been to the Face Shrine? It is north of Animal Village. That is a very interesting ruin... CLICK!'
+ulrira_6_0 '¡TIRURÍ, TIRURÍ! ¡Aquí el Ulri! ¿Te has pasao por el Templo Jeto? Está al norte de la Villa Bichejo. Es una ruína de los tiempos de Franco pol lo menos.' -click-'
 
-ulrira_7_0 '¡TIRURÍ, TIRURÍ! Hi, it's Ulrira! Have you heard of the Flying Rooster of Mabe Village? In the good old days, it used to give us rides if we held it above our heads... Now it is lying under the Weathercock... Is that useful for you? I hope so! Bye! CLICK!'
-ulrira_7_1 '¡TIRURÍ, TIRURÍ! Hi, it's Ulrira! You are doing great! Your efforts will end soon... By the way, have you visited the Hen House on the mountain? There is a cave nearby with something important in it. Bye! CLICK!'
-ulrira_7_2 '¡TIRURÍ, TIRURÍ! Ulrira here... Yes, when I was just a lad, I recall seeing a high tower in the mountains! You should go there! Is that helpful for you? Bye! CLICK!'
+ulrira_7_0 '¡TIRURÍ, TIRURÍ! ¡Eo, tronco! ¿Sabías que había un pollo volante en Mabe? Hase tiempo lo usábamos para encularlo y pasearnos agarrado de las patas mientras volaba... ahora ya la palmao, el Tarin que lo reventó por dentro de una atroz enculada. ¡Esque es un bejtia! ¡Taluego!' -click-
+ulrira_7_1 '¡TIRURÍ, TIRURÍ! ¡Joer macho, qué inoportuno eres, me la estaba pelando viendo Las Pornochachas 2! Me has cortao to el rollo... Bueh, ¿has visto la keli de las gallinas en la montaña? Hay una cueva al lao con algo guapo dentro.' -click-
+ulrira_7_2 '¡TIRURÍ, TIRURÍ! Aquí el Ulrira. Cuando era mozo, me llevaba a las chavalas a un picaero que hay en una torre en las montañas. Joer, qué tiempos, ¡estaba hecho un DiCaprio desos!' -click-
 
-ulrira_8_0 '¡TIRURÍ, TIRURÍ! Hi, it's Ulrira! The head of the turtle is in your way? Put life into it and it will move! It's true! True! Bye! CLICK!'
-ulrira_8_1 '¡TIRURÍ, TIRURÍ! Ulrira here! ... Go for it! You're almost there! I'm pulling for you! Bye! CLICK!'
+ulrira_8_0 '¡TIRURÍ, TIRURÍ! Coño, eres tú, [NAME]. ¿La cabeza de la tortuga ninja no te deja pasar? Dale vida y verás que guapo. ¡Te lo dice el menda! ¡Taluego!' -click-
+ulrira_8_1 '¡TIRURÍ, TIRURÍ! ¡Aquí el Ulrira! Sabes, estoy triste, dentro de na te petarás el juego y dejarás de jugar a la Cerda. ¡Buaaa!' -click-
 
-ulrira_9_0 '¡TIRURÍ, TIRURÍ! Hello, this is Ulrira speaking! [NAME], it's time for you to face the Egg on Mt. Tamaranch! Be careful, [NAME]! Bye! CLICK!'
-ulrira_9_1 '¡TIRURÍ, TIRURÍ! This is Ulrira! You're lost in the Egg? Hmmmm. No sir, I can't help you on that one. How about the library? And hey, don't stop calling me because I didn't know one little answer! CLICK!'
+ulrira_9_0 '¡TIRURÍ, TIRURÍ! ¡Hola, aquí el tronco de siempre! [NAME], es hora de que al guevo en el monte Samaranch. ¡Ya casi te petas el juego! ¡Adios, ten cuidaíto!' -click-
+ulrira_9_1 '¡TIRURÍ, TIRURÍ! ¡Aquí Ulrira! ¿Te has perdío en el guevo? Pues búscate la vida joder, que llevas todo el juego preguntando, coño. ¡Ves a la biblioteca e investiga por una vez, que se te van a secar los sesos!' -click-
 
-ulrira_wife '¡TIRURÍ, TIRURÍ! Ya, it's Ulrira! My wife went to the Animal Village and left me all alone. Can you tell her to come home as soon as she is done cleaning? Bye! CLICK!'
-ulrira_ghost '¡TIRURÍ, TIRURÍ! This is Ulrira! Now you're being haunted by a ghost?! Well, how about taking him where he wants to go? Bye! CLICK!'
-ulrira_mamu '¡TIRURÍ, TIRURÍ! Yeah, this is Ulrira! You are starting to like music, eh? Well, a frog named Mamu, who lives in the Signpost Maze, might know some new songs, but he charges a lot to play them! Bye! CLICK!'
+ulrira_wife '¡TIRURÍ, TIRURÍ! Sí, soy el Ulrira. Mi mujer se ha pirao a Villa Bichejo a hacer zoofilia con todos los animales. ¿Le puedes decir que se venga cuando se los haya tirao ya a todos? Seré cornúo...' -click-
+ulrira_ghost '¡TIRURÍ, TIRURÍ! ¡Qué pasa, Pepe! ¿Qué pasa ahora? ¿Te persigue un poltergeis? ¡Llévalo ande te dice, no se vaya a mosquear!' -click-
+ulrira_mamu '¡TIRURÍ, TIRURÍ! ¡Aquí DJ uLRiRa! Te mola la musiqueta, ¿eins? Me conozco una rana makinera que se llama Manu, la jodía vive en el laberinto de los letreros... Está hecha una crack, pero cobra un cojón de mico por sus sessions.' -click-
 
 // TODO: not sure when this is shown in the game
-ulrira_seashells '¡TIRURÍ, TIRURÍ! Ulrira speaking! Are your enemies too strong for you? In that case, you better collect all the Seashells... Just believe in yourself and do your best! CLICK!'
+ulrira_seashells '¡TIRURÍ, TIRURÍ! ¡Pavo! ¡Colecciona las conchas codan y llévalas a la keli de las conchas! Quizá consigas la Ultimate Navaja from Albacete, ¡más poderosa que los cuchillos Ginsu, dicen!' -click-
 
 
 // dungeon intro
-dungeon_1 Level 1--\n     Tail Cave
-dungeon_2 Level 2--\n     Bottle Grotto
-dungeon_3 Level 3--\n     Key Cavern
-dungeon_4 Level 4--\n     Angler's Tunnel
-dungeon_5 Level 5--\n     Catfish's Maw
-dungeon_6 Level 6--\n     Face Shrine
-dungeon_7 Level 7--\n     Eagle's Tower
-dungeon_8 Level 8--\n     Turtle Rock
+dungeon_1 Nivel 1--\n     Cueva Cola
+dungeon_2 Nivel 2--\n     Gruta Cachimba
+dungeon_3 Nivel 3--\n     Caverna Llave
+dungeon_4 Nivel 4--\n     Túnel Anzuelo
+dungeon_5 Nivel 5--\n     Buche Pez Gato
+dungeon_6 Nivel 6--\n     Templo Jeto
+dungeon_7 Nivel 7--\n     Torre Avecrem
+dungeon_8 Nivel 8--\n     Tortuga Ninja
 
-beak_nop This owl statue is trying to say something, but you can't understand it because it has no beak.
+beak_nop Esta estatua de búho fijo que dice algo chungo, pero no puedes oírlo porque no tienes el pico entodavía, tío.
 
-beak_d1_1 Turn aside the spined ones with a shield...
-beak_d1_2 If there is a door that you can't open, move a stone block.
+beak_d1_1 Apártate los espinetes con un escudo...
+beak_d1_2 Si una puerta no te puedes petar, mueve uno de los piedros.
 
 
 // shrine
-shrine_dark ?? There is a picture carved on the wall, but you can't see it because it's too dark in here...
-shrine_message TO THE FINDER... THE ISLE OF KOHOLINT, IS BUT AN ILLUSION... HUMAN, MONSTER, SEA, SKY... A SCENE ON THE LID OF A SLEEPER'S EYE... AWAKE THE DREAMER, AND KOHOLINT WILL VANISH MUCH LIKE A BUBBLE ON A NEEDLE... CAST-AWAY, YOU SHOULD KNOW THE TRUTH! ... ... ... ... What?  Illusion?
+shrine_dark ¿¿?? Hay un graffitti cantidá de guapo taqueao... pero no ves un pijo porque está tope de oscuro.
+shrine_message AL OREJÚO... LA ISLA DE BARBATE, TO ES UNA ILUSIÓN... YONKOS, MOSTROS, FARLOPA, CHOLOS... UNA ESENA EN EL PÁRPADO DEL SOBAO... DESPIERTA AL SOÑADOR Y BARBATE DESAPARESERÁ COMO ROLDÁN EN LAOS... ¡CARANABO, ENTÉRATE, EMPANAO! ... ... ... ... ¿Querl? ¿La farlopa es una ilusión?
 
 
 // dungeon two
-beak_d2_1 Part of the floor is raised. Tap the blue crystal.
-beak_d2_2 Make every block design the same. A new path will open.
-beak_d2_3 First, defeat the imprisoned Pols Voice, Last, Stalfos...
+beak_d2_1 Parte del suelo se levanta. Topa el cristal asul.
+beak_d2_2 Haz los diseños iguales y el camino se abrirá. ¡Diseña la moda!
+beak_d2_3 Primero cepíllate al prisionero, luego al otro y por último al stalfos... (la canina, vaya)
 
 // genie
-d2_boss_0 HO HO HO! I'm your bad guy this time!! HO HO HO!
-d2_boss_1 NYAH NYAH! You can't hurt me as long as I have my bottle!
-d2_boss_2 . . . .! I can't move!\nBut I am still all right. Your little sword won't break this bottle!
-d2_boss_3 Waaaah! You- you broke my bottle! Why, you... You make me hopping mad!!!
+d2_boss_0 ¡HO HO HO! ¡¡Te voy a petar el ojal!! ¡HO HO HO!
+d2_boss_1 ¡JUA JUA JUA! ¡Mientras esté en mi cachimba no me harás ná!
+d2_boss_2 ¡. . . .! ¡Me quedao tieso!!\nDa igual, aún te dejo la puerna de la carne arruiná. Con esa currilla no me vas a haser na.
+d2_boss_3 ¡CA-CABRÓN! ¡Mi cachimba! ¡La jodiste! ¡Eres un marginal! ¡Torpedo!
 
 // dungeon three
-beak_d3_1 Far away...\nDo not fear, dash and fly!
-beak_d3_2 To defeat the black monster with the hard shell, feed him something explosive.
-beak_d3_3 Poke suspicious parts of the wall with your sword and listen to the sounds it makes.
+beak_d3_1 Pilla carrerilla, salta...\n¡Y no te escoñes!
+beak_d3_2 ¿Te joden los bichos negracas esos? Dales un poco de GOMA2 de papeo, ¡verás que petada!
+beak_d3_3 Pica las paredes con tu navaja de albacete y si suena raro, ya sabes. ¡Bombazo!
 
-d3_boss {NEENER NEENER!}{You can't find me!}{NYAH NYAH!}
+d3_boss {¡JIARRR, JIARRR!}{¡A que no me pillas!}{¡HUE HUE HUE!}
 
-bow_wow_cave_entry Ennh? Who's this suspicious looking runt?!\nOkay boys, let's get ridda him!
-bow_wow_cave_boss You must be an assassin sent by Madam MeowMeow to rescue the mutt! You came here to get me, but it is I who will get you!!
-bow_wow_cave_bw You've saved BowWow! What a fearsome beast!
+bow_wow_cave_entry ¿Ennh? ¿Quién es el comemierdas este con cara de pan? ¡Hacedle macumba hasta morir!
+bow_wow_cave_boss Fijo que te ha mandao la gorda de la Caballé esa. ¡Pos la foca sebosa se va a joer, la bola de dientes esta es pa pelea de pitbulls! Ahora... ¡ahostiémonos!
+bow_wow_cave_bw ¡Has salvao al GuaGua! ¡Es peor que un pitbull! ¡Qué bicharraco!
 
-castle_monkey_hunger Chi-kiita! Chi-kiita! Kiki the monkey! Hungry! Kiki the monkey!
-castle_monkey_bowwow Kiiiki! What?! All right, mutt! Let's battle!!
+castle_monkey_hunger ¡Chi-kiita! ¡Chi-kiita! ¡Kiki el mono! ¡Jambre! ¡Kiki el mono!
+castle_monkey_bowwow ¡Jarl! ¡¿Quérl?! Vale payaso, ¡ahostiémonos!
 
-castle_monkey_banana {¤!    ¤!}{Oooh!  Oooh!}{Give to Kiki!?}
-castle_monkey_banana_yes {¤!    ¤!}{Oooh! Ooh! Kiki!}{Monkeys!  Come!}{Repay him! Kiki!}
-castle_monkey_done {Monkey business!}{Done!  Bye bye!}{Oooh!  Kiki!}
+castle_monkey_banana {¤!    ¤!}{¡Jarl!  ¡Jarl!}{¿¡se lo rulas a Kiki!?}
+castle_monkey_banana_yes {¤!    ¤!}{¡Jarl! ¡Ooh! ¡Kiki!}{¡Monos, venid!}{¡Haced de McGyver un rato! ¡Kiki!}
+castle_monkey_done {¡Negosios de mono!}{¡Ea! ¡Hasta luego, pringao!}{¡Jarl!  ¡Kiki!}
 
 // dungeon four
-beak_d4_1 The glint of the tile will be your guide...
+beak_d4_1 ¡El brillo del mosaico será tu Lasarillo de Tormes...!
 
-d4_nightmare {BLOOOP! BLOOOP!  }{GLUB!  GLUB!   }{OGGGH!  FOOOOD!}{BLOOOOP!  GLUB!   }
+d4_nightmare {¡BLOOOP! ¡BLOOOP! }{¡GLUB!  ¡GLUB!  }{¡OGGGH! ¡PAPEO!}{¡BLOOOOP!  ¡GLUB!  }
 
 // dungeon five
-beak_d5_1 If you can't destroy a skeleton with your sword, try using a bomb.
-beak_d5_2 Dive under where torchlight beams do cross...
+beak_d5_1 Si no desmontas a los esqueletillos con tu curra de Albacete, mételes un bombazo.
+beak_d5_2 Busea ande se corta la lus de las cuatro antorchas...
 
 master_stalfos_0 Arrgh! I can't beat you! I'm outta here!
 master_stalfos_1 Gulp! You found me!\nYou're a real pesky kid, you know that?!
