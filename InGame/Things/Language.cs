@@ -25,6 +25,8 @@ namespace ProjectZ.InGame.Things
             { "¿", "\u0099" },
             { "ñ", "\u009a" },
             { "Ñ", "\u009b" },
+            { "ü", "\u009c" },
+            { "Ü", "\u009d" },
             { "º", "¡" } // Fix yoshi
         };
 

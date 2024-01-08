@@ -101,7 +101,7 @@ instrument3Collected {...BAHÍA...}{Ve tirando ya pa}{la bahía...}
 instrument4Collected {...TEMPLO...}{Un secretito molón}{nel templo...}
 instrument5Collected {...MONTAÑA...}{Las montañas de hedi...}{testán llamando...}
 instrument6Collected {...OCARINA...}{La música de la ocarina}{mola...}
-instrument7Collected {...GUEVO....}{¡El guevo de las montañas}{te llama!}
+instrument7Collected {...GÜEVO....}{¡El güevo de las montañas}{te llama!}
 
 goldLeaf ¡Pillas una hoja de maría! ¡Pica el SELECT para ver cuántas has afanao!
 goldLeafLast ¡Por fin consigues la última hoja de maría! Ahora ve a charrar con el Richard aserca de la llave...
@@ -253,7 +253,7 @@ maria_game_2 ¡Eres to buena! ¿Una zorrita viciada ein? ... ... ... ... ¡Pos a
 
 
 // walrus sequence
-maria_3_0 Aquí está la morsa los guevos. Según el guión tengo que cantarle un poquito, ¿no?
+maria_3_0 Aquí está la morsa los güevos. Según el guión tengo que cantarle un poquito, ¿no?
 // Yes  No...
 marin_3_1 ¡Allá tú! ¡Si no le canto no te vas a petar el juego, que eres más corto que Torrebruno!
 maria_3_2 ¡Guala! ¡Sa laventao como un torete! ¡Está vigoréssico!
@@ -327,7 +327,7 @@ npc05_2 Bro, dicen que si le puto das al SELECT puedes ver el mapa de Barbate. E
 npc05_3 Bro, si te quedas, en plan, sin corasones, mejor te puto metes en una cueva o una casa. Yo ni idea tronco, ¡soy un millennial desos!
 
 npc_ball_left ¿De ande eres, bro? ¿De 'fuera'? ¿Eso ande está, macho? ¿En plan, fuera de Huelva?
-npc_ball_right ¿El guevo gordo ese de la montaña? Dicen que ahí soba el Pez Jincho, bro, en plan, pa siempre. Oye, me mola ese peluco que llevas...
+npc_ball_right ¿El güevo gordo ese de la montaña? Dicen que ahí soba el Pez Jincho, bro, en plan, pa siempre. Oye, me mola ese peluco que llevas...
 
 // kid near the weather bird or next to the shop
 npc_boy_island ¿Que cuándo empesamos a okupar la isla? Yo que sé bro, yo no tengo ni la ESO. En plan, qué me estás contando.
@@ -576,7 +576,7 @@ itemShop_no_way Un nabo
 itemShop_no_way! Que te den
 
 // shopkeeper
-shopkeeper_0 ¡Pasa, coleguilla! ¿Ves algo que te mole? ¡Tu tráelo pacá!
+shopkeeper_0 ¡Pasa, coleguilla! ¿Ves algo que te mole? ¡Tú tráelo pacá!
 shopkeeper_1 ¡Vaya timo que te metío! ¡Amamonao!
 shopkeeper_2 ¡HAAW HAW HAW! ¿No tienes ni pa un chicle Boomer y quieres comprar eso?
 shopkeeper_3 ¡Ooh, cojones! ¡Pero gilipollas, si eso ya lo tienes, chaval! ¡[NAME] coño, eres la polla!
@@ -607,11 +607,11 @@ owl_1_0 ¡Jurl, jurl!\nAsín que eres el dueño de la navaja...\f¿No te da verg
 owl_1_1 ¡Jurl, jurl! ¡Sí que tardabas macho! ¡Me he fumado media docena de petas esperando! ¡Bienvenido al bosque misterioso! Se llama asín porque hay muchos misterios, jurl jurl. Lo chungo es que será chungo para ti pirarte de la isla si el marginal del Pez Jincho sigue con la caraja... Por sierto, ¿te has dado un rulo por la Cueva Cola, al sur del pueblacho? ¡Tírate para allí con la llave que chirlarás en el bosque! Bueno, yo me abro a pillarle un garbanzo al Pijota.
 owl_1_2 ¡Jurl! Pilla de una puta vez la llave y anda a la Cueva Cola, ¡y siséate el instrumento que hay allí! ¿A qué esperas, coño? ¿Es que eres hijo del Cuqui o qué?
 
-owl_2_0 ¡Juuurl! ¡Ese es el 'Cacharro de las Siernas'! Mas dejao flasheao chaval, mu bien, tienes más guevos quel Chuck Norris. Este cacharro junto con los otros siete tiene el poder de despertar al marginal del Pez Jincho. Bueno, me piro a haserme unas pajillas, tú sabes... ¡Ah, me se olvidaba, tu próximo objetivo está en el norte, en el pantano Gopotas! ¡Jur Juuuurl!
+owl_2_0 ¡Juuurl! ¡Ese es el 'Cacharro de las Siernas'! Mas dejao flasheao chaval, mu bien, tienes más güevos quel Chuck Norris. Este cacharro junto con los otros siete tiene el poder de despertar al marginal del Pez Jincho. Bueno, me piro a haserme unas pajillas, tú sabes... ¡Ah, me se olvidaba, tu próximo objetivo está en el norte, en el pantano Gopotas! ¡Jur Juuuurl!
 owl_2_1 ¡Juuurl! ¡Ese bicho que llevas es más peligroso que Rambo en un restaurante chino! ¡Cuidadín! ¡Tu próximo objetivo es el pantano Gopotas!
 
 // post dungeon 3
-owl_3_0 ¡Jurl juuurl! ¿Cuántos cacharros has afanao ya? ¡Namás tocar to los instrumentos juntos delante del guevo, el Pez Jincho despertará (fijo que con resaca) y podrás darte el piro! Ahora, debes ir por patas al desierto de Jerna. Los habitantes garrulos del desierto te mostrarán el camino. ¡Jurl!
+owl_3_0 ¡Jurl juuurl! ¿Cuántos cacharros has afanao ya? ¡Namás tocar to los instrumentos juntos delante del güevo, el Pez Jincho despertará (fijo que con resaca) y podrás darte el piro! Ahora, debes ir por patas al desierto de Jerna. Los habitantes garrulos del desierto te mostrarán el camino. ¡Jurl!
 owl_3_1 ¡Jurl! La llave esa tiene forma de pejcao, fijo que es pa abrir el careto ese de boquerón de la cascada... ¡Pega un bote arriba de la cascada y llegarás a tu objetivo!
 
 // at the grave of the ghost
@@ -630,10 +630,10 @@ owl_7_0 ¡Jurl jurl! ¡Los monstruos estan jiñaítos de pensar que el Pez Jinch
 owl_7_1 ¡Jurrl! ¡Juuurl! Tu camino no es fásil, pero estás cerca de empetarte el juego. Vete al este, ¡el Pez Jincho te espera durmiendo la mona!
 
 // after saving marin
-owl_8_0 ¡Jurl jurl! Esa piba cantó su cansión frente al Guevo. ¡Su 'Balada del Pez Jincho' es una cansión pa desclapar! ¿Intenta sacar de la piltra al pez? Bueh, vamos al lío. El próximo cacharro está al oeste. ¡Me apuesto el pene a que si tocas las piedras sin vida ejcuchan! ¡Ole tus guevooos! ¡Enga, demuestra que eres un macho ibérico!
+owl_8_0 ¡Jurl jurl! Esa piba cantó su cansión frente al Güevo. ¡Su 'Balada del Pez Jincho' es una cansión pa desclapar! ¿Intenta sacar de la piltra al pez? Bueh, vamos al lío. El próximo cacharro está al oeste. ¡Me apuesto el pene a que si tocas las piedras sin vida ejcuchan! ¡Ole tus güevooos! ¡Enga, demuestra que eres un macho ibérico!
 
 // after opening the egg
-owl_9_0 Llegó el momento, chavalín. El Pez Jincho espera, entra dentro del guevo. ¡Jurl, jurl!
+owl_9_0 Llegó el momento, chavalín. El Pez Jincho espera, entra dentro del güevo. ¡Jurl, jurl!
 
 owl_final ¡Jurl! Chavás, digo... ¡[NAME] el macho ibérico! ¡Te has cepillao a las pesadillas! ¡Has probao que el Rambo a tu lao es un bujarrón!\n ... ... ... ... ...\nYo soy el segurata de los sueños del pez. Un día, los monstruos, que son unos okupas, ¡se infiltraron en los sueños y dejaron Isla Barbate que parecía el Bronx! Pero llegaste tú, [NAME], llegaste para salvar Barbate (y de paso, mangarte toas las pelas y ponerte siego de ful). Grasias coleguilla, me ha llegado la jubilasión anticipada. ¡El pez despierta! ¡Me abro, juurl!
 
@@ -705,10 +705,10 @@ book7_1 Puedes mover el cursor y ver el nombre de los sitios... ¿Quieres jipiar
 
 book8_0 'Negros secretos y misterios de Barbate'
 book8_1 ¡Coño, esto qué es! ... ... Está en formato chuleta de colegio ¡No puedes ver ni el índice tío! Como no te busques una puta lupa...
-book8_2 Cómo llegar a la yema del guevo en un plis...\n{° ° ³ ± ± ³ ° ³}{??}...¿Euhn? ¿Mande lo cualo? ¿Es cachondeo esto?
-book8_3 Cómo llegar a la yema del guevo en un plis...\n{± ³ ³ ± ³ ³ ± ³}{??}...¿Euhn? ¿Mande lo cualo? ¿Es cachondeo esto?
-book8_4 Cómo llegar a la yema del guevo en un plis...\n{° ³ ± ³ ° ³ ± ³}{??}...¿Euhn? ¿Mande lo cualo? ¿Es cachondeo esto?
-book8_5 Cómo llegar a la yema del guevo en un plis...\n{± ± ± ± ³ ³ ³ ³}{??}...¿Euhn? ¿Mande lo cualo? ¿Es cachondeo esto?
+book8_2 Cómo llegar a la yema del güevo en un plis...\n{° ° ³ ± ± ³ ° ³}{??}...¿Euhn? ¿Mande lo cualo? ¿Es cachondeo esto?
+book8_3 Cómo llegar a la yema del güevo en un plis...\n{± ³ ³ ± ³ ³ ± ³}{??}...¿Euhn? ¿Mande lo cualo? ¿Es cachondeo esto?
+book8_4 Cómo llegar a la yema del güevo en un plis...\n{° ³ ± ³ ° ³ ± ³}{??}...¿Euhn? ¿Mande lo cualo? ¿Es cachondeo esto?
+book8_5 Cómo llegar a la yema del güevo en un plis...\n{± ± ± ± ³ ³ ³ ³}{??}...¿Euhn? ¿Mande lo cualo? ¿Es cachondeo esto?
 
 
 // ° ± ² ³
@@ -754,8 +754,8 @@ ulrira_7_2 '¡TIRURÍ, TIRURÍ! Aquí el Ulrira. Cuando era mozo, me llevaba a l
 ulrira_8_0 '¡TIRURÍ, TIRURÍ! Coño, eres tú, [NAME]. ¿La cabeza de la tortuga ninja no te deja pasar? Dale vida y verás que guapo. ¡Te lo dice el menda! ¡Taluego!' -click-
 ulrira_8_1 '¡TIRURÍ, TIRURÍ! ¡Aquí el Ulrira! Sabes, estoy triste, dentro de na te petarás el juego y dejarás de jugar a la Cerda. ¡Buaaa!' -click-
 
-ulrira_9_0 '¡TIRURÍ, TIRURÍ! ¡Hola, aquí el tronco de siempre! [NAME], es hora de que al guevo en el monte Samaranch. ¡Ya casi te petas el juego! ¡Adios, ten cuidaíto!' -click-
-ulrira_9_1 '¡TIRURÍ, TIRURÍ! ¡Aquí Ulrira! ¿Te has perdío en el guevo? Pues búscate la vida joder, que llevas todo el juego preguntando, coño. ¡Ves a la biblioteca e investiga por una vez, que se te van a secar los sesos!' -click-
+ulrira_9_0 '¡TIRURÍ, TIRURÍ! ¡Hola, aquí el tronco de siempre! [NAME], es hora de que al güevo en el monte Samaranch. ¡Ya casi te petas el juego! ¡Adios, ten cuidaíto!' -click-
+ulrira_9_1 '¡TIRURÍ, TIRURÍ! ¡Aquí Ulrira! ¿Te has perdío en el güevo? Pues búscate la vida joder, que llevas todo el juego preguntando, coño. ¡Ves a la biblioteca e investiga por una vez, que se te van a secar los sesos!' -click-
 
 ulrira_wife '¡TIRURÍ, TIRURÍ! Sí, soy el Ulrira. Mi mujer se ha pirao a Villa Bichejo a hacer zoofilia con todos los animales. ¿Le puedes decir que se venga cuando se los haya tirao ya a todos? Seré cornúo...' -click-
 ulrira_ghost '¡TIRURÍ, TIRURÍ! ¡Qué pasa, Pepe! ¿Qué pasa ahora? ¿Te persigue un poltergeis? ¡Llévalo ande te dice, no se vaya a mosquear!' -click-
@@ -963,7 +963,7 @@ photo_03_5 ¡Ahí ahí, bien serquita! (Haw haw) ¡Ahora sonríe!
 photo_05_0 Hola, [NAME]. Sabes que me mola echar afotos. ¿Este castillo quedaría guapo enretratao?
 photo_05_1 ¿Entodavía no, tío? ¡Tengol mono de maría! ¡Como no me des las hojas pronto fumaré porros de Avecrem! ¡Esto questás hasiendo por mí merese un afoto!
 photo_05_2 ¡Vamos, pichacorta! ¡Hasme la foto asín en cualquier ángulo!
-photo_05_3 No estoy jiñao, es que me piro a casa.
+photo_05_3 Bueno yo... me piro a casa, que me estoy cagando.
 
 // photo sequences grave
 photo_06_0 ¡Coñe, cómo me molan las afotos! ¡Oye, [NAME]! ¿Qué estás hasiendo con el cuerpo humano?
@@ -976,10 +976,10 @@ marin_cliff_1 . . . . .
 marin_cliff_2 Podríamos okupar este acantilao. 
 marin_cliff_3 ¿No vas a abrir la puta boca?
 marin_cliff_4 ¡Cómo me chanan las afotos! ¿Por qué no te haces una afotiko mientras no hay naide?\nPodrías entitularla . . .
-marin_cliff_5 I'll go develop this. Come see it later, OK?
+marin_cliff_5 Iré a revelar esto. Pégate un rulo endispués.
 
 // photo sequences fountain
-photo_08_0 Hi! I'm the photographer! What a great photo moment! I'll call this 'Heads Up!'
+photo_08_0 ¡Hola, paco! ¡Soy el afoteador! ¡Qué peaso de afoto! Creo que le pondré... '¡Ahoral!'
 photo_08_1 Ohh! I'm sorry! Are you okay?! [NAME]?
 
 // photo sequences weather bird
@@ -988,80 +988,80 @@ photo_09_1 Utiliso este trasto pa haser afotos. ¿Tais listos? ¡Decir 'farlopa'
 photo_09_2 Ale, yastá. Más mongolos pal álbum.
 
 // photo sequences fisher
-photo_10_0 I have a feelin' that I'll catch a big fish again.
-photo_10_1 WHOA! That's a big one! Hey, photo guy! Can you take a picture of this?
-photo_10_2 Hey! Be more careful next time!
+photo_10_0 Me pican los güevos, ¡fijo que pillo uno gordo otra vez!
+photo_10_1 ¡COÑO! ¡Es tope de tocho! ¡Eh, el caraculo de las fotos! ¡Pilla una afoto de esto!
+photo_10_2 ¡Bueno, [NAME], ábrete antes de que te enganche!
 
 // photo sequences zora
-photo_11_0 Hey, you can see me?! You must have a magnifying glass. I'm not a trouble maker. I just want to live in peace.
-photo_11_1 Hi there! It's me, the photographer! You say Zora is in the house? I HAVE to take a picture of that. I'll call it 'I Found Zora.'
+photo_11_0 Otia, ¿me puedes ver? Debes tener una lente de aumento de cojones, tío. No soy un buscapleitos, sólo quiero que me dejen en paz.
+photo_11_1 ¡Pollopera! ¡Soy el fotógrafo! ¿Dises que la zorra está en el keli? ¡Tengo que pillar una afoto de eso! La llamaré 'Encontré a Zorra".
 
 // photo sequences mountain
-photo_12_0 Hey, this represents your adventures perfectly!
-photo_12_1 I'll call this one 'Close Call.' Hmm.
-photo_12_2 I'm too close.
-photo_12_3 I should back up.
-photo_12_4 Aaaaaah!
+photo_12_0 ¡Joder, esta es la viva afoto de tu aventura, tío! ¡Haw, haw!
+photo_12_1 A esta la llamaré 'Estuvo serca'. Hum.
+photo_12_2 Uy, muy serca.
+photo_12_3 Creo que mejor reculo un poquín.
+photo_12_4 ¡AAaahhostiaa!
 
 // map
 map_tal_tal Montañas Y Tal y Tal
-map_wind_fishs_egg Guevo del Pez Jincho
+map_wind_fishs_egg Güevo del Pez Jincho
 map_mt_tamaranch Monte Tamaranch
-map_hen_house Hen House
+map_hen_house Corral de pollos
 map_telephone_booth Cabina de Timofónica
-map_goponga_swamp Goponga Swamp
-map_tal_tal_heights Tal Tal Heights
-map_weird_mr_write Weird Mr. Write
-map_photo_both Step right up and get your souvenir photo!
-map_raft_shop Raft Shop
-map_mysterious_woods Mysterious Woods
-map_koholint_prairie Koholint Prairie
-map_crazy_tracy Crazy Tracy's\nHealth Spa
-map_tabahl_wasteland Tabahl Wasteland
-map_kanalet_castle Kanalet Castle
-map_rapids_ride Rapids Ride
-map_witchs_hut Witch's Hut
-map_cementry Cemetery
-map_fishing_pond Fishing Pond
-map_quadruplets_house Quadruplet's House
-map_dream_shrine Dream Shrine
-map_ukuku_prairie Ukuku Prairie
-map_seashell_mansion Seashell Mansion
-map_face_shrine Face Shrine
-map_mabe_village Mabe Village
-map_town_tool_shop Town Tool Shop
-map_madam_meow Madam MeowMeow's House\nBeware of Dog!
-map_marin_tarin Marin and Tarin's House
-map_village_library Village Library
-map_old_man_house Old Man Ulrira's House
-map_trendy_game Trendy Game
-map_south_village South of the Village
-map_signpost_maze Signpost Maze
-map_pothole_field Pothole Field
-map_maraths_bay Martha's Bay
-map_animal_village Animal Village
-map_yarna_desert Yarna Desert
-map_richards_villa Richard's Villa
-map_toronbo_shores Toronbo Shores
-map_banana_house Sale's House O'Bananas
-map_bay_east East of the Bay
-map_house_bay House By The Bay
+map_goponga_swamp Pantano Gopotas
+map_tal_tal_heights Altos y Tal y Tal
+map_weird_mr_write Keli del Sr. Escribe
+map_photo_both Tienda de afotos. (photoshop)
+map_raft_shop Pateras en venta
+map_mysterious_woods Bosque Misterioso
+map_koholint_prairie Pradera Barbate
+map_crazy_tracy Casa de putas\nGuarry Tracy
+map_tabahl_wasteland Escombrera Tabahl
+map_kanalet_castle Castillo Kanalet
+map_rapids_ride Ráspidos
+map_witchs_hut Chozo de la bruja
+map_cementry Sementerio
+map_fishing_pond Poso de pesca
+map_quadruplets_house Casa del Papapikillo
+map_dream_shrine Templo del Clape
+map_ukuku_prairie Pradera Kukurl
+map_seashell_mansion Mansión Conchas Codan
+map_face_shrine Templo Jeto
+map_mabe_village Villa Mabe
+map_town_tool_shop Tienda del Chino
+map_madam_meow Keli de Montserrat Caballé\n¡Cuidao con los GuaGuas!
+map_marin_tarin Chabola de Marin y Tarin
+map_village_library Biblioteca del Pueblo
+map_old_man_house Keo del carcamal del Ulrira
+map_trendy_game Juego del gancho
+map_south_village Sur de la Villa
+map_signpost_maze Laberinto Letreros
+map_pothole_field Campo de pozos
+map_maraths_bay Bahía de Marta
+map_animal_village Villa Bichejo
+map_yarna_desert Desierto Jerna
+map_richards_villa Keli del Richarl
+map_toronbo_shores Costa Tarumba
+map_banana_house Casa de tráfico de bananas
+map_bay_east Este de la bahía
+map_house_bay Keli de la bahía
 
 
-map_level_1 Level 1--\n     Tail Cave
-map_level_2 Level 2--\n     Bottle Grotto
-map_level_3 Level 3--\n     Key Cavern
-map_level_4 Level 4--\n     Angler's Tunnel
-map_level_5 Level 5--\n     Catfish's Maw
-map_level_6 Level 6--\n     Face Shrine
-map_level_7 Level 7--\n     Eagle's Tower
-map_level_8 Level 8--\n     Turtle Rock
+map_level_1 Nivel 1--\n     Cueva Cola
+map_level_2 Nivel 2--\n     Gruta Cachimba
+map_level_3 Nivel 3--\n     Caverna llave
+map_level_4 Nivel 4--\n     Tunel del Ansuelo
+map_level_5 Nivel 5--\n     Buche Pez Gato
+map_level_6 Nivel 6--\n     Templo Jeto
+map_level_7 Nivel 7--\n     Torre Avecrem
+map_level_8 Nivel 8--\n     Tortuga Ninja
 
 
-final_boss We were born of nightmares... To take over this world, we made the Wind Fish sleep endlessly! If the Wind Fish doesn't wake up, this island will never disappear! We would have been the masters of this place... But you had to come here and disrupt our plans! Heh heh! You can never defeat us!!! Let's rumble!
+final_boss Nasimos de las  pesadillas... Un día pillamos al Pez Jincho, le dimos veinte cubatas y una caja de Valiums... ¡¡Si no despierta, Isla Barbate no desaparecerá!! ¡¡¡Podríamos haber okupado Barbate entera...!!! Pero tenías que llegar a joder la marrana! Pero... ¡del Barco de Chanquete no nos moveran! ¡AHOSTIÉMONOS! 
 
-final_windfish ... ... ... ...  ... ... ... ... I AM THE WIND FISH... LONG HAS BEEN MY SLUMBER... IN MY DREAMS... AN EGG APPEARED AND WAS SURROUNDED BY AN ISLAND, WITH PEOPLE, ANIMALS, AN ENTIRE WORLD! ... ... ... ... BUT, VERILY, IT BE THE NATURE OF DREAMS TO END! WHEN I DOST AWAKEN, KOHOLINT WILL BE GONE... ONLY THE MEMORY OF THIS DREAM LAND WILL EXIST IN THE WAKING WORLD... SOMEDAY, THOU MAY RECALL THIS ISLAND... THAT MEMORY MUST BE THE REAL DREAM WORLD... ... ... ... ... COME, [NAME]... LET US AWAKEN... TOGETHER!!
-final_instruments PLAY THE EIGHT INSTRUMENTS! PLAY THE SONG OF AWAKENING!!
+final_windfish ... ... ... ...  ... ... ... ... SOY EL PEZ JINCHO... JODER, VAYA RESACA, COPÓN... EN MI SUEÑO... UN GUEBO APARESIÓ Y FUÉ RODEADO POR UNA ISLA, CON GENTE, NIMALES... Y SOBRE TODO YONKARRAS... PERO COMO ES LA NATURALESA DE LOS SUEÑOS, ¡ACABARÁ AL DESCLAPAR! BARBATE... DESAPARECERÁ... SÓLO LA MEMORIA DE ESTE SUEÑO EXISTIRÁ EN EL MUNDO DE LA REALIDÁS. ALGUN DÍA, TÚ RECORDARÁS ESTA ISLA... SI ESQUE NO PILLAS EL ALZHEIMER ANTES..............   ... ... ... ...  VEN, [NAME], DESCLAPEMOS... ¡¡¡JUNTOS!!!
+final_instruments ¡TOCA EL QUINTO LEVANTA CON LOS CACHARROS! ¡¡A DESPERTAR TOCAN!!
 
 // credits
 // 1998
