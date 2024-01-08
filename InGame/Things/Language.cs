@@ -24,7 +24,8 @@ namespace ProjectZ.InGame.Things
             { "¡", "\u0098" },
             { "¿", "\u0099" },
             { "ñ", "\u009a" },
-            { "Ñ", "\u009b" }
+            { "Ñ", "\u009b" },
+            { "º", "¡" } // Fix yoshi
         };
 
         public Dictionary<string, string> Strings => _languageStrings[CurrentLanguageIndex];

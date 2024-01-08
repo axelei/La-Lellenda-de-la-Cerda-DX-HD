@@ -32,7 +32,7 @@ ocarina_bad Como eres medio mongolo, no sabes en qué bujeros poner los deos...
 ocarina_bad_marin Tío eres más torpe que un guardaagujas. ¡Pa eso metes los deos en mi bujero!
 
 // trading alt + 0161
-trade0 ¡Cambias tu ¡ por ¢! Lo mismo la sinta la puedes cambiar por otro tiesto.
+trade0 ¡Cambias tu º por ¢! Lo mismo la sinta la puedes cambiar por otro tiesto.
 trade1 ¡Cambiaste el ¢ por £! ¡Ta to grasiento y ajqueroso!
 trade2 ¡Le das tu £ y te dan platanitos ¤ a cambio! ¡De Canarias!
 trade4 Los micos han dejao un palito...\n¡Asín que te lo llevas!
@@ -237,7 +237,7 @@ marin_dungeon_leave_time Tío, ¿dónde carajo estabas? Me he fumao medio paquet
 marin_dungeon_hearts ¡HOSTIAS! ¿Qué ta pasao? Vienes hecho un ecce-homo. Estás pirao macho.
 marin_dungeon_hearts_alt Siesque estás agelipollao... ¡Vienes oliendo a gitano!
 
-marin_cucco_0 ¡Dale duro! ¡Dale asín! ¡Hue he hue! Uhn, es que a veses me da por la vena zoofílica, sabes.
+marin_cucco_0 ¡Dale duro! ¡Mátalo asín! ¡Hue he hue! Uhn, es que a veses me da por la vena zoofílica, sabes.
 marin_cucco_1 ¡Mieh, lo hases de puta pena!\n¡Qué martirio!
 
 marin_pot_0 ¡UALAA! ¡DALE AHÍN! ¡SIGUE, SIGUE! ¡ARFS! Uis, na, es que mentran las paranoyas, sabes.
@@ -269,7 +269,7 @@ marin_4_1 ¡Hey, [NAME]! ¡¡Unos mostros me pasaron pol la piedra y me dejaron 
 marin_4_2 ¡Oooh! ¡Pero qué macho ibérico eres, [NAME]! ¡Te como la cara!
 marin_4_3 ... ... Cucha, tu a mí... esto... me molas, [NAME] ...
 marin_4_4 Si quieres me abro de patas aquí mismo y...
-marin_4_5 ¡¡MAAAAAAARINNNN!!
+marin_4_5 ¡¡ALTO AHÍ, GUARRA!!
 marin_4_6 ¿¡Hunh?! ¡¿¿Tarin??! ... ¡¡PERO QUÉ INOPORTUNO, HOSTIA PUTA!! ¡¡ASÍ NO HAY FORMA!!
 
 marin_5_0 ¡Grasias por todo, [NAME]! Eres el más macho ibérico que conozco. Un día le voy a pedir un deseo al Pez Jincho. ¿Cuál? ¡Es mu fásil, un alijo de coca de 50 kilos! 
@@ -331,12 +331,12 @@ npc_ball_right ¿El guevo gordo ese de la montaña? Dicen que ahí soba el Pez J
 
 // kid near the weather bird or next to the shop
 npc_boy_island ¿Que cuándo empesamos a okupar la isla? Yo que sé bro, yo no tengo ni la ESO. En plan, qué me estás contando.
-npc_boy_marin ¡Oye bro, qué te parese la Marin! Soy un crío, pero ya me gustan las perrillas.
-npc_boy_shrine Hey bro, dicen que en el templo del clape hay como, en plan, un tesoro guapo. Fijo que es hachís recién cagao por el moro.
+npc_boy_marin ¡Oye bro, qué te parese la Marin! Soy un crío, pero ya me puto gustan las perrillas.
+npc_boy_shrine Hey bro, dicen que en el templo del clape hay como, en plan, un tesoro guapo. Fijo que es hachís recién cagao por el moro, literal bro.
 npc_boy_marin_beach ¿Marin? Le gusta irse a la playa a liarse pitillos. Se puto fuma como tres chinas al día, bro.
 // kids while marin is with link
 npc_boy_marin_following ¡Hey, bro! ¿Adónde van los tortolitos? ¿A haser guarreridas españolas? Que soy un crío pero no tonto.
-npc_boy_marin_gone Anda, ¿no te puto acompaña la Marin, bro? ¡Te estará poniendo los cuernos!
+npc_boy_marin_gone Anda, ¿no te puto acompaña la Marin, bro? ¡Te estará poniendo los cuernos, literal!
 
 // when the player has the broom and the grandma is in the other village
 npc_boy_grandmother Bro, la aguela no está, se ha pirao, en plan, a Villa Bichejo a zoofilear... Al menos eso me ha puto dicho el carcamal del Ulrira por SMS.
@@ -802,180 +802,180 @@ beak_d3_1 Pilla carrerilla, salta...\n¡Y no te escoñes!
 beak_d3_2 ¿Te joden los bichos negracas esos? Dales un poco de GOMA2 de papeo, ¡verás que petada!
 beak_d3_3 Pica las paredes con tu navaja de albacete y si suena raro, ya sabes. ¡Bombazo!
 
-d3_boss {¡JIARRR, JIARRR!}{¡A que no me pillas!}{¡HUE HUE HUE!}
+d3_boss {¡NIAAANOO NIAAANO!}{¡A que no me encuentas, retrasao!}{¡HUE HUE HUE!}
 
 bow_wow_cave_entry ¿Ennh? ¿Quién es el comemierdas este con cara de pan? ¡Hacedle macumba hasta morir!
 bow_wow_cave_boss Fijo que te ha mandao la gorda de la Caballé esa. ¡Pos la foca sebosa se va a joer, la bola de dientes esta es pa pelea de pitbulls! Ahora... ¡ahostiémonos!
-bow_wow_cave_bw ¡Has salvao al GuaGua! ¡Es peor que un pitbull! ¡Qué bicharraco!
+bow_wow_cave_bw ¡Has salvao al GuaGua! ¡Es peor que un pitbull con clembuterol! ¡Qué bicharraco!
 
-castle_monkey_hunger ¡Chi-kiita! ¡Chi-kiita! ¡Kiki el mono! ¡Jambre! ¡Kiki el mono!
+castle_monkey_hunger ¡Chi-kiita! ¡Chi-kiita! ¡Kiki el mono! ¡Jambre! ¡Kiki er mono!
 castle_monkey_bowwow ¡Jarl! ¡¿Quérl?! Vale payaso, ¡ahostiémonos!
 
-castle_monkey_banana {¤!    ¤!}{¡Jarl!  ¡Jarl!}{¿¡se lo rulas a Kiki!?}
-castle_monkey_banana_yes {¤!    ¤!}{¡Jarl! ¡Ooh! ¡Kiki!}{¡Monos, venid!}{¡Haced de McGyver un rato! ¡Kiki!}
+castle_monkey_banana {¡¤!   ¡¤!}{¡Jarl!  ¡Jarl!}{¿¡se lo rulas a Kiki!?}
+castle_monkey_banana_yes {¡¤!   ¡¤!}{¡Jarl! ¡Ooh! ¡Kiki!}{¡Monos, venid!}{¡Haced de McGyver un rato! ¡Kiki!}
 castle_monkey_done {¡Negosios de mono!}{¡Ea! ¡Hasta luego, pringao!}{¡Jarl!  ¡Kiki!}
 
 // dungeon four
 beak_d4_1 ¡El brillo del mosaico será tu Lasarillo de Tormes...!
 
-d4_nightmare {¡BLOOOP! ¡BLOOOP! }{¡GLUB!  ¡GLUB!  }{¡OGGGH! ¡PAPEO!}{¡BLOOOOP!  ¡GLUB!  }
+d4_nightmare {¡BLOOOP! ¡BLOOOP! }{¡GLUB!  ¡GLUB!}{¡OGGGH! ¡PAPEO!}{¡BLOOOOP!  ¡GLUB!}
 
 // dungeon five
 beak_d5_1 Si no desmontas a los esqueletillos con tu curra de Albacete, mételes un bombazo.
 beak_d5_2 Busea ande se corta la lus de las cuatro antorchas...
 
-master_stalfos_0 Arrgh! I can't beat you! I'm outta here!
-master_stalfos_1 Gulp! You found me!\nYou're a real pesky kid, you know that?!
-master_stalfos_2 You again?! You keep going and going... I can't outlast you!\nAll right, let's do it!
-master_stalfos_3 'I've got what was inside this box. Come and get it, if you can!' Master µ
+master_stalfos_0 ¡Arrgh, cagon la Virgen! ¡Me abro de aquí!
+master_stalfos_1 ¡Gulp! ¡Me has pillao de guays!\nEres un cabroncete, ¡¿lo sabías?!
+master_stalfos_2 ¿Tú otra vez? Mira, me has hinchao las pelotas.!\n¡Fale, ahora vas a saber lo que es canear!
+master_stalfos_3 'He chirlao lo que había en la caja... ¡Quítamelo si puedes, nena!' Master µ
 
-slime_eel_0 Ssso...you are the outsssider, come to wake the Wind Fisssh... KEEE-HEE-HEEEH!\nI shall eat you!
-slime_eel_1 TSSSK, TSSSK! You don't ssseem to know what kind of island thisss iss... KEEE-HEEE-HEEE! What a fool... KEE-HEE-HEH!!
+slime_eel_0 Asssín que eress el forasstero que viene a dessclapar al Pez Jincho... ¡TSSS!\n¡Te voy a papear!
+slime_eel_1 ¡TSSSK, TSSSK! Paresse que no tieness ni zorra de qué isla es esta... ¡¡Hue hue hue hue!! ¡¡Qué capullo!!
 
 // dungeon six
-beak_d6_1 Enter the space where the eyes have walls...
-beak_d6_2 Hop on top of the crystals to move forward.
-beak_d6_3 To open a treasure chest, use the pots around it.
+beak_d6_1 ¡Entra al espasio donde los ojos tienen paredes!
+beak_d6_2 ¡Pega brincos encima de los cristales pa avanzar!
+beak_d6_3 Para petar un cofre, nada mejor que arrelarle un buen jarrazo.
 
-facade_opening Hey dummy! Need a hint? My weak point is... !! Whoops! There I go, talking too much again...
-facade_death Okay, listen up! If the Wind Fish wakes up, everything on this island will be gone forever! And I do mean... EVERYTHING!
+facade_opening ¡Oye, tarao! ¿Quieres una pista? Mi debilidad es... ¡Coño, ya me estoy yendo de la lengua, coño! Hue hue hue.
+facade_death A ver, tate al loro. Si el Pez Jincho desclapa, ¡toa Barbate se irá a tomar por culo como la polla del Torete! ¡HAW HAW HAW!
 
 // dungeon seven
-grim_creeper_enter Hey runt! You think you can take me?! All right boys, get this punk out of my face!
-grim_creeper_1 Ha! That's all you've got?! Get ready for THIS!
-grim_creeper_2 You dirty rat! You k-k-k...beat my brothers! You'll pay!! I'll never forget you!
-grim_creeper_3 BAH! I'm not going to hold back! I'm going to make you wish you were never born!!
-grim_creeper_4 My energy... gone...I...lost! But you will be lost too, if the Wind Fish wakes! Same as me...you ...are...in... his...dream...
+grim_creeper_enter Hey subnormal, ¿crees que me pues ganar? ¡Bueno, colleguillas! ¡Llevársus a ette payaso daquí!
+grim_creeper_1 ¡Ja! ¿Eso que es lo que é? ¡Prepárate pa que te de cera!
+grim_creeper_2 ¡Hijueputa! ¡Ven...venciste a mis colegas! ¡Pagarás! ¡Voy a llamar a mi peña!
+grim_creeper_3 ¡BAH! ¡Me vas a comer el rabo! ¡¡Vas ha desear haber nasío gay de lo que te voy a encular!!
+grim_creeper_4 Estoy... palmando... ¡Soplapollas! Pero tu desaparecerás si el Pez Jincho levanta cabeza. Tú... estás... en... su... sueño...
 
-beak_d7_1 Jump off the floor above to reach the chest on the table.
-beak_d7_2 The riddle is solved when the pillars fall!
-beak_d7_3 If you can't go over the poles, try throwing things you have in your hands.
+beak_d7_1 Suicídate un poco desde el piso de arriba pa pillar el cofre denloartolameza.
+beak_d7_2 ¡Haz de Demolition Man y peta las columnas!
+beak_d7_3 Si no puedes pasar sobre los palos, tírale las cosas que lleves ensima.
 
 // dungeon eight
-beak_d8_1 To defeat the monsters who hold the key, attack them from a higher place.
-beak_d8_2 If the statue looks strange, shoot it with the bow.
-beak_d8_3 Fill all the holes with the rock that rolls, this (´) is the key!
+beak_d8_1 Pa follarte a los bichos que cuidan de la jodía llave, mételes desde un sitio alto.
+beak_d8_2 Si la estatua es rarilla, ¡trínchala de un flechaso!
+beak_d8_3 Llena los bujeros con los piedros que ruedan. ¡Esta (´) es la clave!
 
-ice_block_message Brrrr... This is a block of solid ice! It's very cold!
+ice_block_message ¡Brrrr...! ¡Joer, qué frío es! ¡Aquí fijo que está congelao el Walt Disney!
 
-hot_head_0 CRACKLE-FWOOOSH! You're finished! I will never let you play the Instruments of the Sirens!!
-hot_head_1 C-C-CRACKLE! Why did you come here? If it weren't for you, nothing would have to change! You cannot wake the Wind Fish! Remember, you... too...are in... ...the dream...
+hot_head_0 ¡¡Quietooorr!! ¡No te dejaré que toques todos los instrumentos! ¡¡Prefiero a Julio Iglesias y a las Spice Girls!!
+hot_head_1 ¡¡Jaaaarrll!! ¿Por qué viniste a joder la marrana? Si no hubieras okupao Barbate... ¡¡No puedes desclapar al Pez Jincho!! ¡¡Recuerda, tú estás... en... su... sueño...!!
 
 // color dungeon
-grave_locked If you have no courage, then you have no strength. Gravestones won't move for cowards.
+grave_locked Si no le echas cojones, no tienes fuersa. ¡Las lápidas no se menean pa las nenitas!
 
-beak_dc_1 Here is your clue. Make all the red blue.
+beak_dc_1 Una pistilla de buen rollo. A to lo rojo haslo asul.
 
-stone_hinox What a greedy fool! You want more power?! A buffoon like you might as well give up and go home!
+stone_hinox ¡Un gilipollas avarisioso! ¡Hay que joerse, el notas! ¡Subnormal! ¡Vete pal Cottolengo que pasan lista!
 
-giant_buzz_blob_enter BOO! I am no weakling! Your pitiful sword is no match for me!
-giant_buzz_blob_sword You fool! Your sword won't work! Try something else!
+giant_buzz_blob_enter ¡BUAS! ¡Estoy más cuadrao que la SuperAbuela! ¡Tu navaja me la suda!
+giant_buzz_blob_sword ¡Mamón! ¡Tu currilla será inútil! Prueba otra cosa. (¿tu rabo?)
 
 // is this only shown on the normal gameboy?
-// I am sorry, but this is the Color Dungeon. Only those with the power of color may enter. If you can tell who wears red and who wears blue, you may enter. Farewell.
-npc_color_0 Our colors are never the same! If I am red, he is blue! If he is red, I am blue! What color is my cloth?
-npc_color_1 No,  no. Take a closer look and try again.
-npc_color_2 Don't tell anyone.
-npc_color_3 The fairy queen is waiting for you.
-npc_color_4 Do you have the powder?\nIf not, you must go back.
+// Mira tron, esto es la aduana de los colore... Aquí sólo pasa el quee me diga quién va de rojo y quien va de asul... ¡¡Asín que si eres daltónico te vas a jartar!! Adios tío.
+npc_color_0 ¡Barrio sesamo! Si soy roojo... el es asuuul....  Si el es rooojo... ¡Yo soy azul! ¿De que color me visto?
+npc_color_1 No, no, joer. Fíjate bien e intántalo otra vez, macho.
+npc_color_2 ¡No te chives a naiden!
+npc_color_3 La Reina Guarrilla tespera, [NAME].
+npc_color_4 ¿Tienes los polvillos?\nSi no lo tienes date el piro, capullo.
 
-choice_Red Red
-choice_Blue Blue
+choice_Red Rojo
+choice_Blue Asul
 
-hardhit_beetle_0 Blue is safe. Yellow is caution. Red is danger.
-hardhit_beetle_1 Blue. Start over. Yellow is caution. Red is danger.
-hardhit_beetle_2 Yellow is caution. Red is danger, Take your time.
+hardhit_beetle_0 Asul es seguro.  Amarillo es precausión. Rojo es peligro.
+hardhit_beetle_1 Asul. Vuelve patrás. Amarillo precausión. Rojo peligro.
+hardhit_beetle_2 Amarillo es precausión. Rojo es periglo, tomate tu tiempo.
 
-choice_RED RED
-choice_BLUE BLUE
+choice_RED ROJO
+choice_BLUE ASUL
 
-color_fairy_0 Welcome, [NAME]. I admire you for coming this far. I will give you the power of color. If you want offense, choose red. If you want defense choose blue. Which power do you want?
-color_fairy_1 Red for offense, blue for defense. Which do you choose?  
-color_fairy_2 Are you sure?
-color_fairy_3 Relax and close your eyes.
-color_fairy_4 I will now take you out.
+color_fairy_0 Hola, [NAME], ¡debes tenerlos mu bien puestos! ¡Te voy a pasar el poder Mikolor! Si quieres hostias, toma el rojo. Si quieres defensa engancha el asul... ¿Qué quieres? No tengo tol día...
+color_fairy_1 Rojo pa meter piñas, asul pa defenderte mejón. ¿Cuál te pillas?
+color_fairy_2 ¿Tas seguro, tío?
+color_fairy_3 Relájate pecador, y sierra los ojos.
+color_fairy_4 Ahora te saco, tú tranqui.
 
-cloak_blue You've got the Blue Clothes! Your damage will be reduced by half!
-cloak_red You've got the Red Clothes! Your body is full of energy!
+cloak_blue ¡Pillas la chupa asul! ¡Es como la del Termineitor, vas blindao!
+cloak_red ¡Pillas la chupa roja! ¡Estás cachas como Musculman!
 
 // desert
-desertLanmola Annoyance! You are only getting in the way!
+desertLanmola ¡Macho! ¡Estorbas más que una mosca cojonera!
 
 // shell mansion
-shell_mansion_0 I am the spirit of the mansion. I have been waiting for someone to overcome the darkness. Find all the secret shells and go through the gate to receive the ultimate sword!
-shell_mansion_1 Hmmm. No response. You must not have enough shells.
-shell_mansion_2 My job here is finished.
+shell_mansion_0 ¡Soy el poltergueis de esta keli! He estado esperando que algun notas entre endentro... ¡Encuentra las Conchas Codan y pasa pol la puerta para pillar la ULTIMATE NAVAJA FROM ALBACETE!
+shell_mansion_1 Hmmm. No ha pasao na. ¡Tienen que faltar Conchas Codan!
+shell_mansion_2 Mi currelo aquí sacabao.
 
-npc_hippo_0 Go away!
-npc_hippo_1 Quit it!
-npc_hippo_2 Leave me alone! I'm trying to sit still so Schule can paint my portrait!
+npc_hippo_0 ¡Que te pires!
+npc_hippo_1 ¡Vete a pegarle peos a una lata!
+npc_hippo_2 ¡Vete a cagar! ¡Estoy intentando no menearme para que el negao este me pinte!
 
-npc_painter_0 Ya, I am Schule Donavitch! Zee mermaid statue by zee bay iz my masterpiece! ... To tell you zee truth, zis werk iz not complete! Zee art, it'z... difficult for you to grasp, iz it not?
-npc_painter_1 Iz zat zee Mermaid scale? I can't use it now. I have to werk on zis drawing. You should go finish zee mermaid statue for me.
-npc_painter_2 Ach! Vat are you looking at vith zat magnifying lens? Stop it at vonce!
+npc_painter_0 Ya, soy Schule Donavitch. Aparrte de inmigrrante ileglal soy arrtiszta. ¡Yo hice la Sirrena Macarrena! Pero unos hinchaz del Atleti le arrancarron una ejcama. Estos chavale...
+npc_painter_1 ¿Es ezza la escama de la Sirrena Macarrena? Ahorra estoy pintando como un puto serdo. Ves por mí y pégala con Loctite (Superglue) a la estatua de la sirrena.
+npc_painter_2 ¡Ach! ¿Qué coño jipias con essa lupa? ¡Deja eso de una jodida ves, coño!
 
 // photo house
-photo_book 'The Travels of [NAME]' Do you want to look at your album?
-photo_book_text Which picture would you like to see? Use + to select, then press the A Button!
+photo_book 'Hañazas y leyendas de [NAME], el último gran macho.' ¿Miras el álbum?
+photo_book_text ¿Qué afoto te molaría jipiar? Dale a + pa selecsionar, endispués al botón A.
 
 // entering with a follower
-photo_mouse_follower See me later, when you're alone!
+photo_mouse_follower Ven pacá cuando estés solano, ¿falen?
 
-photo_left_11 11 shots left! What kind of picture should I take?
-photo_left_10 10 shots left! What kind of picture should I take?
-photo_left_9 9 shots left! What kind of picture should I take?
-photo_left_8 8 shots left! What kind of picture should I take?
-photo_left_7 7 shots left! What kind of picture should I take?
-photo_left_6 6 shots left! What kind of picture should I take?
-photo_left_5 5 shots left! What kind of picture should I take?
-photo_left_4 4 shots left! What kind of picture should I take?
-photo_left_3 3 shots left! What kind of picture should I take?
-photo_left_2 2 shots left! What kind of picture should I take?
-photo_left_1 1 shots left! What kind of picture should I take?
-photo_left_0 Oh no! You're out of film! Don't forget to look at your album!
+photo_left_11 ¡Faltan 11 afotos! ¿Y si nos escondemos entre los setos?
+photo_left_10 ¡Faltan 10 afotos! ¿Debería pillar fotos pornográficas?
+photo_left_9 ¡Faltan 9 afotos! Si pillase unas afotos del private...
+photo_left_8 ¡Faltan 8 afotos! ¿Qué clase de perversione debería afotografiar?
+photo_left_7 ¡Faltan 7 afotos! ¿Ande coño pudría haser una afoto?
+photo_left_6 ¡Faltan 6 afotos! ¡Quiero más fotos, joder, joder, jodeeer!
+photo_left_5 ¡Faltan 5 afotos! ¡Tráete unas pivas y sacamos unas pocas!
+photo_left_4 ¡Faltan 4 afotos! ¿Y si te traes a la Marin y... ya sabes?
+photo_left_3 ¡Faltan 3 afotos! Sigo pensando en la Marin en bragas...
+photo_left_2 ¡Faltan 2 afotos! ¡AFGHN! ¡FOTOS, FOTOS, FOOOOTOOOS!
+photo_left_1 ¡Falta 1 afoto! ¿A que me hago una del ojete de mi culo?
+photo_left_0 ¡Cagon el copón, sí que lo has llenao! ¡He perdío 1000 duros! ¡Nchts!
 
 
 // photo sequence photo house
-photo_01_0 I just LOVE to take pictures. Will you let me take your picture?
-photo_01_1 Go to the back of the room and stand in front of the screen.
-photo_01_2 I'll call this 'Here Stands A Brave Man.' Say cheese!
-photo_01_3 What's your name, young man? [NAME]? Well here's your album, [NAME]. Give it a look before you leave!
-photo_01_4 Let's see if we can fill that album!
-photo_01_5 Let's take a picture!
-photo_01_6 No picture?!\nAre you pullin' my leg?
-photo_01_7 What a bummer!
-photo_01_8 Beautiful! I'll call this 'Game Over.'
+photo_01_0 Ah, cómo me molan las afotos. Oye, [NAME] ¿qué hases aquírl?
+photo_01_1 ¡Oye, que no te he echao la afoto! ¡Ponte delante del fistro de pantalla!
+photo_01_2 A esta la llamaré '[NAME], el macho ibérico'. ¡Mira al pajarito!
+photo_01_3 ¿Cómo te llamas, enano orejúo? ¿[NAME]? Mira, te regalo un álbum de afotos, [NAME]. ¡1000 duros a que no lo llenas!
+photo_01_4 ¡Vamos a vel si podemos llenarlo to!
+photo_01_5 ¡Amos a haser una afoto!
+photo_01_6 ¡¿No fotos?!\n¿Te cachondeas de mí?
+photo_01_7 ¡Vaya mojón!
+photo_01_8 ¡Cojonúo! ¡Esta la llamaremos 'La Cagaste'!
 photo_01_9 Hey! I haven't taken your picture yet! Go back and stand in front of the screen!
 
 // photo sequence ulrira house
-photo_02_0 Hi! It's me, the photographer! You seem curious about Grandpa Ulrira.
-photo_02_1 I'll call this '[NAME] Discovers Ulrira's Secret!'
+photo_02_0 ¡Pasa tronco, soy el de las afotos! Pareses curioso sobre el carcamal del Ulrira.
+photo_02_1 ¡A esta la llamaré '[NAME] descubre el secreto del Ulrira'!
 
 // photo sequences BowWow
-photo_03_0 Hey, that looks great! I'll call it '[NAME] Plays With BowWow!' Now get closer to BowWow!
-photo_03_1 Grrrr!
-photo_03_2 [NAME], get closer!
-photo_03_3 Grrrr! Grrrr!!
-photo_03_4 Grrrr! Grrrr!! GRRRR!
-photo_03_5 Much closer! OK, I'm ready. Smile!
+photo_03_0 ¡Esta foto pa Impacto TV! ¡La llamaré 'Los GuaGuas se meriendan a [NAME]'!
+photo_03_1 ¡Groars!
+photo_03_2 ¡[NAME], asércate, coño!
+photo_03_3 ¡Grrrrl! ¡Grrrbr!
+photo_03_4 ¡GROARS! ¡¡KILL!! ¡GRRRR!
+photo_03_5 ¡Ahí ahí, bien serquita! (Haw haw) ¡Ahora sonríe!
 
 // photo sequences castle
-photo_05_0 Hi, [NAME]. You know I love to take pictures. Wouldn't this old castle make a great photo?
-photo_05_1 Nothing yet?! I grow tired of waiting. I want those Golden Leaves delivered soon! Courage like this deserves a photo, don't you think?
-photo_05_2 Go ahead and take a picture of me. Any angle you like!
-photo_05_3 I'm not afraid. I just decided to wait at home.
+photo_05_0 Hola, [NAME]. Sabes que me mola echar afotos. ¿Este castillo quedaría guapo enretratao?
+photo_05_1 ¿Entodavía no, tío? ¡Tengol mono de maría! ¡Como no me des las hojas pronto fumaré porros de Avecrem! ¡Esto questás hasiendo por mí merese un afoto!
+photo_05_2 ¡Vamos, pichacorta! ¡Hasme la foto asín en cualquier ángulo!
+photo_05_3 No estoy jiñao, es que me piro a casa.
 
 // photo sequences grave
-photo_06_0 Ah how I love pictures. Hey, [NAME]! What are you doing here?
-photo_06_1 You want to know about that ghost? I'll bet he's happy thanks to you. Are you ready for a picture?
-photo_06_2 I'll call this 'I Was Very Afraid.' Smile!
+photo_06_0 ¡Coñe, cómo me molan las afotos! ¡Oye, [NAME]! ¿Qué estás hasiendo con el cuerpo humano?
+photo_06_1 ¿Qué hases en la tumba del poltergueis? Fijo que se te apareció por hacer la guija esa. ¿Tas listo pa una afotiko?
+photo_06_2 Llamaré a esta 'Capté una psicoimagen de Luis.'
 
 // photo sequences marin cliff
-marin_cliff_0 This is my first walk with you, [NAME].
+marin_cliff_0 Este es mi primer garbeo contigo, [NAME].
 marin_cliff_1 . . . . .
-marin_cliff_2 This cliff will be our secret place. 
-marin_cliff_3 Aren't you going to say anything?
-marin_cliff_4 Oh how I love pictures! Why don't you take a picture when no one is around?\nYou can call it . . .
+marin_cliff_2 Podríamos okupar este acantilao. 
+marin_cliff_3 ¿No vas a abrir la puta boca?
+marin_cliff_4 ¡Cómo me chanan las afotos! ¿Por qué no te haces una afotiko mientras no hay naide?\nPodrías entitularla . . .
 marin_cliff_5 I'll go develop this. Come see it later, OK?
 
 // photo sequences fountain
@@ -983,9 +983,9 @@ photo_08_0 Hi! I'm the photographer! What a great photo moment! I'll call this '
 photo_08_1 Ohh! I'm sorry! Are you okay?! [NAME]?
 
 // photo sequences weather bird
-photo_09_0 Hey, Marin and [NAME]! Are you taking pictures? You should take pictures of everyone, including me.
-photo_09_1 I use this to take pictures. Are you ready? Say 'mushroom!'
-photo_09_2 OK, I'm done. I'll go home now.
+photo_09_0 ¡Oye, Marin and [NAME]! ¿Estáis hasiendo afotos? ¡Tienen que retratar a to cristo, y a mí el primero, joder!
+photo_09_1 Utiliso este trasto pa haser afotos. ¿Tais listos? ¡Decir 'farlopa'!
+photo_09_2 Ale, yastá. Más mongolos pal álbum.
 
 // photo sequences fisher
 photo_10_0 I have a feelin' that I'll catch a big fish again.
@@ -1004,11 +1004,11 @@ photo_12_3 I should back up.
 photo_12_4 Aaaaaah!
 
 // map
-map_tal_tal Tal Tal Mountain Range
-map_wind_fishs_egg Wind Fish's Egg
-map_mt_tamaranch Mt. Tamaranch
+map_tal_tal Montañas Y Tal y Tal
+map_wind_fishs_egg Guevo del Pez Jincho
+map_mt_tamaranch Monte Tamaranch
 map_hen_house Hen House
-map_telephone_booth Telephone Booth
+map_telephone_booth Cabina de Timofónica
 map_goponga_swamp Goponga Swamp
 map_tal_tal_heights Tal Tal Heights
 map_weird_mr_write Weird Mr. Write

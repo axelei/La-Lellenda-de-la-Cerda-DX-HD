@@ -113,7 +113,7 @@ namespace ProjectZ.InGame.Screens
                     backStr = ControlHandler.ButtonDictionary[CButtons.B].Keys[0].ToString();
                 if (!ControlHandler.LastKeyboardDown && ControlHandler.ButtonDictionary[CButtons.B].Buttons.Length > 0)
                     backStr = ControlHandler.ButtonDictionary[CButtons.B].Buttons[0].ToString();
-                var backHelp = backStr + " Voltar";
+                var backHelp = backStr + " Vorver";
 
                 var backTextSize = Resources.GameFont.MeasureString(backHelp);
                 spriteBatch.DrawString(Resources.GameFont, backHelp,
@@ -126,7 +126,7 @@ namespace ProjectZ.InGame.Screens
                     selectStr = ControlHandler.ButtonDictionary[CButtons.A].Keys[0].ToString();
                 if (!ControlHandler.LastKeyboardDown && ControlHandler.ButtonDictionary[CButtons.A].Buttons.Length > 0)
                     selectStr = ControlHandler.ButtonDictionary[CButtons.A].Buttons[0].ToString();
-                var inputHelper = selectStr + " Selecionar";
+                var inputHelper = selectStr + " Selesionar";
 
                 var selectTextSize = Resources.GameFont.MeasureString(inputHelper);
                 spriteBatch.DrawString(Resources.GameFont, inputHelper,
