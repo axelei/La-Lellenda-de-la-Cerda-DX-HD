@@ -2461,7 +2461,7 @@ namespace ProjectZ.InGame.GameObjects
         {
             if (CurrentState != State.Idle && CurrentState != State.Pushing && CurrentState != State.Rafting &&
                 (CurrentState != State.Jumping || _railJump) && (CurrentState != State.Swimming || !Map.Is2dMap)
-                && CurrentState != State.Attacking)
+                && CurrentState != State.Attacking && CurrentState != State.Blocking)
                 return;
 
             var slashSounds = new[] { "D378-02-02", "D378-20-14", "D378-21-15", "D378-24-18" };
