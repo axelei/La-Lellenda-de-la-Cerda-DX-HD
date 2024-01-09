@@ -273,6 +273,7 @@ namespace ProjectZ.InGame.GameObjects
         // shield
         public bool CarryShield;
         private bool _wasBlocking;
+        private bool _isBlockingWhileCharging = false;
 
         // hookshot
         public ObjHookshot Hookshot = new ObjHookshot();
@@ -2065,7 +2066,9 @@ namespace ProjectZ.InGame.GameObjects
 
             Animation.SpeedMultiplier = 1.0f;
 
-            if (CurrentState == State.Idle && !_isWalking ||
+            if (CurrentState == State.Charging && _isBlockingWhileCharging)
+                Animation.Play((!_isWalking ? "standb" : "walkb") + shieldString + Direction);
+            else if (CurrentState == State.Idle && !_isWalking ||
                 CurrentState == State.Charging && !_isWalking ||
                 CurrentState == State.Rafting && !_isWalking ||
                 CurrentState == State.Teleporting ||
@@ -2261,6 +2264,8 @@ namespace ProjectZ.InGame.GameObjects
                 CurrentState = State.Rafting;
             else
                 CurrentState = State.Idle;
+
+            _isBlockingWhileCharging = false;
         }
 
         private void UpdateGhostSpawn()
@@ -2326,6 +2331,11 @@ namespace ProjectZ.InGame.GameObjects
                         if (Game1.GameManager.Equipment[i] != null &&
                             ControlHandler.ButtonDown((CButtons)((int)CButtons.A * Math.Pow(2, i))))
                             HoldItem(Game1.GameManager.Equipment[i],
+                                ControlHandler.LastButtonDown((CButtons)((int)CButtons.A * Math.Pow(2, i))));
+
+                        if (Game1.GameManager.Equipment[i] != null &&
+                            ControlHandler.ButtonReleased((CButtons)((int)CButtons.A * Math.Pow(2, i))))
+                            ReleasedItemButton(Game1.GameManager.Equipment[i],
                                 ControlHandler.LastButtonDown((CButtons)((int)CButtons.A * Math.Pow(2, i))));
                     }
                 }
@@ -2454,6 +2464,15 @@ namespace ProjectZ.InGame.GameObjects
                 case "pegasusBoots":
                     HoldPegasusBoots();
                     break;
+            }
+        }
+
+        private void ReleasedItemButton(GameItemCollected item, bool lastKeyDown)
+        {
+            if (item.Name == "shield" || 
+                item.Name == "mirrorShield")
+            {
+                _isBlockingWhileCharging = false;
             }
         }
 
@@ -2912,6 +2931,15 @@ namespace ProjectZ.InGame.GameObjects
 
         private void HoldShield(bool lastKeyDown)
         {
+            if (CurrentState == State.Charging)
+            {
+                if (!_isBlockingWhileCharging)
+                {
+                    Game1.GameManager.PlaySoundEffect("D378-22-16");
+                    _isBlockingWhileCharging = true;
+                }
+            }
+
             if (CurrentState != State.Idle && CurrentState != State.Pushing)
                 return;
 
