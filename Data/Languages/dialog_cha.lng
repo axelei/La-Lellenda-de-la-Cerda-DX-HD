@@ -78,7 +78,7 @@ pieceOfPower ¡Pillas una rula de poder!\n¡Sientes el éxtasis en tu físico! �
 potion ¡Encuentras la medisina! ¡Echa unos cuantos Trakimazines y to arreglao!
 
 dkey1 ¡Guindas la Llave Cola! ¡Ahora puedes petarte la verja de la Cueva Cola!
-dkey2 ¡Guindas la Llave Pringue! ¡Ya puedes arramplar la cancela de la praera Ukuku!
+dkey2 ¡Guindas la Llave Pringue! ¡Ya puedes arramplar la cancela de la praera Kukurl!
 dkey3 ¡Guindas la Llave Ansuelo!
 dkey4 ¡Giundas la Llave Jeto!
 dkey5 ¡Guindas la Llave Avecrem!
@@ -112,10 +112,10 @@ goldLeafLast ¡Por fin consigues la última hoja de maría! Ahora ve a charrar c
 // v 0178
 signpost0 error
 signpost1 ± Cueva Cola\n² Costa Tarumba
-signpost2 Bosque Misterioso\n(It's a little bit\n mysterious)
-signpost3 Este ± Ukuku\n       Praera\fMas pal este\n  Villa Bichejos
+signpost2 Bosque Misterioso\n(Sientes como tus cojones te suben...)
+signpost3 Este ± Kukurl\n       Praera\fMas pal este\n  Villa Bichejos
 signpost4 ¡Cuidao con los espinetes!\n¡No los toques con tus susias manos!
-signpost5 ¡Cuidao con los suelos rajaos! ¡Como estás hinchao a kebabs puedes acabar mal!
+signpost5 ¡Cuidado con la aluminosis! ¡Después no digas que no te hemos avisao...!
 
 signpost6 Castillo Kanalet 10 Min. ± ³
 signpost7 Castillo Kanalet 5 Min. ±
@@ -124,10 +124,10 @@ signpost8 Castillo Kanalet 50 Pasos ³
 signpost9 ± Pueblo Bichejo\n² Bahía de Marta
 signpost10 Mansión Conchas Codan
 
-signpost11 Tas serca de los Altos Tal y Tal. La tienda de afotos está serca.
+signpost11 Tas serca de los Altos Y Tal y Tal. La tienda de afotos está serca.
 signpost12 ± Monte Tamaranch\n° Pantano Gopotas
-signpost13 ± Guarry Tracy\n² Estanque Manbo
-signpost14 ± Sementerio\n² Praera Ukuku
+signpost13 ± Guarry Tracy\n² Estanque Fary
+signpost14 ± Sementerio\n² Praera Kukurl
 signpost15 ± Pantano Gopotas\n² Bosque Misterioso
 
 signpost16 ¡PILIGRO, FUERA!\n¡A tomar por culo!\n(Excepto GuaGuas)
@@ -603,8 +603,8 @@ ghost_grave_powder ¡Arghchús! ¡Arghfs! ¡Cagon en el copón santo! ¡No va y 
 
 
 // == owl ==
-owl_1_0 ¡Jurl, jurl!\nAsín que eres el dueño de la navaja...\f¿No te da verguensa contaminar el mar?\fBueno, parese que un orejudo con un par de pelotas ha venío a despertar al Pez Jincho...\fSe dise que no puedes dejar la Isla Barbate hasta que no lo despiertes...\fAle, pírate al norte hacia el Bosque Misterioso.\n¡Allí te espero fumándome unos petas! ¡Jurl!
-owl_1_1 ¡Jurl, jurl! ¡Sí que tardabas macho! ¡Me he fumado media docena de petas esperando! ¡Bienvenido al bosque misterioso! Se llama asín porque hay muchos misterios, jurl jurl. Lo chungo es que será chungo para ti pirarte de la isla si el marginal del Pez Jincho sigue con la caraja... Por sierto, ¿te has dado un rulo por la Cueva Cola, al sur del pueblacho? ¡Tírate para allí con la llave que chirlarás en el bosque! Bueno, yo me abro a pillarle un garbanzo al Pijota.
+owl_1_0 ¡Jurl, jurl!\nAsín que eres el dueño de la navaja...\f¿No te da vergüensa contaminar el mar?\fBueno, parese que un orejudo con un par de pelotas ha venío a despertar al Pez Jincho...\fSe dise que no puedes dejar la Isla Barbate hasta que no lo despiertes...\fAle, pírate al norte hacia el Bosque Misterioso.\n¡Allí te espero fumándome unos petas! ¡Jurl!
+owl_1_1 ¡Jurl, jurl! ¡Sí que tardabas macho! ¡Me he fumado media docena de petas esperando! ¡Bienvenido al bosque misterioso! Se llama asín porque hay muchos misterios, jurl jurl. Será chungo para ti pirarte de la isla si el marginal del Pez Jincho sigue con la caraja... Por sierto, ¿te has dado un rulo por la Cueva Cola, al sur del pueblacho? ¡Tírate para allí con la llave que chirlarás en el bosque! Bueno, yo me abro a pillarle un garbanzo al Pijota.
 owl_1_2 ¡Jurl! Pilla de una puta vez la llave y anda a la Cueva Cola, ¡y siséate el instrumento que hay allí! ¿A qué esperas, coño? ¿Es que eres hijo del Cuqui o qué?
 
 owl_2_0 ¡Juuurl! ¡Ese es el 'Cacharro de las Siernas'! Mas dejao flasheao chaval, mu bien, tienes más güevos quel Chuck Norris. Este cacharro junto con los otros siete tiene el poder de despertar al marginal del Pez Jincho. Bueno, me piro a haserme unas pajillas, tú sabes... ¡Ah, me se olvidaba, tu próximo objetivo está en el norte, en el pantano Gopotas! ¡Jur Juuuurl!
@@ -1058,7 +1058,7 @@ map_level_7 Nivel 7--\n     Torre Avecrem
 map_level_8 Nivel 8--\n     Tortuga Ninja
 
 
-final_boss Nasimos de las  pesadillas... Un día pillamos al Pez Jincho, le dimos veinte cubatas y una caja de Valiums... ¡¡Si no despierta, Isla Barbate no desaparecerá!! ¡¡¡Podríamos haber okupado Barbate entera...!!! Pero tenías que llegar a joder la marrana! Pero... ¡del Barco de Chanquete no nos moveran! ¡AHOSTIÉMONOS! 
+final_boss Nasimos de las pesadillas... Un día pillamos al Pez Jincho, le dimos veinte cubatas y una caja de Valiums... ¡¡Si no despierta, Isla Barbate no desaparecerá!! ¡¡¡Podríamos haber okupado Barbate entera...!!! Pero tenías que llegar a joder la marrana! Pero... ¡del barco de Chanquete no nos moverán! ¡AHOSTIÉMONOS! 
 
 final_windfish ... ... ... ...  ... ... ... ... SOY EL PEZ JINCHO... JODER, VAYA RESACA, COPÓN... EN MI SUEÑO... UN GUEBO APARESIÓ Y FUÉ RODEADO POR UNA ISLA, CON GENTE, NIMALES... Y SOBRE TODO YONKARRAS... PERO COMO ES LA NATURALESA DE LOS SUEÑOS, ¡ACABARÁ AL DESCLAPAR! BARBATE... DESAPARECERÁ... SÓLO LA MEMORIA DE ESTE SUEÑO EXISTIRÁ EN EL MUNDO DE LA REALIDÁS. ALGUN DÍA, TÚ RECORDARÁS ESTA ISLA... SI ESQUE NO PILLAS EL ALZHEIMER ANTES..............   ... ... ... ...  VEN, [NAME], DESCLAPEMOS... ¡¡¡JUNTOS!!!
 final_instruments ¡TOCA EL QUINTO LEVANTA CON LOS CACHARROS! ¡¡A DESPERTAR TOCAN!!
