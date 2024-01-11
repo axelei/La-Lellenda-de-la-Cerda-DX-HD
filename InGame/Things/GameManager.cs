@@ -212,40 +212,6 @@ namespace ProjectZ.InGame.Things
 
         public void UpdateGame()
         {
-
-            if (Game1.EditorMode)
-            {
-                if (InputHandler.KeyDown(Microsoft.Xna.Framework.Input.Keys.F12))
-                {
-                    MapManager.ObjLink.PickUpItem(new GameItemCollected("sword2"), false, false, false);
-                    MapManager.ObjLink.PickUpItem(new GameItemCollected("mirrorShield"), false, false, false);
-                    MapManager.ObjLink.PickUpItem(new GameItemCollected("feather"), false, false, false);
-                    MapManager.ObjLink.PickUpItem(new GameItemCollected("stonelifter2"), false, false, false);
-                    MapManager.ObjLink.PickUpItem(new GameItemCollected("pegasusBoots"), false, false, false);
-                    MapManager.ObjLink.PickUpItem(new GameItemCollected("shovel"), false, false, false);
-                    MapManager.ObjLink.PickUpItem(new GameItemCollected("flippers"), false, false, false);
-                    MapManager.ObjLink.PickUpItem(new GameItemCollected("magicRod"), false, false, false);
-                    MapManager.ObjLink.PickUpItem(new GameItemCollected("hookshot"), false, false, false);
-                    MapManager.ObjLink.PickUpItem(new GameItemCollected("boomerang"), false, false, false);
-                    MapManager.ObjLink.PickUpItem(new GameItemCollected("powder") { Count = 999 }, false, false, false);
-                    MapManager.ObjLink.PickUpItem(new GameItemCollected("bomb") { Count = 999 }, false, false, false);
-                    MapManager.ObjLink.PickUpItem(new GameItemCollected("bow") { Count = 999 }, false, false, false);
-                    MapManager.ObjLink.PickUpItem(new GameItemCollected("ocarina"), false, false, false);
-                    MapManager.ObjLink.PickUpItem(new GameItemCollected("trade13"), false, false, false);
-
-                    for (int i = 0; i < 8; ++i)
-                    {
-                        CollectItem(new GameItemCollected("instrument"+i));
-                    }
-
-                    for (int i = 1; i <= 5; ++i)
-                    {
-                        CollectItem(new GameItemCollected("dkey" + i));
-                    }
-                }
-                
-            }
-
             InGameOverlay.Update();
 
             UpdateSoundEffects();

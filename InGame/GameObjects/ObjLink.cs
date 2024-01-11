@@ -530,6 +530,35 @@ namespace ProjectZ.InGame.GameObjects
                 //Map.Objects.Hit(this, damageOrigin, damageBox, HitType.SwordHold, 2, false);
                 //Map.Objects.Hit(this, damageOrigin, damageBox, HitType.SwordSpin, 2, false);
             }
+
+            if (InputHandler.KeyDown(Microsoft.Xna.Framework.Input.Keys.F12))
+            {
+                PickUpItem(new GameItemCollected("sword2"), false, false, false);
+                PickUpItem(new GameItemCollected("mirrorShield"), false, false, false);
+                PickUpItem(new GameItemCollected("feather"), false, false, false);
+                PickUpItem(new GameItemCollected("stonelifter2"), false, false, false);
+                PickUpItem(new GameItemCollected("pegasusBoots"), false, false, false);
+                PickUpItem(new GameItemCollected("shovel"), false, false, false);
+                PickUpItem(new GameItemCollected("flippers"), false, false, false);
+                PickUpItem(new GameItemCollected("magicRod"), false, false, false);
+                PickUpItem(new GameItemCollected("hookshot"), false, false, false);
+                PickUpItem(new GameItemCollected("boomerang"), false, false, false);
+                PickUpItem(new GameItemCollected("powder") { Count = 999 }, false, false, false);
+                PickUpItem(new GameItemCollected("bomb") { Count = 999 }, false, false, false);
+                PickUpItem(new GameItemCollected("bow") { Count = 999 }, false, false, false);
+                PickUpItem(new GameItemCollected("ocarina"), false, false, false);
+                PickUpItem(new GameItemCollected("trade13"), false, false, false);
+
+                for (int i = 0; i < 8; ++i)
+                {
+                    Game1.GameManager.CollectItem(new GameItemCollected("instrument" + i));
+                }
+
+                for (int i = 1; i <= 5; ++i)
+                {
+                    Game1.GameManager.CollectItem(new GameItemCollected("dkey" + i));
+                }
+            }
 #endif
 
             if (CurrentState == State.FallRotateEntry)
