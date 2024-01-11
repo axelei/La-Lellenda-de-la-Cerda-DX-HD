@@ -113,7 +113,7 @@ goldLeafLast ¡Por fin consigues la última hoja de maría! Ahora ve a charrar c
 signpost0 error
 signpost1 ± Cueva Cola\n² Costa Tarumba
 signpost2 Bosque Misterioso\n(Sientes como tus cojones te suben...)
-signpost3 Este ± Kukurl\n       Praera\fMas pal este\n  Villa Bichejos
+signpost3 Este ± Praera\n       Kukurl\fMás pal este\n  Villa Bichejos
 signpost4 ¡Cuidao con los espinetes!\n¡No los toques con tus susias manos!
 signpost5 ¡Cuidado con la aluminosis! ¡Después no digas que no te hemos avisao...!
 
@@ -754,7 +754,7 @@ ulrira_7_2 '¡TIRURÍ, TIRURÍ! Aquí el Ulrira. Cuando era mozo, me llevaba a l
 ulrira_8_0 '¡TIRURÍ, TIRURÍ! Coño, eres tú, [NAME]. ¿La cabeza de la tortuga ninja no te deja pasar? Dale vida y verás que guapo. ¡Te lo dice el menda! ¡Taluego!' -click-
 ulrira_8_1 '¡TIRURÍ, TIRURÍ! ¡Aquí el Ulrira! Sabes, estoy triste, dentro de na te petarás el juego y dejarás de jugar a la Cerda. ¡Buaaa!' -click-
 
-ulrira_9_0 '¡TIRURÍ, TIRURÍ! ¡Hola, aquí el tronco de siempre! [NAME], es hora de que al güevo en el monte Samaranch. ¡Ya casi te petas el juego! ¡Adios, ten cuidaíto!' -click-
+ulrira_9_0 '¡TIRURÍ, TIRURÍ! ¡Hola, aquí el tronco de siempre! [NAME], es hora de que le plantes pelotas al güevo en el monte Samaranch. ¡Ya casi te petas el juego! ¡Adios, ten cuidaíto!' -click-
 ulrira_9_1 '¡TIRURÍ, TIRURÍ! ¡Aquí Ulrira! ¿Te has perdío en el güevo? Pues búscate la vida joder, que llevas todo el juego preguntando, coño. ¡Ves a la biblioteca e investiga por una vez, que se te van a secar los sesos!' -click-
 
 ulrira_wife '¡TIRURÍ, TIRURÍ! Sí, soy el Ulrira. Mi mujer se ha pirao a Villa Bichejo a hacer zoofilia con todos los animales. ¿Le puedes decir que se venga cuando se los haya tirao ya a todos? Seré cornúo...' -click-
@@ -937,7 +937,7 @@ photo_left_0 ¡Cagon el copón, sí que lo has llenao! ¡He perdío 1000 duros! 
 
 // photo sequence photo house
 photo_01_0 Ah, cómo me molan las afotos. Oye, [NAME] ¿qué hases aquírl?
-photo_01_1 ¡Oye, que no te he echao la afoto! ¡Ponte delante del fistro de pantalla!
+photo_01_1 Ve al fondo del cuarto y ponte de pie en esa pantalla.
 photo_01_2 A esta la llamaré '[NAME], el macho ibérico'. ¡Mira al pajarito!
 photo_01_3 ¿Cómo te llamas, enano orejúo? ¿[NAME]? Mira, te regalo un álbum de afotos, [NAME]. ¡1000 duros a que no lo llenas!
 photo_01_4 ¡Vamos a vel si podemos llenarlo to!
@@ -945,7 +945,7 @@ photo_01_5 ¡Amos a haser una afoto!
 photo_01_6 ¡¿No fotos?!\n¿Te cachondeas de mí?
 photo_01_7 ¡Vaya mojón!
 photo_01_8 ¡Cojonúo! ¡Esta la llamaremos 'La Cagaste'!
-photo_01_9 Hey! I haven't taken your picture yet! Go back and stand in front of the screen!
+photo_01_9 ¡Oye, que no te he echao la afoto! ¡Ponte delante del fistro de pantalla!
 
 // photo sequence ulrira house
 photo_02_0 ¡Pasa tronco, soy el de las afotos! Pareses curioso sobre el carcamal del Ulrira.
@@ -980,7 +980,7 @@ marin_cliff_5 Iré a revelar esto. Pégate un rulo endispués.
 
 // photo sequences fountain
 photo_08_0 ¡Hola, paco! ¡Soy el afoteador! ¡Qué peaso de afoto! Creo que le pondré... '¡Ahoral!'
-photo_08_1 Ohh! I'm sorry! Are you okay?! [NAME]?
+photo_08_1 ¿Pero qué estás hasiendo con el cuerpo humano, [NAME]?
 
 // photo sequences weather bird
 photo_09_0 ¡Oye, Marin and [NAME]! ¿Estáis hasiendo afotos? ¡Tienen que retratar a to cristo, y a mí el primero, joder!
@@ -1060,7 +1060,7 @@ map_level_8 Nivel 8--\n     Tortuga Ninja
 
 final_boss Nasimos de las pesadillas... Un día pillamos al Pez Jincho, le dimos veinte cubatas y una caja de Valiums... ¡¡Si no despierta, Isla Barbate no desaparecerá!! ¡¡¡Podríamos haber okupado Barbate entera...!!! Pero tenías que llegar a joder la marrana! Pero... ¡del barco de Chanquete no nos moverán! ¡AHOSTIÉMONOS! 
 
-final_windfish ... ... ... ...  ... ... ... ... SOY EL PEZ JINCHO... JODER, VAYA RESACA, COPÓN... EN MI SUEÑO... UN GUEBO APARESIÓ Y FUÉ RODEADO POR UNA ISLA, CON GENTE, NIMALES... Y SOBRE TODO YONKARRAS... PERO COMO ES LA NATURALESA DE LOS SUEÑOS, ¡ACABARÁ AL DESCLAPAR! BARBATE... DESAPARECERÁ... SÓLO LA MEMORIA DE ESTE SUEÑO EXISTIRÁ EN EL MUNDO DE LA REALIDÁS. ALGUN DÍA, TÚ RECORDARÁS ESTA ISLA... SI ESQUE NO PILLAS EL ALZHEIMER ANTES..............   ... ... ... ...  VEN, [NAME], DESCLAPEMOS... ¡¡¡JUNTOS!!!
+final_windfish ... ... ... ...  ... ... ... ...\fSOY EL PEZ JINCHO... JODER, VAYA RESACA, COPÓN... EN MI SUEÑO... UN GUEBO APARESIÓ Y FUÉ RODEADO POR UNA ISLA, CON GENTE, NIMALES... Y SOBRE TODO YONKARRAS... PERO COMO ES LA NATURALESA DE LOS SUEÑOS, ¡ACABARÁ AL DESCLAPAR! BARBATE... DESAPARECERÁ... SÓLO LA MEMORIA DE ESTE SUEÑO EXISTIRÁ EN EL MUNDO DE LA REALIDÁS. ALGUN DÍA, TÚ RECORDARÁS ESTA ISLA... SI ESQUE NO PILLAS EL ALZHEIMER ANTES...\n... ... ... ... ... ... ... ...\nVEN, [NAME], DESCLAPEMOS... ¡¡¡JUNTOS!!!
 final_instruments ¡TOCA EL QUINTO LEVANTA CON LOS CACHARROS! ¡¡A DESPERTAR TOCAN!!
 
 // credits
