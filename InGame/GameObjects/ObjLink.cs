@@ -530,6 +530,65 @@ namespace ProjectZ.InGame.GameObjects
                 //Map.Objects.Hit(this, damageOrigin, damageBox, HitType.SwordHold, 2, false);
                 //Map.Objects.Hit(this, damageOrigin, damageBox, HitType.SwordSpin, 2, false);
             }
+
+            // Max Hearts
+            if (InputHandler.KeyDown(Microsoft.Xna.Framework.Input.Keys.F8))
+            {
+                Game1.GameManager.MaxHearths = 14;
+                Game1.GameManager.HealPlayer(99);
+            }
+
+            // Full Heal
+            if (InputHandler.KeyDown(Microsoft.Xna.Framework.Input.Keys.F9))
+            {
+                Game1.GameManager.HealPlayer(99);
+            }
+
+            // Money
+            if (InputHandler.KeyDown(Microsoft.Xna.Framework.Input.Keys.F10))
+            {
+                PickUpItem(new GameItemCollected("ruby") { Count = 999 }, false, false, false);
+            }
+
+            // Dungeon Utils
+            if (InputHandler.KeyDown(Microsoft.Xna.Framework.Input.Keys.F11))
+            {
+                PickUpItem(new GameItemCollected("smallkey") { Count = 9 }, false, false, false);
+                PickUpItem(new GameItemCollected("compass"), false, false, false);
+                PickUpItem(new GameItemCollected("stonebeak"), false, false, false);
+                PickUpItem(new GameItemCollected("dmap"), false, false, false);
+                PickUpItem(new GameItemCollected("nightmarekey"), false, false, false);
+            }
+
+            // All items
+            if (InputHandler.KeyDown(Microsoft.Xna.Framework.Input.Keys.F12))
+            {
+                PickUpItem(new GameItemCollected("sword2"), false, false, false);
+                PickUpItem(new GameItemCollected("mirrorShield"), false, false, false);
+                PickUpItem(new GameItemCollected("feather"), false, false, false);
+                PickUpItem(new GameItemCollected("stonelifter2"), false, false, false);
+                PickUpItem(new GameItemCollected("pegasusBoots"), false, false, false);
+                PickUpItem(new GameItemCollected("shovel"), false, false, false);
+                PickUpItem(new GameItemCollected("flippers"), false, false, false);
+                PickUpItem(new GameItemCollected("magicRod"), false, false, false);
+                PickUpItem(new GameItemCollected("hookshot"), false, false, false);
+                PickUpItem(new GameItemCollected("boomerang"), false, false, false);
+                PickUpItem(new GameItemCollected("powder") { Count = 999 }, false, false, false);
+                PickUpItem(new GameItemCollected("bomb") { Count = 999 }, false, false, false);
+                PickUpItem(new GameItemCollected("bow") { Count = 999 }, false, false, false);
+                PickUpItem(new GameItemCollected("ocarina"), false, false, false);
+                PickUpItem(new GameItemCollected("trade13"), false, false, false);
+
+                for (int i = 0; i < 8; ++i)
+                {
+                    Game1.GameManager.CollectItem(new GameItemCollected("instrument" + i));
+                }
+
+                for (int i = 1; i <= 5; ++i)
+                {
+                    Game1.GameManager.CollectItem(new GameItemCollected("dkey" + i));
+                }
+            }
 #endif
 
             if (CurrentState == State.FallRotateEntry)
