@@ -14,7 +14,7 @@ ocarina ¡Pillas una ocarina! ¡A ver si te aprendes una de ACDC!
 powder ¡Pillas polvillos mágicos ilegales! ¡A ir echando polvos por ahín!
 mirrorShield ¡Pillas el escudo espejo! ¡Ahora puedes reflejar los rayos de lus que te tire Carlos Jesús!
 hookshot ¡Has amañao el gancho! ¡Se alargará como tu rabo de largo!
-magicRod ¡Pillas el lansallamas de RAMBO! ¡Ahora a quemar congs! ¡QUEMA ESOS AMARILLOS!
+magicRod ¡Pillas el mítico 7 papeles! ¡Es un porro interminable que lanza fuego! No te lo fumes...
 shovel ¡Has trincao una pala! ¡Ahora puedes emular a Antonio Molina! ¡Soy mineroooo!
 magicPowder ¡Pillas polvillos mágicos! ¡A echar polvos por ahín!
 bomb ¡Pillas una bomba!\n¡Toca a haser de etarra!
@@ -43,8 +43,8 @@ trade8 Cambilas ¨ por la carta de la cabra ©! ¿¡Y esta mierda!?
 trade9 ¡Pillas una escoba como recompensa del sr. Write! Pero esa afoto no era de...
 trade10 ¡Cambias ª por el ansuelo «! ¿Vas a pescar fardos en las Rías Baixas?
 trade11 El « ahora es un collar de los veinte duros ¬! ¿Se podrá empeñar?
-trade12 ¡Le das el collar ¬ y dándole placer oral a la sierane se te mete una escama ­ en la boca.
-trade13 ¡Pillas la lupa de Óptica Cerquera! ¡De guais para ver cosas ocultas por tus dioptrías!
+trade12 ¡Le das el collar ¬! Dándole placer oral a la sirena macarena se te mete una escama ­ en la boca.
+trade13 ¡Pillas las Rayban! ¡Además de ser to guapas, están graduadas y ahora ves como dios manda!
 
 // keyholes
 keyhole_0 ¿Uis? ¿Una serradura?\nPone, 'Serradura Cola'
@@ -537,7 +537,7 @@ npc_frog_body_debt Mu agradesío por la maría, pero no te pienso rular ni un pe
 
 npc_frog_body_bowwow ¡Joder, joder joder! ¿Pa qué traes al bicho este aquí? Deja al bicharraco afuera y podremos darle al palique lo que quieras.
 
-npc_zora Si no le das al pico, te voy a largar algo de puta madre. Ábrete a la costa Tarumba, usa la lupa allí y vas a encontrar a alguien que se me parese.
+npc_zora Si no le das al pico, te voy a largar algo de puta madre. Ábrete a la costa Tarumba, usa las Rayban allí y vas a encontrar a alguien que se me parese.
 
 alligator_0 ¡Bienvenío al keli Plátanos de Arguiñano! Me ha entrao una paranoia de colecsionar latas de carne putrefacta. Ya ves, el psiquiatra dice que eso es de las pirulas y de chutarme tres veces al día.
 alligator_1 ¡TÍO, TÍO, TÍO! ¿Tienes latas con carne descomponiéndose? ¡PÁSAME LA £ YA! ¡ARGHS, QUE ME DA!
@@ -912,7 +912,7 @@ npc_hippo_2 ¡Vete a cagar! ¡Estoy intentando no menearme para que el negao est
 
 npc_painter_0 Ya, soy Schule Donavitch. Aparrte de inmigrrante ileglal soy arrtiszta. ¡Yo hice la Sirrena Macarrena! Pero unos hinchaz del Atleti le arrancarron una ejcama. Estos chavale...
 npc_painter_1 ¿Es ezza la escama de la Sirrena Macarrena? Ahorra estoy pintando como un puto serdo. Ves por mí y pégala con Loctite (Superglue) a la estatua de la sirrena.
-npc_painter_2 ¡Ach! ¿Qué coño jipias con essa lupa? ¡Deja eso de una jodida ves, coño!
+npc_painter_2 ¡Ach! ¿Qué coño jipias con essas Rayban? ¡Deja eso de una jodida ves, coño!
 
 // photo house
 photo_book 'Hañazas y leyendas de [NAME], el último gran macho.' ¿Miras el álbum?
