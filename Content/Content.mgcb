@@ -1364,3 +1364,14 @@
 /processorParam:Quality=Best
 /build:SoundEffects/D378-64-41.wav
 
+#begin SoundEffects/bomba.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:SoundEffects/bomba.wav
+
+#begin SoundEffects/bostezo.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:SoundEffects/bostezo.wav

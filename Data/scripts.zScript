@@ -1807,8 +1807,8 @@ final_stair_stand:0 -> [set:link_animation:final_stand] -> [set:owl:final]
 
 owl:final -> [update_objects] -> owl_final -> [wait:dialogOpen:0] -> [path:final_windfish]
 
-final_windfish:0 -> [update_objects] -> [freeze:1000] -> [set:spawn_windfish:1] -> [freeze:4000] -> [sound:D370-23-17] -> final_windfish -> [wait:dialogOpen:0] -> [freeze:1000] -> [set:spawn_windfish:0] -> [freeze:4000]  -> [path:final_instruments]
-final_instruments:0 -> [update_objects] -> [sound:D370-23-17] -> final_instruments -> [wait:dialogOpen:0] -> [set:link_final:1]
+final_windfish:0 -> [update_objects] -> [freeze:1000] -> [set:spawn_windfish:1] -> [freeze:4000] -> [sound:bostezo] -> final_windfish -> [wait:dialogOpen:0] -> [freeze:1000] -> [set:spawn_windfish:0] -> [freeze:4000]  -> [path:final_instruments]
+final_instruments:0 -> [update_objects] -> [sound:bostezo] -> final_instruments -> [wait:dialogOpen:0] -> [set:link_final:1]
 
 final:0 -> [start_sequence:final]
 

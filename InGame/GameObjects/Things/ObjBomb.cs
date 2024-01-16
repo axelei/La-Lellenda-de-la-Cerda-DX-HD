@@ -242,7 +242,7 @@ namespace ProjectZ.InGame.GameObjects.Things
                 Map.Objects.Hit(this, new Vector2(EntityPosition.X, EntityPosition.Y),
                     new Box(EntityPosition.X - 20, EntityPosition.Y - 20 - 5, 0, 40, 40, 16), HitType.Bomb, 2, false);
 
-            Game1.GameManager.PlaySoundEffect("D378-12-0C");
+            Game1.GameManager.PlaySoundEffect("bomba");
 
             _animator.Play("explode");
             _animator.SetFrame(1);
