@@ -14,15 +14,15 @@ ocarina ¡Pillas una ocarina! ¡A ver si te aprendes una de ACDC!
 powder ¡Pillas polvillos mágicos ilegales! ¡A ir echando polvos por ahín!
 mirrorShield ¡Pillas el escudo espejo! ¡Ahora puedes reflejar los rayos de lus que te tire Carlos Jesús!
 hookshot ¡Has amañao el gancho! ¡Se alargará como tu rabo de largo!
-magicRod ¡Pillas el mítico 7 papeles! ¡Es un porro interminable que lanza fuego! No te lo fumes...
+magicRod ¡Pillas el mítico 7 papeles! ¡Es un porro interminable que lanza fuego! No te lo fumes de golpe...
 shovel ¡Has trincao una pala! ¡Ahora puedes emular a Antonio Molina! ¡Soy mineroooo!
 magicPowder ¡Pillas polvillos mágicos! ¡A echar polvos por ahín!
 bomb ¡Pillas una bomba!\n¡Toca a haser de etarra!
-sword2 ¡Pillas una nueva navaja de Albasete! Le pones tu nombre pa que no te la manguen.
+sword2 ¡Has trincado na menos que la ULTIMATE NAVAJA FROM ALBACETE! ¡Es una curra legendaria! ¡Ahora ve a arrajal a todo el que se te ponga por endelante!
 boomerang Pillas el bumerang y entregas el cacharro que tenías.
 
 shield ¡Hostias, un ejcudo!\n¡Ponle tu nombre pa que no te lo guinden!
-shield_intro ¡Has recuperao tu mierda ejcudo! ¡Dale al botonsito y fripa bloqueando mierdas!
+shield_intro ¡Has recuperao tu mierda ejcudo! Está hecho una mierda y pudrío, pero parece que aún chuta. ¡Dale al botonsito y fripa bloqueando mierdas!
 shield_back ¡Guais, tu escudo! Está hecho mielda como siempre.
 
 yoshiPickup ¡Pillas un moñeco de Yoshi! El hijoputa aparece en todos los juegos que saca Noentiendo.
@@ -42,7 +42,7 @@ trade7 ¡Cambiaste el § por el ¨!
 trade8 Cambilas ¨ por la carta de la cabra ©! ¿¡Y esta mierda!?
 trade9 ¡Pillas una escoba como recompensa del sr. Write! Pero esa afoto no era de...
 trade10 ¡Cambias ª por el ansuelo «! ¿Vas a pescar fardos en las Rías Baixas?
-trade11 El « ahora es un collar de los veinte duros ¬! ¿Se podrá empeñar?
+trade11 ¡El « ahora es un collar de los veinte duros ¬! ¿Se podrá empeñar?
 trade12 ¡Le das el collar ¬! Dándole placer oral a la sirena macarena se te mete una escama ­ en la boca.
 trade13 ¡Pillas las Rayban! ¡Además de ser to guapas, están graduadas y ahora ves como dios manda!
 
@@ -80,7 +80,7 @@ potion ¡Encuentras la medisina! ¡Echa unos cuantos Trakimazines y to arreglao!
 dkey1 ¡Guindas la Llave Cola! ¡Ahora puedes petarte la verja de la Cueva Cola!
 dkey2 ¡Guindas la Llave Pringue! ¡Ya puedes arramplar la cancela de la praera Kukurl!
 dkey3 ¡Guindas la Llave Ansuelo!
-dkey4 ¡Giundas la Llave Jeto!
+dkey4 ¡Guindas la Llave Jeto!
 dkey5 ¡Guindas la Llave Avecrem!
 
 nightmarekey ¡Ties la Llave de Pesadillas! ¡Ahora puedes abrir la puerta y partirles el ojal!
@@ -276,9 +276,9 @@ marin_5_0 ¡Grasias por todo, [NAME]! Eres el más macho ibérico que conozco. U
 marin_5_1 [NAME], un día te pirarás de Barbate... Una cosa te iba a desil... ¡Tómate las pastillacas para el Alzheimer y no me olvides! Asín tendrás pa cascártela.
 
 walrus_0 {ZZZ ZZZ ZZZ ZZZ}{... ¶ ... ¶ ...}
-walrus_1 {¡Arfh! ¡Arfh! ¡Arf!}{¶  ¶!  ¶   ¶!}{..... ·??}
+walrus_1 {¡Arfh! ¡Arfh! ¡Arf!}{¡¶  ¶!  ¡¶  ¶!}{¿¿..... ·??}
 
-animals_absorbed {... ... ... ...} Están tos embelesaos con la canción de la Marin. (¿O es con su escote?)
+animals_absorbed {... ... ... ...}\nEstán tos embelesaos con la canción de la Marin. (¿O es con su escote?)
 
 ocarina_maria_song ¡Has aprendío 'La Balada del Pez Jincho'! Anda que no te ha costao con lo lerdo que eres.
 
@@ -479,7 +479,7 @@ npc09_3 Jo jo jo, grasias por sacar el bicho a mear. Como eres tan enrollao te p
 bowWow2 ¡Soy asexuarl!\n¡Jarl!
 
 bowWow3_0 ¡Maquillaje! ¡Vestíos! ¡Baratijas! ¡LOS KIERO! ¡Me está entrando la triquinosiss! ¡QUE ME DAAA!
-bowWow3_1 ¡Maquillaje! ¡Vestíos! ¡Pásamelosss! ¡Como no me rules algo tarranco las pelotas! Euh, ¿esa cinta? ¡PÁSAMELA, y te rulo esta comida!      
+bowWow3_1 ¡Maquillaje! ¡Vestíos! ¡Pásamelosss! ¡Como no me rules algo tarranco las pelotas! Euh, ¿esa cinta? ¡PÁSAMELA, y te rulo esta comida £!      
 
 bowWow3_2 ¡¿Eh?! ¡¡Eres más cruel quel que mató a Bambi!!
 bowWow3_3 Esto sí que me ha llegao, ¡snif! ¡Ten, tu £!
@@ -545,7 +545,7 @@ alligator_2 (Parece que está to enmonao, ¿qué haces?)
 alligator_3 Maldito chapero de mierda, así se te caiga el rabo a trozos. Con la ilusión que me hasía...
 alligator_4 ¡Og, grasias, grasias! Ejque soy putrófilo, ¿sabes?
 alligator_5 ¡ÑAMS, ÑAMS! ¡Rica, rica y con fundamento! Te cambio la lata por plátanos de canarias con sus motitas y todo.
-alligator_6 ¡Qué buena estaba la lata tío!
+alligator_6 ¡Qué buena estaba la lata, tío!
 alligator_7 ¡Eh, pellas! ¿Te has montao en patera en los rápidos de Tal y Tal? ¡Puedes hacer de moreno!
 
 witch_0 ¡Abra cadabra, la puta de la cabra! ¡Esta seta la cosino yo en un plis!
@@ -904,7 +904,7 @@ desertLanmola ¡Macho! ¡Estorbas más que una mosca cojonera!
 // shell mansion
 shell_mansion_0 ¡Soy el poltergueis de esta keli! He estado esperando que algun notas entre endentro... ¡Encuentra las Conchas Codan y pasa pol la puerta para pillar la ULTIMATE NAVAJA FROM ALBACETE!
 shell_mansion_1 Hmmm. No ha pasao na. ¡Tienen que faltar Conchas Codan!
-shell_mansion_2 Mi currelo aquí sacabao.
+shell_mansion_2 Mi currelo aquí sacabao. ¡Por el eppíritu de Carlos Jesús! ¡Chiú, chiú! ¡Te otorgo la ULTIMATE NAVAJA FROM ALBACETE!
 
 npc_hippo_0 ¡Que te pires!
 npc_hippo_1 ¡Vete a pegarle peos a una lata!
