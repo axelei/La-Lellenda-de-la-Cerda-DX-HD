@@ -2168,7 +2168,7 @@ namespace ProjectZ.InGame.GameObjects
         {
             if (Game1.GameManager.CurrentHealth <= 4)
             {
-
+                Game1.GameManager.PlaySoundEffect("D370-04-04", false); 
             }
 
         }
@@ -3122,7 +3122,8 @@ namespace ProjectZ.InGame.GameObjects
             Animation.Play("swing_" + Direction);
             AnimatorWeapons.Play("swing_" + Direction);
 
-            Game1.GameManager.PlaySoundEffect("D378-03-03");
+            var swordSpinSounds = new[] { "D378-03-03", "D378-03-03-2", "D378-03-03-3", "D378-03-03-4" }; 
+            Game1.GameManager.PlaySoundEffect(swordSpinSounds[Game1.RandomNumber.Next(0, 4)]);
 
             _swordChargeCounter = SwordChargeTime;
             _isSwingingSword = true;

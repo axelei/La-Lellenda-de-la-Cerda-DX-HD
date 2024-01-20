@@ -550,14 +550,14 @@ namespace ProjectZ.InGame.Things
                 name: "guardianAcorn",
                 pickUpDialog: "guardianAcorn",
                 showAnimation: 2,
-                soundEffectName: "D360-23-17"
+                soundEffectName: "maschutes"
             ));
             _items.Add("pieceOfPower", new GameItem(
                 Resources.GetSprite("pieceOfPower"),
                 name: "pieceOfPower",
                 pickUpDialog: "pieceOfPower",
                 showAnimation: 2,
-                soundEffectName: "D360-23-17"
+                soundEffectName: "estasi"
             ));
             _items.Add("sword1PoP", new GameItem(
                 Resources.GetSprite("sword1"),

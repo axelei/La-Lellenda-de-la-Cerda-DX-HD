@@ -518,6 +518,18 @@
 /processorParam:Quality=Best
 /build:SoundEffects/D360-23-17.wav
 
+#begin SoundEffects/estasi.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:SoundEffects/estasi.wav
+
+#begin SoundEffects/maschutes.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:SoundEffects/maschutes.wav
+
 #begin SoundEffects/D360-24-18.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
@@ -997,6 +1009,24 @@
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
 /build:SoundEffects/D378-03-03.wav
+
+#begin SoundEffects/D378-03-03-2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:SoundEffects/D378-03-03-2.wav
+
+#begin SoundEffects/D378-03-03-3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:SoundEffects/D378-03-03-3.wav
+
+#begin SoundEffects/D378-03-03-4.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:SoundEffects/D378-03-03-4.wav
 
 #begin SoundEffects/D378-04-04.wav
 /importer:WavImporter
