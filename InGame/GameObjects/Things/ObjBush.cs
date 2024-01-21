@@ -157,19 +157,8 @@ namespace ProjectZ.InGame.GameObjects.Things
                 damageType == HitType.MagicRod && !_hasCollider ||
                 damageType == HitType.Boomerang && !_hasCollider ||
                 damageType == HitType.ThrownObject && !_hasCollider)
-                return Values.HitCollision.None;
-
-            // this is really stupid
-            // for the sword attacks a smaller hitbox is used
-            if (_hasCollider &&
-                (damageType & HitType.Sword) != 0 &&
-                gameObject is ObjLink player && !player.IsPoking)
             {
-                var collidingRec = player.SwordDamageBox.Rectangle().GetIntersection(_hittableBoxSmall.Box.Rectangle());
-                var collidingArea = collidingRec.Width * collidingRec.Height;
-
-                if (collidingArea < 16)
-                    return Values.HitCollision.None;
+                return Values.HitCollision.None;
             }
 
             SpawnItem(direction);
