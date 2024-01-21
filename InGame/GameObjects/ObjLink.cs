@@ -3143,20 +3143,6 @@ namespace ProjectZ.InGame.GameObjects
 
             RectangleF collisionRectangle = AnimatorWeapons.CollisionRectangle;
 
-            // this lerps the collision box between frames
-            // a rotation collision box would probably be a better option
-            if (AnimatorWeapons.CurrentAnimation.Frames.Length > AnimatorWeapons.CurrentFrameIndex + 1)
-            {
-                var frameState = (float)(AnimatorWeapons.FrameCounter / AnimatorWeapons.CurrentFrame.FrameTime);
-                var collisionRectangleNextFrame = AnimatorWeapons.GetCollisionBox(
-                    AnimatorWeapons.CurrentAnimation.Frames[AnimatorWeapons.CurrentFrameIndex + 1]);
-                collisionRectangle = new RectangleF(
-                    MathHelper.Lerp(collisionRectangle.X, collisionRectangleNextFrame.X, frameState),
-                    MathHelper.Lerp(collisionRectangle.Y, collisionRectangleNextFrame.Y, frameState),
-                    MathHelper.Lerp(collisionRectangle.Width, collisionRectangleNextFrame.Width, frameState),
-                    MathHelper.Lerp(collisionRectangle.Height, collisionRectangleNextFrame.Height, frameState));
-            }
-
             SwordDamageBox = new Box(
                 collisionRectangle.X + EntityPosition.X + _animationOffsetX,
                 collisionRectangle.Y + EntityPosition.Y - EntityPosition.Z + _animationOffsetY, 0,
