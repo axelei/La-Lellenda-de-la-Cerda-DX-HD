@@ -212,6 +212,8 @@ namespace ProjectZ
             Content.RootDirectory += "/bin/MacOSX";
 #endif
 
+            OnUpdateScale();
+
             // game control stuff
             ControlHandler.Initialize();
 
