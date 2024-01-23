@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using ProjectZ.InGame.Controls;
@@ -94,7 +94,7 @@ namespace ProjectZ.InGame.Pages
 
             var nglBottomLayout = new InterfaceListLayout { Size = new Point(200, 20), HorizontalMode = true, Selectable = true };
             nglBottomLayout.AddElement(new InterfaceButton(new Point(99, 20), new Point(1, 0), "new_game_menu_back", OnClickBackButton));
-            nglBottomLayout.AddElement(new InterfaceButton(new Point(99, 20), new Point(1, 0), "new_game_menu_start_game", OnClickNewGameButton));
+            nglBottomLayout.AddElement(new InterfaceButton(new Point(112, 20), new Point(1, 0), "new_game_menu_start_game", OnClickNewGameButton));
             nglBottomLayout.Select(InterfaceElement.Directions.Right, false);
             nglBottomLayout.Deselect(false);
 
