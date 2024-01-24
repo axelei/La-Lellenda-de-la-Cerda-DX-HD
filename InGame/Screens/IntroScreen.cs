@@ -269,7 +269,27 @@ namespace ProjectZ.InGame.Screens
 
             if (Game1.FinishedLoading &&
                 (ControlHandler.ButtonPressed(CButtons.A) || ControlHandler.ButtonPressed(CButtons.Start)))
-                Game1.ScreenManager.ChangeScreen(Values.ScreenNameMenu);
+            {
+                if (_currentState == States.StrandLogo)
+                {
+                    Game1.ScreenManager.ChangeScreen(Values.ScreenNameMenu);
+                } else
+                {
+                    Game1.GameManager.SetMusic(12, 0);
+
+                    _cameraState = 0;
+                    _cameraCenter = new Vector2(0, _logoPosition.Y + _spriteLogo0.ScaledRectangle.Height + 5);
+                    _cameraStart = _cameraCenter;
+                    _cameraTarget = new Vector2(_cameraCenter.X, _logoPosition.Y + _spriteLogo0.ScaledRectangle.Height + 5);
+                    _marinPosition.X = -1000;
+                    _marinPosition.Y = -1000;
+
+                    _logoCounter = 1500;
+
+                    _currentState = States.StrandLogo;
+
+                }
+            }
 
             if (!Game1.FinishedLoading)
                 _loadingAnimator.Update();
