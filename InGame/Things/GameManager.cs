@@ -539,7 +539,7 @@ namespace ProjectZ.InGame.Things
                     stateString = SaveManager.GetString(dialogKey);
 
                 InGameOverlay.TextboxOverlay.StartDialog(
-                    Game1.LanguageManager.GetString(dialogKey + (stateString != null ? "_" + stateString : ""), "error"));
+                    Game1.LanguageManager.GetString(dialogKey + (stateString != null ? "_" + stateString : ""), "error " + dialogKey + " " + stateString));
             }
 
             return null;

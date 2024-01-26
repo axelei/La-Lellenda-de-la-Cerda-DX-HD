@@ -83,7 +83,7 @@ dkey3 ¡Guindas la Llave Ansuelo!
 dkey4 ¡Guindas la Llave Jeto!
 dkey5 ¡Guindas la Llave Avecrem!
 
-nightmarekey ¡Ties la Llave de Pesadillas! ¡Ahora puedes abrir la puerta y partirles el ojal!
+nightmarekey ¡Ties la Llave Gorda! ¡Ahora puedes ir ande el mostro de la mazmorra y arrajarlo en canal!
 
 instrument0 ¡Has conseguío el Cello Cara Culo!
 instrument1 ¡Has pillao el Cuenno Concha!
@@ -160,8 +160,8 @@ ocarina_frog_song_end Si tocas esta cansión, todo a tu alrededor será más rum
 manbo0 ¡Soy el Fary, hijo del cante jondo! ¿Ties una ocarina pa tocar?
 manbo1 Cojonúo...\n¡Asín me gusta, tronco!
 manbo2 ¡Fale tío, te voy a enseñar la cansión secreta del Fary!
-manbo3 ¡Qué maricón, no tienes una ocarina! ¡Ve a pillarte una!
 manbo4 ¡Soy el Fary, hijo del cante jondo! Cuando toques mi rumba, te teleportarás a lo Star Trek a mi estanque. ¡También sirve en calabosos de la Guardia Civil!
+manbo3 ¡Qué maricón, no tienes una ocarina! ¡Ve a pillarte una!
 
 ocarina_manbo_song ¡Aprendiste la Rumba Secreta del Fary! ¡Tócala cuando salgas de las aguas residuales!
 
@@ -169,7 +169,7 @@ choice_Pay Pagar
 choice_Leave Pirarte
 
 signHead1 EL PEZ JINCHO PILLÓ UN SIEGASO, POR ESO SOBA.
-signHead2 MÚSICA EL PEZ JINCHO ESTÁ RESACOSO ¿DE VODKA...?
+signHead2 MÚSICA, EL PEZ JINCHO ESTÁ RESACOSO ¿DE VODKA...?
 signHead3 ESPUMA DE MORSA, SUEÑOS DE OSOS SOBAOS... TOS ACABAN EN EL HOYO. ¡FLAKA!
 signHead4 LOS SECRETOS IBÉRICOS SON COMO AGUA PA LOS PUENTE
 signHead5 EL PES JINCHO SE CLAPA MÁS... EL MACHO IBÉRICO SE PIRA...
@@ -294,7 +294,7 @@ tarin_1 Ah, sí, hay otras mierdas en la playa ande te encontramos. Si te das un
 tarin_raccoon_2 Lo último que macuerdo es que me papeé una seta lusinógena de esas yo solo. Entonces pillé un ciego... ¡y era el Mapachito, tío! Pa que veas lo que hase la droga adulterada...
 tarin_raccoon_3 Uung, creo que he pillado un mierdón colega, me parece que me piro a mi keli a sobarla.
 
-tarin_2 Estoy bardao... Me voy al sobre pero ya... Zzzzzz...
+tarin_2 Estoy bardao... Voy a sobar más que un koala con anemia... Zzzzzz...
 tarin_3 Hrrrm...Grñfs... ¿Ein?... Macho si te atascas píllate un FAQ o llama al Ulrira, déjame tranquilo, copón. Grgñss...
 
 // tarin with the bananas
@@ -306,6 +306,9 @@ tarin_stick_no ¡Anda y métetelo pol culo, agarrao!
 
 // after the trading sequence sleeping in the bed
 tarin_5 ¡Unnnngh! ¡Owwwww! ... ... ¡Me cago en la miel y en to sus muertos pisoteaos!
+
+// FIX: Tarin durmiending
+tarin_gone ZzzZz... déjame dormir, so maricón.
 
 
 // lady with the broom
@@ -393,7 +396,7 @@ npc_tracy_0 ¡Hola, macizote! ¡Soy la Guarry Tracy! ¡Vendo mi cuerpo y mis ser
 npc_tracy_1 Francés y regalito por 28 chapas, ¿te hace?
 npc_tracy_2 ¿Te hacen 42 libras por la chupaíta y el regalo?
 npc_tracy_3 ¡Uff... estás to bueno!\n¡Te hago un descuento de 7 chapas!
-npc_tracy_4 ¡Ven pacá, guapetón, vas a ver tú lo que es una buena chuparda!\nTracy: ChhhRruuUUrpPPps!\n[NAME]: ¡Ahhhrss!\n¡Ale, ya está! Y de regalo una medisina que te llena los corasones al parmarla.
+npc_tracy_4 ¡Ven pacá, guapetón, vas a ver tú lo que es una buena chuparda!\nTracy: ¡ChhhRruuUUrpPPps!\n[NAME]: ¡Ahhhrss!\n¡Ale, ya está! Y de regalo una medisina que te llena los corasones al parmarla.
 npc_tracy_5 Majo, si no tienes guita, te la pelas como los monos. ¡Aire!
 npc_tracy_6 ... ... ... ... ¡Hoy no, que me duele la cabeza!
 npc_tracy_7 ¡Tú debes ser gay! ¡Con lo buena que estoy y lo barato que lo pongo! ¡MARICA! ¡MARICAAA!
@@ -812,8 +815,8 @@ castle_monkey_hunger ¡Chi-kiita! ¡Chi-kiita! ¡Kiki el mono! ¡Jambre! ¡Kiki 
 castle_monkey_bowwow ¡Jarl! ¡¿Quérl?! Vale payaso, ¡ahostiémonos!
 
 castle_monkey_banana {¡¤!   ¡¤!}{¡Jarl!  ¡Jarl!}{¿¡se lo rulas a Kiki!?}
-castle_monkey_banana_yes {¡¤!   ¡¤!}{¡Jarl! ¡Ooh! ¡Kiki!}{¡Monos, venid!}{¡Haced de McGyver un rato! ¡Kiki!}
-castle_monkey_done {¡Negosios de mono!}{¡Ea! ¡Hasta luego, pringao!}{¡Jarl!  ¡Kiki!}
+castle_monkey_banana_yes {¡¤!   ¡¤!}{¡Jarl! ¡Ooh! ¡Kiki!}{¡Monos, venid!}\n¡Haced de McGyver un rato! ¡Kiki!
+castle_monkey_done {¡Negosios de mono!}\n¡Ea! ¡Hasta luego, pringao!\n{¡Jarl!  ¡Kiki!}
 
 // dungeon four
 beak_d4_1 ¡El brillo del mosaico será tu Lasarillo de Tormes...!
@@ -936,7 +939,7 @@ photo_left_0 ¡Cagon el copón, sí que lo has llenao! ¡He perdío 1000 duros! 
 
 
 // photo sequence photo house
-photo_01_0 Ah, cómo me molan las afotos. Oye, [NAME] ¿qué hases aquírl?
+photo_01_0 Ah, cómo me molan las afotos. Oye, [NAME] ¿qué cojones hases aquírl? ¡Vamos a haser unas fotikis!
 photo_01_1 Ve al fondo del cuarto y ponte de pie en esa pantalla.
 photo_01_2 A esta la llamaré '[NAME], el macho ibérico'. ¡Mira al pajarito!
 photo_01_3 ¿Cómo te llamas, enano orejúo? ¿[NAME]? Mira, te regalo un álbum de afotos, [NAME]. ¡1000 duros a que no lo llenas!
