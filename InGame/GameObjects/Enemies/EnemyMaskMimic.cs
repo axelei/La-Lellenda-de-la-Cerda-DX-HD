@@ -84,12 +84,6 @@ namespace ProjectZ.InGame.GameObjects.Enemies
                 if (_wasColliding)
                 {
                     var direction = -MapManager.ObjLink.LastMoveVector;
-                    var diff = (MapManager.ObjLink.EntityPosition.Position - _lastPosition) / Game1.TimeMultiplier;
-
-                    // this will stop the enemy if the player is walking into an obstacle
-                    direction = new Vector2(
-                        Math.Min(Math.Abs(direction.X), Math.Abs(diff.X)) * Math.Sign(direction.X),
-                        Math.Min(Math.Abs(direction.Y), Math.Abs(diff.Y)) * Math.Sign(direction.Y));
 
                     _body.VelocityTarget = direction * 0.75f;
 
