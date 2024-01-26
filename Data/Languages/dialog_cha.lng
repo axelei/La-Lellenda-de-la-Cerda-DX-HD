@@ -199,7 +199,7 @@ maria_0_1 Pírate pol el camino del sur pa ir a la playa ande te encontré tirao
 
 // marin standing outside
 maria_1_0 ¡Eoo! El Tarin se ha pirao al bosque a bujcar setas alusinógenas. ¿Sabes qué? ¡La grifa que me metí hace poco me insita a cantar 'La Balada del Pez Jincho'!
-maria_1_1 I ¡Me mola más cantar que una hipodérmica a un yonkarra! ¿Y a tí, [NAME]?
+maria_1_1 ¡Me mola más cantar que una hipodérmica a un yonkarra! ¿Y a tí, [NAME]?
 
 // after talking to the owl
 maria_1_2 [NAME], el Tarin está clapando en el keli. ¡Ha pillao una mierda del quince! Urgh, me está entrando el avenate... no puedo evitarlo... ¡La vena cantaora me obliga a cantar 'La Balada del Pez Jincho'!
@@ -805,7 +805,7 @@ beak_d3_1 Pilla carrerilla, salta...\n¡Y no te escoñes!
 beak_d3_2 ¿Te joden los bichos negracas esos? Dales un poco de GOMA2 de papeo, ¡verás que petada!
 beak_d3_3 Pica las paredes con tu navaja de albacete y si suena raro, ya sabes. ¡Bombazo!
 
-d3_boss {¡NIAAANOO NIAAANO!}{¡A que no me encuentas, retrasao!}{¡HUE HUE HUE!}
+d3_boss {¡NIAAANOO NIAAANO!}\n¡A que no me encuentas, retrasao!\n{¡HUE HUE HUE!}
 
 bow_wow_cave_entry ¿Ennh? ¿Quién es el comemierdas este con cara de pan? ¡Hacedle macumba hasta morir!
 bow_wow_cave_boss Fijo que te ha mandao la gorda de la Caballé esa. ¡Pos la foca sebosa se va a joer, la bola de dientes esta es pa pelea de pitbulls! Ahora... ¡ahostiémonos!
