@@ -6,6 +6,7 @@ using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using ProjectZ.Base;
+using ProjectZ.InGame.GameObjects;
 using ProjectZ.InGame.GameSystems;
 using ProjectZ.InGame.Map;
 using ProjectZ.InGame.Overlay;
@@ -1513,6 +1514,23 @@ namespace ProjectZ.InGame.Things
                     return MapVisibility[zone.X, zone.Y];
                 }
             }
+            return true;
+        }
+
+        public bool IsTileInCurrentPlayerZone(int tileX, int tileY)
+        {
+            if (MapManager.CurrentMap.IsOverworld)
+            {
+                Point tileZone = new Point(
+                    (tileX-1) / (Values.FieldWidth / Values.TileSize), 
+                    tileY / (Values.FieldHeight / Values.TileSize));
+                Point playerZone = new Point(
+                    (int)(((MapManager.ObjLink.PosX / Values.TileSize)-1) / (Values.FieldWidth / Values.TileSize)), 
+                    (int)((MapManager.ObjLink.PosY/ Values.TileSize) / (Values.FieldHeight / Values.TileSize)));
+
+                return tileZone == playerZone;
+            }
+
             return true;
         }
     }

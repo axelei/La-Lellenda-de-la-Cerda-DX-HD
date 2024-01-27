@@ -108,6 +108,14 @@ namespace ProjectZ.InGame.Map
                                 ArrayTileMap[x, y, layer] / (tileset.Width / TileSize) * TileSize, TileSize, TileSize),
                             Color.Black);
                     }
+                    else if (!Game1.GameManager.IsTileInCurrentPlayerZone(x, y) && ArrayTileMap[x, y, layer] >= 0)
+                    {
+                        spriteBatch.Draw(tileset,
+                            new Rectangle(x * tileSize, y * tileSize, tileSize, tileSize),
+                            new Rectangle((ArrayTileMap[x, y, layer] % (tileset.Width / TileSize)) * TileSize,
+                                ArrayTileMap[x, y, layer] / (tileset.Width / TileSize) * TileSize, TileSize, TileSize),
+                            new Color(32, 32, 32, 192));
+                    }
 
                 }
             }
