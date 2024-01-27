@@ -181,17 +181,27 @@ namespace ProjectZ.InGame.SaveLoad
                 string exploredData = "";
                 for (int i = 0; i < tilesWidth; ++i)
                 {
+                    byte packedByte = 0;
                     for (int j = 0; j < tilesHeight; ++j)
                     {
-                        exploredData += tiles[i, j] ? "x" : "o";
+                        packedByte = (byte)(packedByte | ((tiles[i, j] ? 1 : 0) << j % 8));
+                        if (j % 8 == 7 || j == tilesHeight - 1)
+                        {
+                            exploredData += packedByte.ToString("X2") + ":";
+                            packedByte = 0;
+                        }
                     }
+                }
+                if (!string.IsNullOrEmpty(exploredData))
+                {
+                    exploredData = exploredData.TrimEnd(':');
                 }
                 saveManager.SetString("explored_" + mapName + "_tiles", exploredData);
             }
 
-            if (mapsExploredList.Length > 0)
+            if (!string.IsNullOrEmpty(mapsExploredList))
             {
-                mapsExploredList = mapsExploredList.Remove(mapsExploredList.Length - 1, 1);
+                mapsExploredList = mapsExploredList.TrimEnd(':');
             }
             saveManager.SetString("mapsExplored", mapsExploredList);
 
@@ -335,18 +345,28 @@ namespace ProjectZ.InGame.SaveLoad
                     int tilesWidth = saveManager.GetInt("explored_" + mapName + "_w");
                     int tilesHeight = saveManager.GetInt("explored_" + mapName + "_h");
 
-                    bool[,] tiles = new bool[tilesWidth, tilesHeight];
-
+                    bool[,] exploredTiles = new bool[tilesWidth, tilesHeight];
                     string exploredData = saveManager.GetString("explored_" + mapName + "_tiles");
+
+                    string[] byteStrings = exploredData.Split(':');
+                    int currentIndex = 0;
+
                     for (int i = 0; i < tilesWidth; ++i)
                     {
                         for (int j = 0; j < tilesHeight; ++j)
                         {
-                            tiles[i, j] = exploredData[i * tilesHeight + j] == 'x' ? true : false;
+                            byte packedByte = byte.Parse(byteStrings[currentIndex], System.Globalization.NumberStyles.HexNumber);
+                            bool value = (packedByte & (1 << j % 8)) != 0;
+                            exploredTiles[i, j] = value;
+
+                            if (j % 8 == 7 || j == tilesHeight - 1)
+                            {
+                                currentIndex++;
+                            }
                         }
                     }
 
-                    gameManager.exploredTilesForMap[mapName] = tiles;
+                    gameManager.exploredTilesForMap[mapName] = exploredTiles;
                 }
             }
             
