@@ -166,6 +166,36 @@ namespace ProjectZ.InGame.SaveLoad
 
             for (var i = 0; i < values.Length; i++)
                 saveManager.SetInt("map" + i, values[i]);
+
+            string mapsExploredList = "";
+            foreach (var mapName in gameManager.exploredTilesForMap.Keys)
+            {
+                mapsExploredList += mapName + ":";
+
+                bool[,] tiles = gameManager.exploredTilesForMap[mapName];
+                int tilesWidth = tiles.GetLength(0);
+                int tilesHeight = tiles.GetLength(1);
+                saveManager.SetInt("explored_" + mapName + "_w", tilesWidth);
+                saveManager.SetInt("explored_" + mapName + "_h", tilesHeight);
+
+                string exploredData = "";
+                for (int i = 0; i < tilesWidth; ++i)
+                {
+                    for (int j = 0; j < tilesHeight; ++j)
+                    {
+                        exploredData += tiles[i, j] ? "x" : "o";
+                    }
+                }
+                saveManager.SetString("explored_" + mapName + "_tiles", exploredData);
+            }
+
+            if (mapsExploredList.Length > 0)
+            {
+                mapsExploredList = mapsExploredList.Remove(mapsExploredList.Length - 1, 1);
+            }
+            saveManager.SetString("mapsExplored", mapsExploredList);
+
+            
         }
 
         public static void LoadSaveFile(GameManager gameManager, int slot)
@@ -296,6 +326,30 @@ namespace ProjectZ.InGame.SaveLoad
             gameManager.SavePositionX = saveManager.GetInt("posX");
             gameManager.SavePositionY = saveManager.GetInt("posY");
             gameManager.SaveDirection = saveManager.GetInt("dir");
+
+            string[] mapsExploredList = saveManager.GetString("mapsExplored")?.Split(":");
+            if (mapsExploredList != null)
+            {
+                foreach (var mapName in mapsExploredList)
+                {
+                    int tilesWidth = saveManager.GetInt("explored_" + mapName + "_w");
+                    int tilesHeight = saveManager.GetInt("explored_" + mapName + "_h");
+
+                    bool[,] tiles = new bool[tilesWidth, tilesHeight];
+
+                    string exploredData = saveManager.GetString("explored_" + mapName + "_tiles");
+                    for (int i = 0; i < tilesWidth; ++i)
+                    {
+                        for (int j = 0; j < tilesHeight; ++j)
+                        {
+                            tiles[i, j] = exploredData[i * tilesHeight + j] == 'x' ? true : false;
+                        }
+                    }
+
+                    gameManager.exploredTilesForMap[mapName] = tiles;
+                }
+            }
+            
         }
 
         public static GameItemCollected GetGameItem(string strItem)

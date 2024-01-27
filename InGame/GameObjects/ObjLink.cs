@@ -866,6 +866,8 @@ namespace ProjectZ.InGame.GameObjects
             if (Game1.GameManager.CurrentHealth <= 0 && !Game1.GameManager.UseShockEffect)
                 OnDeath();
 
+            Game1.GameManager.ExploreCurrentMapTiles(EntityPosition);
+
             UpdateDrawComponents();
 
             DisableItems = false;

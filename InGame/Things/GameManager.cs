@@ -6,6 +6,7 @@ using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using ProjectZ.Base;
+using ProjectZ.InGame.GameObjects.Base.CObjects;
 using ProjectZ.InGame.GameSystems;
 using ProjectZ.InGame.Map;
 using ProjectZ.InGame.Overlay;
@@ -172,6 +173,37 @@ namespace ProjectZ.InGame.Things
         private int[] _musicArray = new int[MusicChannels];
         // counters used to stop music
         private float[] _musicCounter = new float[MusicChannels];
+
+        public Dictionary<string, bool[,]> exploredTilesForMap = new Dictionary<string, bool[,]>();
+        public bool[,] GetExploredTilesInCurrentMap()
+        {
+            string currentMap = MapManager.CurrentMap.MapName;
+            if (currentMap == null)
+            {
+                return null;
+            }
+
+            if (exploredTilesForMap.ContainsKey(currentMap))
+            {
+                return exploredTilesForMap[currentMap];
+            }
+
+            TileMap tm = MapManager.CurrentMap.TileMap;
+            if (tm.ArrayTileMap == null)
+            {
+                return null;
+            }
+
+            bool[,] tiles = new bool[tm.ArrayTileMap.GetLength(0), tm.ArrayTileMap.GetLength(1)];
+            for (int i = 0; i < tm.ArrayTileMap.GetLength(0); ++i)
+            {
+                for (int j = 0; j < tm.ArrayTileMap.GetLength(1); ++j)
+                {
+                    tiles[i, j] = false;
+                }
+            }
+            return tiles;
+        }
 
         public GameManager()
         {
@@ -1497,6 +1529,38 @@ namespace ProjectZ.InGame.Things
 
             _shakeCountX = 0;
             _shakeCountY = 0;
+        }
+
+        public void ExploreCurrentMapTiles(CPosition centerTile)
+        {
+            bool[,] exploredMatrix = GetExploredTilesInCurrentMap();
+            if (exploredMatrix == null)
+            {
+                return;
+            }
+
+            TileMap tm = MapManager.CurrentMap.TileMap;
+
+            int cx = (int)(centerTile.X / tm.TileSize);
+            int cy = (int)(centerTile.Y / tm.TileSize);
+            Vector2 centerpos = new Vector2(cx, cy);
+
+            const int radiusExplore = 7;
+            for (int xx = cx - radiusExplore; xx < cx + radiusExplore; xx++)
+            {
+                for (int yy = cy - radiusExplore; yy < cy + radiusExplore; yy++)
+                {
+                    if (xx >= 0 && xx < exploredMatrix.GetLength(0) &&
+                        yy >= 0 && yy < exploredMatrix.GetLength(1) &&
+                        Vector2.Distance(new Vector2(xx, yy), centerpos) <= radiusExplore)
+                    {
+                        exploredMatrix[xx, yy] = true;
+                    }
+                }
+            }
+
+            string mapName = MapManager.CurrentMap.MapName;
+            exploredTilesForMap[mapName] = exploredMatrix;
         }
     }
 }

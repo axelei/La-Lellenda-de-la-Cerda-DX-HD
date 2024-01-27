@@ -109,6 +109,12 @@ namespace ProjectZ.InGame.Map
             CurrentMap.Objects.Draw(spriteBatch);
 
             spriteBatch.End();
+
+            bool[,] exploredTiles = Game1.GameManager.GetExploredTilesInCurrentMap();
+            if (exploredTiles != null)
+            {
+                CurrentMap.TileMap.DrawUnexploredFogTiles(spriteBatch, exploredTiles);
+            }
         }
 
         public void DrawBegin(SpriteBatch spriteBatch, Effect spriteEffect)
