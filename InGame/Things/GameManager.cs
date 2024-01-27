@@ -1505,30 +1505,45 @@ namespace ProjectZ.InGame.Things
 
         public bool IsTileInExploredZone(int tileX, int tileY)
         {
+            int tilesWidth = Values.FieldWidth / Values.TileSize;
+            int tilesHeight = Values.FieldHeight / Values.TileSize;
+
+            Point tileZonePosition = new Point(
+                (tileX - MapManager.CurrentMap.MapOffsetX) / tilesWidth,
+                (tileY - MapManager.CurrentMap.MapOffsetY) / tilesHeight);
+
             if (MapManager.CurrentMap.IsOverworld)
             {
-                Point zone = new Point((tileX-1) / (Values.FieldWidth / Values.TileSize), tileY / (Values.FieldHeight / Values.TileSize));
-                if (zone.X >= 0 && zone.X < MapVisibility.GetLength(0) &&
-                    zone.Y >= 0 && zone.Y < MapVisibility.GetLength(1))
+                if (tileZonePosition.X >= 0 && tileZonePosition.X < MapVisibility.GetLength(0) &&
+                    tileZonePosition.Y >= 0 && tileZonePosition.Y < MapVisibility.GetLength(1))
                 {
-                    return MapVisibility[zone.X, zone.Y];
+                    return MapVisibility[tileZonePosition.X, tileZonePosition.Y];
                 }
             }
+            else if (MapManager.CurrentMap.DungeonMode)
+            {
+                return DungeonMaps[MapManager.CurrentMap.LocationFullName].Tiles[tileZonePosition.X, tileZonePosition.Y].DiscoveryState;
+            }
+
             return true;
         }
 
         public bool IsTileInCurrentPlayerZone(int tileX, int tileY)
         {
+            int tilesWidth = Values.FieldWidth / Values.TileSize;
+            int tilesHeight = Values.FieldHeight / Values.TileSize;
+
+            Point tileZonePosition = new Point(
+                    (tileX - MapManager.CurrentMap.MapOffsetX) / tilesWidth,
+                    (tileY - MapManager.CurrentMap.MapOffsetY) / tilesHeight);
+
             if (MapManager.CurrentMap.IsOverworld)
             {
-                Point tileZone = new Point(
-                    (tileX-1) / (Values.FieldWidth / Values.TileSize), 
-                    tileY / (Values.FieldHeight / Values.TileSize));
-                Point playerZone = new Point(
-                    (int)(((MapManager.ObjLink.PosX / Values.TileSize)-1) / (Values.FieldWidth / Values.TileSize)), 
-                    (int)((MapManager.ObjLink.PosY/ Values.TileSize) / (Values.FieldHeight / Values.TileSize)));
-
-                return tileZone == playerZone;
+                return tileZonePosition == PlayerMapPosition;
+            }
+            else if (MapManager.CurrentMap.DungeonMode)
+            {
+                return tileZonePosition == PlayerDungeonPosition;
             }
 
             return true;
