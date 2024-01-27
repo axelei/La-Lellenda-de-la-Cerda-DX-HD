@@ -109,6 +109,12 @@ namespace ProjectZ.InGame.Map
             CurrentMap.Objects.Draw(spriteBatch);
 
             spriteBatch.End();
+
+            if (CurrentMap.IsOverworld)
+            {
+                CurrentMap.TileMap.DrawUnexploredCover(spriteBatch);
+            }
+
         }
 
         public void DrawBegin(SpriteBatch spriteBatch, Effect spriteEffect)

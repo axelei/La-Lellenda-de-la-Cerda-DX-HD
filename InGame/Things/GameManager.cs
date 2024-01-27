@@ -10,6 +10,8 @@ using ProjectZ.InGame.GameSystems;
 using ProjectZ.InGame.Map;
 using ProjectZ.InGame.Overlay;
 using ProjectZ.InGame.SaveLoad;
+using SharpDX.Direct2D1.Effects;
+using SharpDX.MediaFoundation;
 
 namespace ProjectZ.InGame.Things
 {
@@ -1497,6 +1499,21 @@ namespace ProjectZ.InGame.Things
 
             _shakeCountX = 0;
             _shakeCountY = 0;
+        }
+
+
+        public bool IsTileInExploredZone(int tileX, int tileY)
+        {
+            if (MapManager.CurrentMap.IsOverworld)
+            {
+                Point zone = new Point((tileX-1) / (Values.FieldWidth / Values.TileSize), tileY / (Values.FieldHeight / Values.TileSize));
+                if (zone.X >= 0 && zone.X < MapVisibility.GetLength(0) &&
+                    zone.Y >= 0 && zone.Y < MapVisibility.GetLength(1))
+                {
+                    return MapVisibility[zone.X, zone.Y];
+                }
+            }
+            return true;
         }
     }
 }
