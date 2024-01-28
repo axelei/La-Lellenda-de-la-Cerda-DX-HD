@@ -99,7 +99,7 @@ instrument1Collected {...PRAERA...}{...PRAERA...} La casa de la pradera...
 instrument2Collected {...CATARATAS...}{Está escondío en}{las cataratas...}
 instrument3Collected {...BAHÍA...}{Ve tirando ya pa}{la bahía...}
 instrument4Collected {...TEMPLO...}{Un secretito molón}{nel templo...}
-instrument5Collected {...MONTAÑA...}{Las montañas de hedi...}{testán llamando...}
+instrument5Collected {...MONTAÑA...}{Las montañas de Heidi...}{testán llamando...}
 instrument6Collected {...OCARINA...}{La música de la ocarina}{mola...}
 instrument7Collected {...GÜEVO....}{¡El güevo de las montañas}{te llama!}
 
@@ -117,7 +117,7 @@ signpost3 Este ± Praera\n       Kukurl\fMás pal este\n  Villa Bichejos
 signpost4 ¡Cuidao con los espinetes!\n¡No los toques con tus susias manos!
 signpost5 ¡Cuidado con la aluminosis! ¡Después no digas que no te hemos avisao...!
 
-signpost6 Castillo Kanalet 10 Min. ± ³
+signpost6 Castillo Kanalet 10 Min.\n± ³
 signpost7 Castillo Kanalet 5 Min. ±
 signpost8 Castillo Kanalet 50 Pasos ³
 
@@ -180,7 +180,7 @@ signHead9 LA TIERRA GUARDA SECRETOS BAJO TUS PIESES...
 
 castle_button ¿Comorl? Ha sonao a puerta abriéndose. ¡Ya puedes pirarte del castillo este!
 
-door_nightmarekey Su puta madre, está chapao. Ties que trincar la Llave de Pesadillas pa entrar.
+door_nightmarekey Su puta madre, está chapao. Ties que trincar la llave gorda pa entrar.
 
 dungeon_keyhole_block ¿Comorl? ¡Este piedro tiene un bujero! ¡Ve a buscar el fistro de llave!
 rock_cracks_message Esta roca está hecha mierda, seguro que la revientas con el rabo.
