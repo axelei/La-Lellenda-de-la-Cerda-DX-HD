@@ -39,7 +39,7 @@ trade4 Los micos han dejao un palito...\n¡Asín que te lo llevas!
 trade5 ¡¥ es ahora la miel ¦! ¿Será de la granja Sanfransisco?
 trade6 ¡Cambias la ¦ por §! ¡Aunque preferirías unos donus!
 trade7 ¡Cambiaste el § por el ¨!
-trade8 Cambilas ¨ por la carta de la cabra ©! ¿¡Y esta mierda!?
+trade8 Cambias ¨ por la carta de la cabra ©! ¿¡Y esta mierda!?
 trade9 ¡Pillas una escoba como recompensa del sr. Write! Pero esa afoto no era de...
 trade10 ¡Cambias ª por el ansuelo «! ¿Vas a pescar fardos en las Rías Baixas?
 trade11 ¡El « ahora es un collar de los veinte duros ¬! ¿Se podrá empeñar?
@@ -625,7 +625,7 @@ owl_stairs ¡Jurrrl! El Pez Jincho está encapachao en el huevo gordo allí arri
 
 // pre dungeon 6
 owl_6_0 ¡Jurl, jurl! Mira tío, aquí hay dos templos, uno al norte y otro al sur. Primero ve pal sur, hay un templo del año de maricastaña que habla del Pez Jincho. Verás que guay.
-owl_6_1 ¡Jurrl! Veo que ya has leído el graffitti. Aunque disen que Barbate es un sueño del Pez Jincho de las pelotas, nadie está seguro del todo. Tal como tú no puedes saber si alguien tiene guita hasta que le chierles, no puedes saber si es un sueño hasta despertar. El que fijo que lo sabe es el Pez Jincho, pero está clapando... Después de la pea que pilló, para no estarlo. ¿No crees, [NAME]?
+owl_6_1 ¡Jurrl! Veo que ya has leído el graffitti. Aunque disen que Barbate es un sueño del Pez Jincho de las pelotas, nadie está seguro del todo. Tal como tú no puedes saber si alguien tiene guita hasta que le chirles, no puedes saber si es un sueño hasta despertar. El que fijo que lo sabe es el Pez Jincho, pero está clapando... Después de la pea que pilló, para no estarlo. ¿No crees, [NAME]?
 
 // after dungeon 6
 owl_7_0 ¡Jurl jurl! ¡Los monstruos estan jiñaítos de pensar que el Pez Jincho pueda desclapar! ¡Han asaltao la tienda del Chino Cudeiro y se han llevao tol stock de Dodotis! ¡Le has helao la sangre en su organismo! Ale, vuela a la torre de la montaña, perico.
@@ -748,7 +748,7 @@ ulrira_4_1 '¡TIRURÍ, TIRURÍ! Soy Ulrira, ¿sabes que me he enterado que hay a
 
 ulrira_5_0 '¡TIRURÍ, TIRURÍ! ¡Soy el viejo! ¿Está la boca del pez gato sin chapar? ¡Yo de tí me piraría a busear por ahí a buscar 'almejas'!' -click-
 
-ulrira_6_0 '¡TIRURÍ, TIRURÍ! ¡Aquí el Ulri! ¿Te has pasao por el Templo Jeto? Está al norte de la Villa Bichejo. Es una ruína de los tiempos de Franco pol lo menos.' -click-'
+ulrira_6_0 '¡TIRURÍ, TIRURÍ! ¡Aquí el Ulri! ¿Te has pasao por el Templo Jeto? Está al norte de la Villa Bichejo. Es una ruína de los tiempos de Franco pol lo menos.' -click-
 
 ulrira_7_0 '¡TIRURÍ, TIRURÍ! ¡Eo, tronco! ¿Sabías que había un pollo volante en Mabe? Hase tiempo lo usábamos para encularlo y pasearnos agarrado de las patas mientras volaba... ahora ya la palmao, el Tarin que lo reventó por dentro de una atroz enculada. ¡Esque es un bejtia! ¡Taluego!' -click-
 ulrira_7_1 '¡TIRURÍ, TIRURÍ! ¡Joer macho, qué inoportuno eres, me la estaba pelando viendo Las Pornochachas 2! Me has cortao to el rollo... Bueh, ¿has visto la keli de las gallinas en la montaña? Hay una cueva al lao con algo guapo dentro.' -click-
@@ -923,6 +923,7 @@ photo_book_text ¿Qué afoto te molaría jipiar? Dale a + pa selecsionar, endisp
 
 // entering with a follower
 photo_mouse_follower Ven pacá cuando estés solano, ¿falen?
+mouseSeqBoat Me estoy dando un bañito, vete a cagar.
 
 photo_left_11 ¡Faltan 11 afotos! ¿Y si nos escondemos entre los setos?
 photo_left_10 ¡Faltan 10 afotos! ¿Debería pillar fotos pornográficas?
