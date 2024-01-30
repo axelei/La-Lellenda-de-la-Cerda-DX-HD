@@ -887,7 +887,7 @@ choice_Blue Asul
 
 hardhit_beetle_0 Asul es seguro.  Amarillo es precausión. Rojo es peligro.
 hardhit_beetle_1 Asul. Vuelve patrás. Amarillo precausión. Rojo peligro.
-hardhit_beetle_2 Amarillo es precausión. Rojo es periglo, tomate tu tiempo.
+hardhit_beetle_2 Amarillo es precausión. Rojo es periglo, tómate tu tiempo.
 
 choice_RED ROJO
 choice_BLUE ASUL
@@ -972,7 +972,7 @@ photo_05_3 Bueno yo... me piro a casa, que me estoy cagando.
 // photo sequences grave
 photo_06_0 ¡Coñe, cómo me molan las afotos! ¡Oye, [NAME]! ¿Qué estás hasiendo con el cuerpo humano?
 photo_06_1 ¿Qué hases en la tumba del poltergueis? Fijo que se te apareció por hacer la guija esa. ¿Tas listo pa una afotiko?
-photo_06_2 Llamaré a esta 'Capté una psicoimagen de Luis.'
+photo_06_2 Llamaré a esta 'Capté una psicoimagen de Luís.'
 
 // photo sequences marin cliff
 marin_cliff_0 Este es mi primer garbeo contigo, [NAME].
@@ -1062,7 +1062,7 @@ map_level_7 Nivel 7--\n     Torre Avecrem
 map_level_8 Nivel 8--\n     Tortuga Ninja
 
 
-final_boss Nasimos de las pesadillas... Un día pillamos al Pez Jincho, le dimos veinte cubatas y una caja de Valiums... ¡¡Si no despierta, Isla Barbate no desaparecerá!! ¡¡¡Podríamos haber okupado Barbate entera...!!! Pero tenías que llegar a joder la marrana! Pero... ¡del barco de Chanquete no nos moverán! ¡AHOSTIÉMONOS! 
+final_boss Nasimos de las pesadillas... Un día pillamos al Pez Jincho, le dimos veinte cubatas y una caja de Valiums... ¡¡Si no despierta, Isla Barbate no desaparecerá!! ¡¡¡Podríamos haber okupado Barbate entera...!!! ¡Pero tenías que llegar a joder la marrana! Pero... ¡del barco de Chanquete no nos moverán! ¡AHOSTIÉMONOS! 
 
 final_windfish ... ... ... ...  ... ... ... ...\fSOY EL PEZ JINCHO... JODER, VAYA RESACA, COPÓN... EN MI SUEÑO... UN GÜEBO APARESIÓ Y FUÉ RODEADO POR UNA ISLA, CON GENTE, NIMALES... Y SOBRE TODO YONKARRAS... PERO COMO ES LA NATURALESA DE LOS SUEÑOS, ¡ACABARÁ AL DESCLAPAR! BARBATE... DESAPARECERÁ... SÓLO LA MEMORIA DE ESTE SUEÑO EXISTIRÁ EN EL MUNDO DE LA REALIDÁS. ALGUN DÍA, TÚ RECORDARÁS ESTA ISLA... SI ESQUE NO PILLAS EL ALZHEIMER ANTES...\n... ... ... ... ... ... ... ...\nVEN, [NAME], DESCLAPEMOS... ¡¡¡JUNTOS!!!
 final_instruments ¡TOCA EL QUINTO LEVANTA CON LOS CACHARROS! ¡¡A DESPERTAR TOCAN!!
