@@ -2971,7 +2971,7 @@ namespace ProjectZ.InGame.GameObjects
 
             CurrentState = State.Idle;
 
-            var recInteraction = new RectangleF(EntityPosition.X - 64, EntityPosition.Y - 64 - 8, 128, 128);
+            var recInteraction = new RectangleF(EntityPosition.X - 128, EntityPosition.Y - 128 - 8, 256, 256);
 
             _ocarinaList.Clear();
             Map.Objects.GetComponentList(_ocarinaList,
