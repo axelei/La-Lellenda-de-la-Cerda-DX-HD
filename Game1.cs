@@ -203,6 +203,7 @@ namespace ProjectZ
             GbsPlayer.OnExit();
 
             base.OnExiting(sender, args);
+            Environment.Exit(Environment.ExitCode);
         }
 
         protected override void LoadContent()
