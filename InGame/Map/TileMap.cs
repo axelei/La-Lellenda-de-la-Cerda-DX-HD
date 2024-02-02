@@ -109,7 +109,7 @@ namespace ProjectZ.InGame.Map
                         spriteBatch.Draw(tileset,
                             destinationRectangle,
                             sourceRectangle,
-                            Color.White);
+                            Color.Black);
                     }
                     else if (Game1.GameManager.MapManager.CurrentMap.DungeonMode && !Game1.GameManager.IsTileInCurrentPlayerZone(x, y) && ArrayTileMap[x, y, layer] >= 0)
                     {
