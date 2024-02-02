@@ -83,7 +83,7 @@ namespace ProjectZ.InGame.Map
             DrawTileLayer(spriteBatch, SprTilesetBlur, ArrayTileMap.GetLength(2) - 1, 1);
         }
 
-        public void DrawTileUnexploredLayer(SpriteBatch spriteBatch, Texture2D tileset, int layer, int padding = 0)
+        private void DrawTileUnexploredLayer(SpriteBatch spriteBatch, Texture2D tileset, int layer, int padding = 0)
         {
             var halfWidth = Game1.RenderWidth / 2;
             var halfHeight = Game1.RenderHeight / 2;
@@ -100,20 +100,22 @@ namespace ProjectZ.InGame.Map
             {
                 for (var x = startX; x < endX; x++)
                 {
+                    var destinationRectangle = new Rectangle(x * tileSize, y * tileSize, tileSize, tileSize);
+                    var sourceRectangle = new Rectangle(
+                        (ArrayTileMap[x, y, layer] % (tileset.Width / TileSize)) * TileSize,
+                        ArrayTileMap[x, y, layer] / (tileset.Width / TileSize) * TileSize, TileSize, TileSize);
                     if (!Game1.GameManager.IsTileInExploredZone(x, y))
                     {
                         spriteBatch.Draw(tileset,
-                            new Rectangle(x * tileSize, y * tileSize, tileSize, tileSize),
-                            new Rectangle((ArrayTileMap[x, y, layer] % (tileset.Width / TileSize)) * TileSize,
-                                ArrayTileMap[x, y, layer] / (tileset.Width / TileSize) * TileSize, TileSize, TileSize),
-                            Color.Black);
+                            destinationRectangle,
+                            sourceRectangle,
+                            Color.White);
                     }
-                    else if (Game1.GameManager.MapManager.CurrentMap.Is2dMap && !Game1.GameManager.IsTileInCurrentPlayerZone(x, y) && ArrayTileMap[x, y, layer] >= 0)
+                    else if (Game1.GameManager.MapManager.CurrentMap.DungeonMode && !Game1.GameManager.IsTileInCurrentPlayerZone(x, y) && ArrayTileMap[x, y, layer] >= 0)
                     {
                         spriteBatch.Draw(tileset,
-                            new Rectangle(x * tileSize, y * tileSize, tileSize, tileSize),
-                            new Rectangle((ArrayTileMap[x, y, layer] % (tileset.Width / TileSize)) * TileSize,
-                                ArrayTileMap[x, y, layer] / (tileset.Width / TileSize) * TileSize, TileSize, TileSize),
+                            destinationRectangle,
+                            sourceRectangle,
                             new Color(32, 32, 32, 128));
                     }
 
