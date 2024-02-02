@@ -532,26 +532,26 @@ namespace ProjectZ.InGame.GameObjects
             }
 
             // Max Hearts
-            if (InputHandler.KeyDown(Microsoft.Xna.Framework.Input.Keys.F8))
+            if (InputHandler.KeyDown(Keys.F8))
             {
                 Game1.GameManager.MaxHearths = 14;
                 Game1.GameManager.HealPlayer(99);
             }
 
             // Full Heal
-            if (InputHandler.KeyDown(Microsoft.Xna.Framework.Input.Keys.F9))
+            if (InputHandler.KeyDown(Keys.F9))
             {
                 Game1.GameManager.HealPlayer(99);
             }
 
             // Money
-            if (InputHandler.KeyDown(Microsoft.Xna.Framework.Input.Keys.F10))
+            if (InputHandler.KeyDown(Keys.F10))
             {
                 PickUpItem(new GameItemCollected("ruby") { Count = 999 }, false, false, false);
             }
 
             // Dungeon Utils
-            if (InputHandler.KeyDown(Microsoft.Xna.Framework.Input.Keys.F11))
+            if (InputHandler.KeyDown(Keys.F11))
             {
                 PickUpItem(new GameItemCollected("smallkey") { Count = 9 }, false, false, false);
                 PickUpItem(new GameItemCollected("compass"), false, false, false);
@@ -561,7 +561,7 @@ namespace ProjectZ.InGame.GameObjects
             }
 
             // All items
-            if (InputHandler.KeyDown(Microsoft.Xna.Framework.Input.Keys.F12))
+            if (InputHandler.KeyDown(Keys.F12))
             {
                 PickUpItem(new GameItemCollected("sword2"), false, false, false);
                 PickUpItem(new GameItemCollected("mirrorShield"), false, false, false);
@@ -4055,6 +4055,8 @@ namespace ProjectZ.InGame.GameObjects
                 CurrentState == State.Drowning ||
                 CurrentState == State.Drowned ||
                 CurrentState == State.Knockout ||
+                CurrentState == State.Ocarina ||
+                CurrentState == State.OcarinaTelport ||
                 IsDiving() ||
                 Game1.GameManager.UseShockEffect ||
                 !UpdatePlayer ||
