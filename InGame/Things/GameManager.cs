@@ -1522,7 +1522,12 @@ namespace ProjectZ.InGame.Things
             }
             else if (MapManager.CurrentMap.DungeonMode)
             {
-                return DungeonMaps[MapManager.CurrentMap.LocationFullName].Tiles[tileZonePosition.X, tileZonePosition.Y].DiscoveryState;
+                var tiles = DungeonMaps[MapManager.CurrentMap.LocationFullName].Tiles;
+                if (tileZonePosition.X >= 0 && tileZonePosition.X < tiles.GetLength(0) &&
+                    tileZonePosition.Y >= 0 && tileZonePosition.Y < tiles.GetLength(1))
+                {
+                    return tiles[tileZonePosition.X, tileZonePosition.Y].DiscoveryState;
+                }
             }
 
             return true;
