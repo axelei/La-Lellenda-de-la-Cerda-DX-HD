@@ -112,7 +112,7 @@ namespace ProjectZ.InGame.Map
             
             if (!CurrentMap.Is2dMap && (CurrentMap.IsOverworld || CurrentMap.DungeonMode))
             {
-                CurrentMap.TileMap.DrawUnexploredCover(spriteBatch, CurrentMap.DungeonMode);
+                CurrentMap.TileMap.DrawUnexploredCover(spriteBatch);
             }
 
         }

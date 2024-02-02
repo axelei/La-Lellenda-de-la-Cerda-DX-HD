@@ -83,7 +83,7 @@ namespace ProjectZ.InGame.Map
             DrawTileLayer(spriteBatch, SprTilesetBlur, ArrayTileMap.GetLength(2) - 1, 1);
         }
 
-        public void DrawTileUnexploredLayer(SpriteBatch spriteBatch, Texture2D tileset, int layer, bool dungeonMode, int padding = 0)
+        public void DrawTileUnexploredLayer(SpriteBatch spriteBatch, Texture2D tileset, int layer, int padding = 0)
         {
             var halfWidth = Game1.RenderWidth / 2;
             var halfHeight = Game1.RenderHeight / 2;
@@ -108,7 +108,7 @@ namespace ProjectZ.InGame.Map
                                 ArrayTileMap[x, y, layer] / (tileset.Width / TileSize) * TileSize, TileSize, TileSize),
                             Color.Black);
                     }
-                    else if (dungeonMode && !Game1.GameManager.IsTileInCurrentPlayerZone(x, y) && ArrayTileMap[x, y, layer] >= 0)
+                    else if (Game1.GameManager.MapManager.CurrentMap.Is2dMap && !Game1.GameManager.IsTileInCurrentPlayerZone(x, y) && ArrayTileMap[x, y, layer] >= 0)
                     {
                         spriteBatch.Draw(tileset,
                             new Rectangle(x * tileSize, y * tileSize, tileSize, tileSize),
@@ -122,7 +122,7 @@ namespace ProjectZ.InGame.Map
                 
         }
 
-        public void DrawUnexploredCover(SpriteBatch spriteBatch, bool dungeonMode)
+        public void DrawUnexploredCover(SpriteBatch spriteBatch)
         {
             if (ArrayTileMap == null)
             {
@@ -134,7 +134,7 @@ namespace ProjectZ.InGame.Map
 
             for (var i = 0; i < ArrayTileMap.GetLength(2) - (BlurLayer ? 1 : 0); i++)
             {
-                DrawTileUnexploredLayer(spriteBatch, SprTileset, i, dungeonMode);
+                DrawTileUnexploredLayer(spriteBatch, SprTileset, i);
             }
 
             spriteBatch.End();
