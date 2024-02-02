@@ -6,10 +6,13 @@ using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using ProjectZ.Base;
+using ProjectZ.InGame.GameObjects;
 using ProjectZ.InGame.GameSystems;
 using ProjectZ.InGame.Map;
 using ProjectZ.InGame.Overlay;
 using ProjectZ.InGame.SaveLoad;
+using SharpDX.Direct2D1.Effects;
+using SharpDX.MediaFoundation;
 
 namespace ProjectZ.InGame.Things
 {
@@ -1497,6 +1500,58 @@ namespace ProjectZ.InGame.Things
 
             _shakeCountX = 0;
             _shakeCountY = 0;
+        }
+
+
+        public bool IsTileInExploredZone(int tileX, int tileY)
+        {
+            int tilesWidth = Values.FieldWidth / Values.TileSize;
+            int tilesHeight = Values.FieldHeight / Values.TileSize;
+
+            Point tileZonePosition = new Point(
+                (tileX - MapManager.CurrentMap.MapOffsetX) / tilesWidth,
+                (tileY - MapManager.CurrentMap.MapOffsetY) / tilesHeight);
+
+            if (MapManager.CurrentMap.IsOverworld)
+            {
+                if (tileZonePosition.X >= 0 && tileZonePosition.X < MapVisibility.GetLength(0) &&
+                    tileZonePosition.Y >= 0 && tileZonePosition.Y < MapVisibility.GetLength(1))
+                {
+                    return MapVisibility[tileZonePosition.X, tileZonePosition.Y];
+                }
+            }
+            else if (MapManager.CurrentMap.DungeonMode)
+            {
+                var tiles = DungeonMaps[MapManager.CurrentMap.LocationFullName].Tiles;
+                if (tileZonePosition.X >= 0 && tileZonePosition.X < tiles.GetLength(0) &&
+                    tileZonePosition.Y >= 0 && tileZonePosition.Y < tiles.GetLength(1))
+                {
+                    return tiles[tileZonePosition.X, tileZonePosition.Y].DiscoveryState;
+                }
+            }
+
+            return true;
+        }
+
+        public bool IsTileInCurrentPlayerZone(int tileX, int tileY)
+        {
+            int tilesWidth = Values.FieldWidth / Values.TileSize;
+            int tilesHeight = Values.FieldHeight / Values.TileSize;
+
+            Point tileZonePosition = new Point(
+                    (tileX - MapManager.CurrentMap.MapOffsetX) / tilesWidth,
+                    (tileY - MapManager.CurrentMap.MapOffsetY) / tilesHeight);
+
+            if (MapManager.CurrentMap.IsOverworld)
+            {
+                return tileZonePosition == PlayerMapPosition;
+            }
+            else if (MapManager.CurrentMap.DungeonMode)
+            {
+                return tileZonePosition == PlayerDungeonPosition;
+            }
+
+            return true;
         }
     }
 }
