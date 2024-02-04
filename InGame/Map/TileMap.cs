@@ -203,9 +203,9 @@ namespace ProjectZ.InGame.Map
                 var playerMapPosX = Game1.GameManager.PlayerMapPosition.Value.X;
                 var playerMapPosY = Game1.GameManager.PlayerMapPosition.Value.Y;
 
-                for (var zoneX = playerMapPosX - 5; zoneX < playerMapPosX + 5; ++zoneX)
+                for (var zoneX = 0; zoneX < 16; ++zoneX)
                 {
-                    for (var zoneY = playerMapPosY - 5; zoneY < playerMapPosY + 5; ++zoneY)
+                    for (var zoneY = 0; zoneY < 16; ++zoneY)
                     {
                         if (zoneX >= 0 && zoneX < Game1.GameManager.MapVisibility.GetLength(0) &&
                             zoneY >= 0 && zoneY < Game1.GameManager.MapVisibility.GetLength(1))
