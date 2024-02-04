@@ -20,7 +20,9 @@ namespace ProjectZ.InGame.GameObjects.Things
         private readonly bool _soundEffect;
 
         // FIX: Doors that need a heavy hit from a big statue (dungeon 6)
-        private readonly string[] heavyDoors = ["d6_door_1_hit", "d6_door_23_hit", "d6_door_7_hit", "d6_door_4_hit"];
+        private readonly string[] heavyDoors = {
+            "d6_door_1_hit", "d6_door_23_hit", "d6_door_7_hit", "d6_door_4_hit"
+        };
 
         public ObjHitTrigger() : base("editor hit trigger") { }
 
