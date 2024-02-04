@@ -269,6 +269,8 @@ namespace ProjectZ.InGame.SaveLoad
 
             // load the discovered map data map
             gameManager.MapVisibility = new bool[16, 16];
+            gameManager.InitMapVisibilityOverworldTimer();
+
             var values = new int[8];
 
             for (var i = 0; i < values.Length; i++)

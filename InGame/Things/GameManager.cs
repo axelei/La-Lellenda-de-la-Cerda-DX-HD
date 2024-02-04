@@ -96,6 +96,18 @@ namespace ProjectZ.InGame.Things
         public Point? PlayerMapPosition;
 
         public bool[,] MapVisibility;
+        public float[,] MapVisibilityOverworldTimer;
+        public void InitMapVisibilityOverworldTimer()
+        {
+            MapVisibilityOverworldTimer = new float[16, 16];
+            for (int i = 0; i < 16; ++i)
+            {
+                for (int j = 0; j < 16; ++j)
+                {
+                    MapVisibilityOverworldTimer[i, j] = 1000;
+                }
+            }
+        }
 
         public string SaveName = "Link";
 
@@ -1388,6 +1400,7 @@ namespace ProjectZ.InGame.Things
 
             PlayerMapPosition = null;
             MapVisibility = new bool[16, 16];
+            InitMapVisibilityOverworldTimer();
 
             SaveSlot = slot;
 

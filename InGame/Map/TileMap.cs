@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Windows.Forms;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using ProjectZ.InGame.Things;
+using SharpDX.Direct2D1;
+using SpriteBatch = Microsoft.Xna.Framework.Graphics.SpriteBatch;
 
 namespace ProjectZ.InGame.Map
 {
@@ -52,15 +55,20 @@ namespace ProjectZ.InGame.Map
             _zoneTtl = new double[mapSizeX, mapSizeY];
             
             for (int x = 0; x < mapSizeX; x++)
-            for (int y = 0; y < mapSizeY; y++)
-                if (Game1.GameManager.IsTileInExploredZone(x + 1, y + 1))
+            {
+                for (int y = 0; y < mapSizeY; y++)
                 {
-                    _zoneTtl[x,y] = 0;
+                    if (Game1.GameManager.IsTileInExploredZone(x + 1, y + 1))
+                    {
+                        _zoneTtl[x, y] = 0;
+                    }
+                    else
+                    {
+                        _zoneTtl[x, y] = ttl;
+                    }
                 }
-                else
-                {
-                    _zoneTtl[x,y] = ttl;
-                }
+            }
+            
 
             ttlInitialized = true;
         }
@@ -117,7 +125,8 @@ namespace ProjectZ.InGame.Map
             DrawTileLayer(spriteBatch, SprTilesetBlur, ArrayTileMap.GetLength(2) - 1, 1);
         }
 
-        private void DrawTileUnexploredLayer(SpriteBatch spriteBatch, Texture2D tileset, int layer, int padding = 0)
+        
+        private void DrawUnexploredCoverDungeon(SpriteBatch spriteBatch, Texture2D tileset, int layer, int padding = 0)
         {
             var halfWidth = Game1.RenderWidth / 2;
             var halfHeight = Game1.RenderHeight / 2;
@@ -134,73 +143,51 @@ namespace ProjectZ.InGame.Map
             {
                 for (var x = startX; x < endX; x++)
                 {
-                    if (Game1.GameManager.MapManager.CurrentMap.DungeonMode)
+                    var destinationRectangle = new Rectangle(x * tileSize, y * tileSize, tileSize, tileSize);
+                    var sourceRectangle = new Rectangle(
+                        (ArrayTileMap[x, y, layer] % (tileset.Width / TileSize)) * TileSize,
+                        ArrayTileMap[x, y, layer] / (tileset.Width / TileSize) * TileSize, TileSize, TileSize);
+                    if (!Game1.GameManager.IsTileInExploredZone(x, y))
                     {
-                        DungeonFog(x, y);
-                    } else if (Game1.GameManager.MapManager.CurrentMap.IsOverworld)
-                    {
-                        OverworldFog(x, y);
+                        spriteBatch.Draw(tileset,
+                            destinationRectangle,
+                            sourceRectangle,
+                            Color.Black);
                     }
-                    
-                }
-            }
-
-            void OverworldFog(int x, int y)
-            {
-                if (x % (Values.FieldWidth / TileSize) != 0 || y % (Values.FieldHeight / TileSize) != 0)
-                {
-                    return;
-                }
-
-                float opacity = 1.0f;
-                if (Game1.GameManager.IsTileInExploredZone(x + 1, y + 1))
-                {
-                    if (!ttlInitialized)
+                    else if (!Game1.GameManager.IsTileInCurrentPlayerZone(x, y) && ArrayTileMap[x, y, layer] >= 0)
                     {
-                        initTtlMap();
-                        if (!ttlInitialized)
-                        {
-                            return;
-                        }
+                        spriteBatch.Draw(tileset,
+                            destinationRectangle,
+                            sourceRectangle,
+                            new Color(32, 32, 32, 128));
                     }
-                    opacity = (float) (_zoneTtl[x, y] / ttl);
-                    _zoneTtl[x, y] -= Game1.DeltaTime;
-                    if (opacity < 0.001)
-                    {
-                        return;
-                    }
-                }
-
-                var position = new Vector2(x * (tileSize + 1), y * (tileSize + 1));
-                var offset0 = new Vector2(MathF.Sin((float)((Game1.TotalGameTime + _timeOffset) / 2000)) * 8, MathF.Cos((float)((Game1.TotalGameTime + _timeOffset) / 6000)) * 8);
-                var offset1 = new Vector2(MathF.Cos((float)((Game1.TotalGameTime + _timeOffset) / 3250)) * 8, MathF.Sin((float)((Game1.TotalGameTime + _timeOffset) / 7500)) * 8);
-                var color = Color.White * opacity;
-                spriteBatch.Draw(SprFogWar, position + offset0, null, color, 0, Vector2.Zero, 1, SpriteEffects.None, 0);
-                spriteBatch.Draw(SprFogWar, position + offset1, null, color, 0, Vector2.Zero, 1, SpriteEffects.FlipHorizontally | SpriteEffects.FlipVertically, 0);
-            }
-
-            void DungeonFog(int x, int y)
-            {
-                var destinationRectangle = new Rectangle(x * tileSize, y * tileSize, tileSize, tileSize);
-                var sourceRectangle = new Rectangle(
-                    (ArrayTileMap[x, y, layer] % (tileset.Width / TileSize)) * TileSize,
-                    ArrayTileMap[x, y, layer] / (tileset.Width / TileSize) * TileSize, TileSize, TileSize);
-                if (!Game1.GameManager.IsTileInExploredZone(x, y))
-                {
-                    spriteBatch.Draw(tileset,
-                        destinationRectangle,
-                        sourceRectangle,
-                        Color.Black);
-                }
-                else if (!Game1.GameManager.IsTileInCurrentPlayerZone(x, y) && ArrayTileMap[x, y, layer] >= 0)
-                {
-                    spriteBatch.Draw(tileset,
-                        destinationRectangle,
-                        sourceRectangle,
-                        new Color(32, 32, 32, 128));
                 }
             }
         }
+
+        private void DrawUnexploredCoverOverworld(SpriteBatch spriteBatch, int zoneX, int zoneY)
+        {
+            bool isVisible = Game1.GameManager.MapVisibility[zoneX, zoneY];
+            float opacity = 1.0f;
+            if (isVisible)
+            {
+                opacity = (float)(Game1.GameManager.MapVisibilityOverworldTimer[zoneX, zoneY] / ttl);
+                Game1.GameManager.MapVisibilityOverworldTimer[zoneX, zoneY] -= Game1.DeltaTime;
+
+                if (opacity < 0.001)
+                {
+                    return;
+                }
+            }
+
+            var position = new Vector2(zoneX * Values.FieldWidth, zoneY * Values.FieldHeight - TileSize);
+            var offset0 = new Vector2(MathF.Sin((float)((Game1.TotalGameTime + _timeOffset) / 2000)) * 8, MathF.Cos((float)((Game1.TotalGameTime + _timeOffset) / 6000)) * 8);
+            var offset1 = new Vector2(MathF.Cos((float)((Game1.TotalGameTime + _timeOffset) / 3250)) * 8, MathF.Sin((float)((Game1.TotalGameTime + _timeOffset) / 7500)) * 8);
+            var color = Color.White * opacity;
+            spriteBatch.Draw(SprFogWar, position + offset0, null, color, 0, Vector2.Zero, 1, SpriteEffects.None, 0);
+            spriteBatch.Draw(SprFogWar, position + offset1, null, color, 0, Vector2.Zero, 1, SpriteEffects.FlipHorizontally | SpriteEffects.FlipVertically, 0);
+        }
+
         public void DrawUnexploredCover(SpriteBatch spriteBatch)
         {
             if (ArrayTileMap == null)
@@ -211,11 +198,28 @@ namespace ProjectZ.InGame.Map
             spriteBatch.Begin(SpriteSortMode.Deferred, null, MapManager.Camera.Scale >= 1 ?
                 SamplerState.PointWrap : SamplerState.AnisotropicWrap, null, null, null, MapManager.Camera.TransformMatrix);
 
-            for (var i = 0; i < ArrayTileMap.GetLength(2) - (BlurLayer ? 1 : 0); i++)
+            if (Game1.GameManager.MapManager.CurrentMap.IsOverworld)
             {
-                DrawTileUnexploredLayer(spriteBatch, SprTileset, i, 128);
-            }
+                var playerMapPosX = Game1.GameManager.PlayerMapPosition.Value.X;
+                var playerMapPosY = Game1.GameManager.PlayerMapPosition.Value.Y;
 
+                for (var zoneX = playerMapPosX - 5; zoneX < playerMapPosX + 5; ++zoneX)
+                {
+                    for (var zoneY = playerMapPosY - 5; zoneY < playerMapPosY + 5; ++zoneY)
+                    {
+                        if (zoneX >= 0 && zoneX < Game1.GameManager.MapVisibility.GetLength(0) &&
+                            zoneY >= 0 && zoneY < Game1.GameManager.MapVisibility.GetLength(1))
+                        {
+                            DrawUnexploredCoverOverworld(spriteBatch, zoneX, zoneY);
+                        }
+                    }
+                }
+            }
+            else if (Game1.GameManager.MapManager.CurrentMap.DungeonMode)
+            {
+                DrawUnexploredCoverDungeon(spriteBatch, SprTileset, 0);
+            }
+            
             spriteBatch.End();
         }
     }
