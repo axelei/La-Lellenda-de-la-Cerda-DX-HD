@@ -15,7 +15,7 @@ namespace ProjectZ.InGame.Things
     public class GameManager
     {
         
-        public const float TileTtl = 500;
+        public const float TileTtl = 400;
         
         public struct MiniMapTile
         {

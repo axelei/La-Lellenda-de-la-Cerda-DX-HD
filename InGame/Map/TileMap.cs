@@ -148,8 +148,9 @@ namespace ProjectZ.InGame.Map
             var position = new Vector2(zoneX * Values.FieldWidth, zoneY * Values.FieldHeight - TileSize);
             for (int i = -2; i < 2; ++i)
             {
-                var offset0 = new Vector2(MathF.Sin((float)((Game1.TotalGameTime + _timeOffset) / 1000)) * i * 8, MathF.Cos((float)((Game1.TotalGameTime + _timeOffset) / 3000)) * i * 8);
-                var offset1 = new Vector2(MathF.Cos((float)((Game1.TotalGameTime + _timeOffset) / 1750)) * i * 8, MathF.Sin((float)((Game1.TotalGameTime + _timeOffset) / 4100)) * i * 8);
+                var clearingOffset = 16 * (1 - opacity);
+                var offset0 = new Vector2(MathF.Sin((float)((Game1.TotalGameTime + _timeOffset) / 1000)) * i * 8 + clearingOffset * i, MathF.Cos((float)((Game1.TotalGameTime + _timeOffset) / 3000)) * i * 8 + clearingOffset * i);
+                var offset1 = new Vector2(MathF.Cos((float)((Game1.TotalGameTime + _timeOffset) / 1750)) * i * 8 - clearingOffset * i, MathF.Sin((float)((Game1.TotalGameTime + _timeOffset) / 4100)) - i * 8 + clearingOffset * i);
                 var color = Color.White * opacity;
                 spriteBatch.Draw(SprFogWar, position + offset0, null, color, 0, Vector2.Zero, 1, SpriteEffects.None, 0);
                 spriteBatch.Draw(SprFogWar, position + offset1, null, color, 0, Vector2.Zero, 1, SpriteEffects.FlipHorizontally | SpriteEffects.FlipVertically, 0);
