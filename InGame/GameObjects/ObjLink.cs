@@ -2007,10 +2007,7 @@ namespace ProjectZ.InGame.GameObjects
                 CurrentState != State.Pushing && CurrentState != State.Blocking && CurrentState != State.Attacking ||
                 !CanWalk || _isRafting) return;
 
-            var walkVelocity = Vector2.Zero;
-            if (!_isLocked && (CurrentState != State.Attacking || !_body.IsGrounded))
-                walkVelocity = ControlHandler.GetMoveVector2();
-
+            var walkVelocity = ControlHandler.GetMoveVector2();
             var walkVelLength = walkVelocity.Length();
             if (walkVelLength > 1)
                 walkVelocity.Normalize();
@@ -2058,7 +2055,7 @@ namespace ProjectZ.InGame.GameObjects
                 }
 
                 // do not walk when trapped
-                if (!_isTrapped)
+                if (!_isTrapped && (CurrentState != State.Attacking || !_body.IsGrounded))
                 {
                     _isWalking = true;
 
@@ -2073,7 +2070,7 @@ namespace ProjectZ.InGame.GameObjects
                 }
 
                 // update the direction the player is facing
-                if (CurrentState != State.Attacking && CurrentState != State.Charging)
+                if (CurrentState != State.Charging)
                     Direction = vectorDirection;
             }
 
