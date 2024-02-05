@@ -124,7 +124,7 @@ namespace ProjectZ.InGame.Map
                         spriteBatch.Draw(tileset,
                             destinationRectangle,
                             sourceRectangle,
-                            new Color(32, 32, 32, 128));
+                            Color.Black * 0.5f);
                     }
                 }
             }

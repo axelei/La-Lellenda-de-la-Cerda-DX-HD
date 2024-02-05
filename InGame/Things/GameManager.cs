@@ -103,7 +103,14 @@ namespace ProjectZ.InGame.Things
             {
                 for (int j = 0; j < 16; ++j)
                 {
-                    MapVisibilityOverworldTimer[i, j] = TileTtl;
+                    if (MapVisibility[i, j])
+                    {
+                        MapVisibilityOverworldTimer[i, j] = 0f;
+                    }
+                    else
+                    {
+                       MapVisibilityOverworldTimer[i, j] = TileTtl;
+                    }
                 }
             }
         }
