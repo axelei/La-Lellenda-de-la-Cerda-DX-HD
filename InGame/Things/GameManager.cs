@@ -96,24 +96,6 @@ namespace ProjectZ.InGame.Things
 
         public bool[,] MapVisibility;
         public float[,] MapVisibilityOverworldTimer;
-        public void InitMapVisibilityOverworldTimer()
-        {
-            MapVisibilityOverworldTimer = new float[16, 16];
-            for (int i = 0; i < 16; ++i)
-            {
-                for (int j = 0; j < 16; ++j)
-                {
-                    if (MapVisibility[i, j])
-                    {
-                        MapVisibilityOverworldTimer[i, j] = 0f;
-                    }
-                    else
-                    {
-                       MapVisibilityOverworldTimer[i, j] = TileTtl;
-                    }
-                }
-            }
-        }
 
         public string SaveName = "Link";
 
@@ -1550,6 +1532,18 @@ namespace ProjectZ.InGame.Things
             }
 
             return true;
+        }
+        
+        public void InitMapVisibilityOverworldTimer()
+        {
+            MapVisibilityOverworldTimer = new float[16, 16];
+            for (int i = 0; i < 16; ++i)
+            {
+                for (int j = 0; j < 16; ++j)
+                {
+                    MapVisibilityOverworldTimer[i, j] = MapVisibility[i, j] ? 0f : TileTtl;
+                }
+            }
         }
 
         public bool IsTileInCurrentPlayerZone(int tileX, int tileY)
