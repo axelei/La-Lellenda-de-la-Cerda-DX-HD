@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using ProjectZ.InGame.GameSystems;
@@ -27,8 +27,8 @@ namespace ProjectZ.InGame.Pages
 
             // yes no layout
             _layout0.AddElement(new InterfaceImage(Resources.GetSprite("ui game over"), Point.Zero));
-            layout2.AddElement(new InterfaceButton(new Point(85, 20), Point.Zero, "gameover_continue", OnClickContinue) { Margin = new Point(2, 2) });
-            layout2.AddElement(new InterfaceButton(new Point(85, 20), Point.Zero, "gameover_quit", OnClickQuit) { Margin = new Point(2, 2) });
+            layout2.AddElement(new InterfaceButton(new Point(104, 22), Point.Zero, "gameover_continue", OnClickContinue) { Margin = new Point(2, 2) });
+            layout2.AddElement(new InterfaceButton(new Point(104, 22), Point.Zero, "gameover_quit", OnClickQuit) { Margin = new Point(2, 2) });
 
             PageLayout = _pageLayout;
         }
