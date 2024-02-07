@@ -878,6 +878,7 @@ namespace ProjectZ.InGame.Screens
 
             // draw the logo
             {
+                var textTransparency = Math.Clamp((_logoState - 0.5f) * 2, 0, 1);
                 var logoHeight = (int)(_spriteLogo0.SourceRectangle.Height * (MathF.Sin(_logoState * MathF.PI - MathF.PI / 2) * 0.5f + 0.5f));
                 logoHeight += logoHeight % 2;
 
@@ -889,7 +890,6 @@ namespace ProjectZ.InGame.Screens
                     new Rectangle((int)_charPosition.X, (int)_charPosition.Y, _spritecharnego.SourceRectangle.Width, _spritecharnego.SourceRectangle.Height),
                  _spritecharnego.SourceRectangle,Color.White * textTransparency);
 
-                var textTransparency = Math.Clamp((_logoState - 0.5f) * 2, 0, 1);
                 DrawHelper.DrawNormalized(spriteBatch, _spriteLogo1, _logoPosition, Color.White * textTransparency);
 
                 var DXHDPosition = _logoPosition + _DXHDPosition; 
