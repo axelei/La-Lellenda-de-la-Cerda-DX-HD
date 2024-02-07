@@ -5,7 +5,6 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
-using ProjectZ.Base;
 using ProjectZ.InGame.GameSystems;
 using ProjectZ.InGame.Map;
 using ProjectZ.InGame.Overlay;
@@ -15,6 +14,9 @@ namespace ProjectZ.InGame.Things
 {
     public class GameManager
     {
+        
+        public const float TileTtl = 400;
+        
         public struct MiniMapTile
         {
             public int TileIndex;
@@ -93,6 +95,7 @@ namespace ProjectZ.InGame.Things
         public Point? PlayerMapPosition;
 
         public bool[,] MapVisibility;
+        public float[,] MapVisibilityOverworldTimer;
 
         public string SaveName = "Link";
 
@@ -1385,6 +1388,7 @@ namespace ProjectZ.InGame.Things
 
             PlayerMapPosition = null;
             MapVisibility = new bool[16, 16];
+            InitMapVisibilityOverworldTimer();
 
             SaveSlot = slot;
 
@@ -1497,6 +1501,70 @@ namespace ProjectZ.InGame.Things
 
             _shakeCountX = 0;
             _shakeCountY = 0;
+        }
+
+
+        public bool IsTileInExploredZone(int tileX, int tileY)
+        {
+            int tilesWidth = Values.FieldWidth / Values.TileSize;
+            int tilesHeight = Values.FieldHeight / Values.TileSize;
+
+            Point tileZonePosition = new Point(
+                (tileX - MapManager.CurrentMap.MapOffsetX) / tilesWidth,
+                (tileY - MapManager.CurrentMap.MapOffsetY) / tilesHeight);
+
+            if (MapManager.CurrentMap.IsOverworld)
+            {
+                if (tileZonePosition.X >= 0 && tileZonePosition.X < MapVisibility.GetLength(0) &&
+                    tileZonePosition.Y >= 0 && tileZonePosition.Y < MapVisibility.GetLength(1))
+                {
+                    return MapVisibility[tileZonePosition.X, tileZonePosition.Y];
+                }
+            }
+            else if (MapManager.CurrentMap.DungeonMode)
+            {
+                var tiles = DungeonMaps[MapManager.CurrentMap.LocationFullName].Tiles;
+                if (tileZonePosition.X >= 0 && tileZonePosition.X < tiles.GetLength(0) &&
+                    tileZonePosition.Y >= 0 && tileZonePosition.Y < tiles.GetLength(1))
+                {
+                    return tiles[tileZonePosition.X, tileZonePosition.Y].DiscoveryState;
+                }
+            }
+
+            return true;
+        }
+        
+        public void InitMapVisibilityOverworldTimer()
+        {
+            MapVisibilityOverworldTimer = new float[16, 16];
+            for (int i = 0; i < 16; ++i)
+            {
+                for (int j = 0; j < 16; ++j)
+                {
+                    MapVisibilityOverworldTimer[i, j] = MapVisibility[i, j] ? 0f : TileTtl;
+                }
+            }
+        }
+
+        public bool IsTileInCurrentPlayerZone(int tileX, int tileY)
+        {
+            int tilesWidth = Values.FieldWidth / Values.TileSize;
+            int tilesHeight = Values.FieldHeight / Values.TileSize;
+
+            Point tileZonePosition = new Point(
+                    (tileX - MapManager.CurrentMap.MapOffsetX) / tilesWidth,
+                    (tileY - MapManager.CurrentMap.MapOffsetY) / tilesHeight);
+
+            if (MapManager.CurrentMap.IsOverworld)
+            {
+                return tileZonePosition == PlayerMapPosition;
+            }
+            else if (MapManager.CurrentMap.DungeonMode)
+            {
+                return tileZonePosition == PlayerDungeonPosition;
+            }
+
+            return true;
         }
     }
 }

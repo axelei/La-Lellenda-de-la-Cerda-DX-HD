@@ -68,6 +68,7 @@ namespace ProjectZ.InGame.Things
         public static Texture2D SprGameSequences;
         public static Texture2D SprGameSequencesFinal;
         public static Texture2D SprFog;
+        public static Texture2D SprFogWar;
         public static Texture2D SprLight;
         public static Texture2D SprLightRoomH;
         public static Texture2D SprLightRoomV;
@@ -174,6 +175,7 @@ namespace ProjectZ.InGame.Things
 
             // need to have pre multiplied alpha
             SprFog = content.Load<Texture2D>("Objects/fog");
+            SprFogWar = content.Load<Texture2D>("Objects/fogWar");
 
             // load shader
             RoundedCornerEffect = content.Load<Effect>("Shader/RoundedCorner");

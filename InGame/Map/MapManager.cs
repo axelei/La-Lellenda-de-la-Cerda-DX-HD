@@ -107,8 +107,14 @@ namespace ProjectZ.InGame.Map
 
             // draw the objects
             CurrentMap.Objects.Draw(spriteBatch);
-
+            
             spriteBatch.End();
+            
+            if (!CurrentMap.Is2dMap && (CurrentMap.IsOverworld || CurrentMap.DungeonMode))
+            {
+                CurrentMap.TileMap.DrawUnexploredCover(spriteBatch);
+            }
+
         }
 
         public void DrawBegin(SpriteBatch spriteBatch, Effect spriteEffect)

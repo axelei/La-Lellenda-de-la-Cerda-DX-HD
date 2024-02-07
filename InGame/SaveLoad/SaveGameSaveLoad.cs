@@ -269,6 +269,7 @@ namespace ProjectZ.InGame.SaveLoad
 
             // load the discovered map data map
             gameManager.MapVisibility = new bool[16, 16];
+
             var values = new int[8];
 
             for (var i = 0; i < values.Length; i++)
@@ -296,6 +297,9 @@ namespace ProjectZ.InGame.SaveLoad
             gameManager.SavePositionX = saveManager.GetInt("posX");
             gameManager.SavePositionY = saveManager.GetInt("posY");
             gameManager.SaveDirection = saveManager.GetInt("dir");
+            
+            gameManager.InitMapVisibilityOverworldTimer();
+
         }
 
         public static GameItemCollected GetGameItem(string strItem)
