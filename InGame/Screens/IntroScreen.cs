@@ -241,7 +241,7 @@ namespace ProjectZ.InGame.Screens
             _linkAnimator.Play("idle");
             _marinAnimator.Play("walk");
             _lightAnimation.Stop();
-            _DXHDAnimation.Play("idle");
+            _DXHDAnimation.Play("dxhd");
 
             _currentState = States.OceanCamera;
             _cameraCenter = new Vector2(-220, 55);
@@ -515,8 +515,8 @@ namespace ProjectZ.InGame.Screens
                             Game1.GameManager.PlaySoundEffect("D378-25-19");
                     }
 
-                    if (_logoCounter > 1500)
-                   {
+                    if (_logoCounter > 1500) 
+                    {
                         if (!_lightAnimation.IsPlaying)
                         {
                             _lightAnimation.Play("idle");
@@ -546,6 +546,7 @@ namespace ProjectZ.InGame.Screens
             _marinAnimator.Update();
             _linkAnimator.Update();
             _lightAnimation.Update();
+            _DXHDAnimation.Update();
 
             _cloundLeftPosition = new Vector2(-_sprCloud.Width, 47);
 
@@ -885,23 +886,22 @@ namespace ProjectZ.InGame.Screens
                     _spriteLogo0.SourceRectangle.Width, logoHeight), _spriteLogo0.ScaledRectangle, Color.White);
                     
                 spriteBatch.Draw(_spritecharnego.Texture,
-                    new Rectangle((int)_charPosition.X, (int)_charPosition.Y, _spritecharnego.SourceRectangle.Height, _spritecharnego.SourceRectangle.Width),
+                    new Rectangle((int)_charPosition.X, (int)_charPosition.Y, _spritecharnego.SourceRectangle.Width, _spritecharnego.SourceRectangle.Height),
                  _spritecharnego.SourceRectangle,Color.White);
 
                 var textTransparency = Math.Clamp((_logoState - 0.5f) * 2, 0, 1);
                 DrawHelper.DrawNormalized(spriteBatch, _spriteLogo1, _logoPosition, Color.White * textTransparency);
+
+                var DXHDPosition = _logoPosition + _DXHDPosition; 
+                _DXHDAnimation.DrawBasic(spriteBatch, DXHDPosition, Color.White);
+
             }
 
             var lightPosition = _logoPosition + _ligthPosition;
 
-            var DXHDPosition = _logoPosition + _DXHDPosition;
-
             // draw the light around the logo
             if (_lightAnimation.IsPlaying)
                 _lightAnimation.DrawBasic(spriteBatch, lightPosition, Color.White); 
-                
-            if (_DXHDAnimation.IsPlaying)
-                _DXHDAnimation.DrawBasic(spriteBatch, DXHDPosition, Color.White);
 
             // draw the white forground for the fadein
             if (_strandFadeCount > 0)
