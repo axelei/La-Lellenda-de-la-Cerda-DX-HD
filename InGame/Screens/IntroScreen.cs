@@ -206,11 +206,11 @@ namespace ProjectZ.InGame.Screens
             _logoPosition.X = -_spriteBackground.SourceRectangle.Width / 2 + 16;
             _logoPosition.Y = 3;
 
-            _charPosition.X = 10;
-            _charPosition.Y = 10;
+            _charPosition.X = -55;
+            _charPosition.Y = 107;
 
-            _DXHDPosition.X = -_spriteBackground.SourceRectangle.Width / 16;
-            _DXHDPosition.Y = 3;
+            _DXHDPosition.X = _spriteBackground.SourceRectangle.Width / 2 + 16;
+            _DXHDPosition.Y = 55;
 
             _sprOcean = Resources.GetTexture("ocean.png");
             _sprRain = Resources.GetTexture("rain.png");
@@ -887,13 +887,13 @@ namespace ProjectZ.InGame.Screens
                     
                 spriteBatch.Draw(_spritecharnego.Texture,
                     new Rectangle((int)_charPosition.X, (int)_charPosition.Y, _spritecharnego.SourceRectangle.Width, _spritecharnego.SourceRectangle.Height),
-                 _spritecharnego.SourceRectangle,Color.White);
+                 _spritecharnego.SourceRectangle,Color.White * textTransparency);
 
                 var textTransparency = Math.Clamp((_logoState - 0.5f) * 2, 0, 1);
                 DrawHelper.DrawNormalized(spriteBatch, _spriteLogo1, _logoPosition, Color.White * textTransparency);
 
                 var DXHDPosition = _logoPosition + _DXHDPosition; 
-                _DXHDAnimation.DrawBasic(spriteBatch, DXHDPosition, Color.White);
+                _DXHDAnimation.DrawBasic(spriteBatch, DXHDPosition, Color.White * textTransparency);
 
             }
 
