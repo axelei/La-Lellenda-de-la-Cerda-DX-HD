@@ -22,6 +22,7 @@ namespace ProjectZ.InGame.Screens
         private Animator _linkAnimator;
         private Animator _lightAnimation;
         private Animator _linkBoatAnimator;
+        private Animator _DXHDAnimation;
 
         private Animator[] _thunder = new Animator[2];
         private Vector2[] _thunderPositions = new Vector2[2];
@@ -112,7 +113,7 @@ namespace ProjectZ.InGame.Screens
         private DictAtlasEntry _spriteMountain;
         private DictAtlasEntry _spriteLogo0;
         private DictAtlasEntry _spriteLogo1;
-        private DictAtlasEntry _spriteDX;
+        private DictAtlasEntry _spritecharnego;
 
         private readonly Rectangle _treesRectangle = new Rectangle(0, 320, 32, 46);
         private readonly Rectangle _sandRectangle = new Rectangle(0, 364, 32, 16);
@@ -122,6 +123,10 @@ namespace ProjectZ.InGame.Screens
         private float _logoState;
         private float _logoCounter;
 
+        private Vector2 _DXHDPosition;
+
+        private Vector2 _charPosition;
+      
         private Vector2 _ligthPosition;
         private Vector2[] _lightPositions =
         {
@@ -138,6 +143,7 @@ namespace ProjectZ.InGame.Screens
             new Vector2(72, 47),
             new Vector2(90, 47),
             new Vector2(119, 47),
+
         };
         private int _lightIndex;
 
@@ -183,7 +189,7 @@ namespace ProjectZ.InGame.Screens
             _spriteMountain = Resources.GetSprite("intro_mountain");
             _spriteLogo0 = Resources.GetSprite("intro_logo_0");
             _spriteLogo1 = Resources.GetSprite("intro_logo_1");
-            _spriteDX = Resources.GetSprite("DX");
+            _spritecharnego = Resources.GetSprite("intro_charnego");
 
             _mountainLeftPosition.X = -_spriteBackground.SourceRectangle.Width / 2 - _spriteMountain.SourceRectangle.Width;
             _mountainLeftPosition.Y = 0;
@@ -199,6 +205,12 @@ namespace ProjectZ.InGame.Screens
 
             _logoPosition.X = -_spriteBackground.SourceRectangle.Width / 2 + 16;
             _logoPosition.Y = 3;
+
+            _charPosition.X = -55;
+            _charPosition.Y = 107;
+
+            _DXHDPosition.X = _spriteBackground.SourceRectangle.Width / 2 + 16;
+            _DXHDPosition.Y = 55;
 
             _sprOcean = Resources.GetTexture("ocean.png");
             _sprRain = Resources.GetTexture("rain.png");
@@ -216,6 +228,7 @@ namespace ProjectZ.InGame.Screens
             _marinAnimator = AnimatorSaveLoad.LoadAnimator("Intro/maria");
             _linkAnimator = AnimatorSaveLoad.LoadAnimator("Intro/link");
             _lightAnimation = AnimatorSaveLoad.LoadAnimator("Intro/light");
+            _DXHDAnimation = AnimatorSaveLoad.LoadAnimator("Intro/DXHD");
         }
 
         public override void OnLoad()
@@ -228,6 +241,7 @@ namespace ProjectZ.InGame.Screens
             _linkAnimator.Play("idle");
             _marinAnimator.Play("walk");
             _lightAnimation.Stop();
+            _DXHDAnimation.Play("dxhd");
 
             _currentState = States.OceanCamera;
             _cameraCenter = new Vector2(-220, 55);
@@ -501,7 +515,7 @@ namespace ProjectZ.InGame.Screens
                             Game1.GameManager.PlaySoundEffect("D378-25-19");
                     }
 
-                    if (_logoCounter > 1500)
+                    if (_logoCounter > 1500) 
                     {
                         if (!_lightAnimation.IsPlaying)
                         {
@@ -510,6 +524,7 @@ namespace ProjectZ.InGame.Screens
                             _lightIndex = (_lightIndex + Game1.RandomNumber.Next(1, _lightPositions.Length)) % _lightPositions.Length;
                             _ligthPosition = _lightPositions[_lightIndex];
                         }
+                   
                     }
                 }
             }
@@ -531,6 +546,7 @@ namespace ProjectZ.InGame.Screens
             _marinAnimator.Update();
             _linkAnimator.Update();
             _lightAnimation.Update();
+            _DXHDAnimation.Update();
 
             _cloundLeftPosition = new Vector2(-_sprCloud.Width, 47);
 
@@ -862,27 +878,30 @@ namespace ProjectZ.InGame.Screens
 
             // draw the logo
             {
+                var textTransparency = Math.Clamp((_logoState - 0.5f) * 2, 0, 1);
                 var logoHeight = (int)(_spriteLogo0.SourceRectangle.Height * (MathF.Sin(_logoState * MathF.PI - MathF.PI / 2) * 0.5f + 0.5f));
                 logoHeight += logoHeight % 2;
 
                 spriteBatch.Draw(_spriteLogo0.Texture,
                     new Rectangle((int)_logoPosition.X, (int)_logoPosition.Y + _spriteLogo0.SourceRectangle.Height / 2 - logoHeight / 2,
                     _spriteLogo0.SourceRectangle.Width, logoHeight), _spriteLogo0.ScaledRectangle, Color.White);
+                    
+                spriteBatch.Draw(_spritecharnego.Texture,
+                    new Rectangle((int)_charPosition.X, (int)_charPosition.Y, _spritecharnego.SourceRectangle.Width, _spritecharnego.SourceRectangle.Height),
+                 _spritecharnego.SourceRectangle,Color.White * textTransparency);
 
-                spriteBatch.Draw(_spriteDX.Texture,
-                    new Rectangle((int)_logoPosition.X, (int)_logoPosition.Y + _spriteDX.SourceRectangle.Height / 1 - logoHeight / 1,
-                    _spriteLogo0.SourceRectangle.Width, logoHeight), _spriteDX.ScaledRectangle, Color.White); 
-
-
-                var textTransparency = Math.Clamp((_logoState - 0.5f) * 2, 0, 1);
                 DrawHelper.DrawNormalized(spriteBatch, _spriteLogo1, _logoPosition, Color.White * textTransparency);
+
+                var DXHDPosition = _logoPosition + _DXHDPosition; 
+                _DXHDAnimation.DrawBasic(spriteBatch, DXHDPosition, Color.White * textTransparency);
+
             }
 
             var lightPosition = _logoPosition + _ligthPosition;
 
             // draw the light around the logo
             if (_lightAnimation.IsPlaying)
-                _lightAnimation.DrawBasic(spriteBatch, lightPosition, Color.White);
+                _lightAnimation.DrawBasic(spriteBatch, lightPosition, Color.White); 
 
             // draw the white forground for the fadein
             if (_strandFadeCount > 0)
